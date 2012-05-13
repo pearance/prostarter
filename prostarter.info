@@ -1,4 +1,4 @@
-name = 'Pro 101 Starter'
+name = 'Pro Starter'
 description = 'Starter theme for the Pro 101 framework.'
 core = '7.x'
 engine = 'phptemplate'
