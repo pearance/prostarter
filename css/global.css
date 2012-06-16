@@ -1,4 +1,4 @@
-/* This file will hold styles for the mobile version of your website (mobile first). */
+ /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /*Image*/
@@ -222,4 +222,13 @@ img {
     font-size: 50px;
     line-height: 50px;
   }
+}
+
+
+/* Context UI */
+/* hides contextual link gears when inline editor is active */
+.context-editing .contextual-links-region:hover a.contextual-links-trigger,
+.context-editing div.contextual-links-active a.contextual-links-trigger,
+.context-editing div.contextual-links-active ul.contextual-links {
+  display: none;
 }
