@@ -232,3 +232,84 @@ img {
 .context-editing div.contextual-links-active ul.contextual-links {
   display: none;
 }
+
+
+
+
+
+
+
+#boxes-box-twitter {
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+#twtr-widget-1 .twtr-doc, #twtr-widget-1 .twtr-hd a, #twtr-widget-1 h3, #twtr-widget-1 h4 {
+  background: none !important;
+}
+
+#boxes-box-twitter .twtr-widget,
+#boxes-box-twitter .twtr-doc {
+  width: 100% !important;
+  height: auto;
+}
+
+#boxes-box-twitter .twtr-hd,
+#boxes-box-twitter .twtr-ft {
+  background: #efefef;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+#boxes-box-twitter .twtr-hd *,
+#boxes-box-twitter .twtr-ft *,
+#boxes-box-twitter .twtr-hd h4 a,
+#boxes-box-twitter .twtr-ft h4 a {
+  background: none !important;
+  color: #0062A0 !important;
+}
+
+#boxes-box-twitter .twtr-hd h3,
+#boxes-box-twitter .twtr-hd h4 {
+  font-weight: normal;
+  text-align: center;
+}
+
+#boxes-box-twitter .twtr-hd h3 {
+  background: none !important;
+  font-size: 1.5em !important;
+  padding: 0.2em !important;
+}
+
+#boxes-box-twitter .twtr-hd h3 a {
+  background: none !important;
+  color: #0062A0 !important;
+}
+
+#boxes-box-twitter .twtr-bd {
+  /* background: none !important; */
+}
+
+#boxes-box-twitter .twtr-tweet {
+  background: #fff;
+  border-bottom: 1px solid #eee !important;
+}
+
+#boxes-box-twitter .twtr-tweet a:link,
+#boxes-box-twitter .twtr-tweet a:visited,
+#boxes-box-twitter .twtr-tweet a:hover {
+  color: #0062A0 !important;
+}
+
+#boxes-box-twitter .twtr-tweet .twtr-tweet-text {
+  padding-bottom: 4px !important;
+}
+
+#boxes-box-twitter .twtr-tweet .twtr-tweet-text p {
+  color: #333 !important;
+}
+
+#boxes-box-twitter .twtr-timeline {
+  border-radius: 0;
+  -moz-border-radius: 0;
+}
