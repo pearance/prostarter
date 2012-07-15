@@ -23,6 +23,8 @@
     );
   }
 
+
+
 /**
  * Move tabs to contextual links.
  * http://drupal.org/node/1349324#comment-5366604
@@ -62,6 +64,7 @@
   /**
   * Implementation of hook_preprocess_hook().
   */
-  function prostarter_preprocess_page(&$variables) {
-    $variables['tabs'] = array();
-  }
+  // hide all tabs (better to control through omega)
+  // function prostarter_preprocess_page(&$variables) {
+  //   $variables['tabs'] = array();
+  // }
