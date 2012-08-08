@@ -313,3 +313,17 @@ img {
   border-radius: 0;
   -moz-border-radius: 0;
 }
+
+
+
+.fb-comments {
+  display: block !important;
+}
+
+.fb-comments span {
+  width: 100% !important;
+}
+
+.fb-comments span iframe {
+  width: 100% !important;
+}
