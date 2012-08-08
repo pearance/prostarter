@@ -4,6 +4,12 @@ core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
+
+libraries[jquery.timeago.js][name] = Timeago
+libraries[jquery.timeago.js][description] = Display date and time in a months days hours mins ago format.
+libraries[jquery.timeago.js][js][0][file] = js/jquery.timeago.js
+libraries[jquery.timeago.js][js][0][options][weight] = 25
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
