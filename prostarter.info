@@ -2,7 +2,7 @@ name = 'Pro Starter'
 description = 'Starter theme for the Pro 101 framework.'
 core = '7.x'
 engine = 'phptemplate'
-screenshot = 'screenshot.png'
+screenshot = 'gfx/screenshot.png'
 base theme = 'omega'
 
 libraries[jquery.timeago.js][name] = Timeago
