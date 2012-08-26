@@ -71,6 +71,7 @@
 
   /**
   * Format date implementing hook_preprocess_node().
+  * This is for the time ago format.
   */
   function prostarter_preprocess_node(&$vars) {
     $node = $vars['node'];
