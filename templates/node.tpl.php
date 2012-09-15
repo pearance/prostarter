@@ -5,6 +5,12 @@
 </script>
 
 <article<?php print $attributes; ?>>
+  <?php
+    $block = block_load('workbench', 'block');
+    $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block))));
+    print $output;
+  ?>
+
   <?php print $user_picture; ?>
   <?php print render($title_prefix); ?>
 

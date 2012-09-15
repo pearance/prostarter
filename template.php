@@ -61,20 +61,27 @@
     }
   }
 
-  /**
-  * Implementation of hook_preprocess_hook().
-  */
-  // hide all tabs (better to control through omega)
-  // function prostarter_preprocess_page(&$variables) {
-  //   $variables['tabs'] = array();
-  // }
 
-  /**
+/**
   * Format date implementing hook_preprocess_node().
   * This is for the time ago format.
   */
-  function prostarter_preprocess_node(&$vars) {
-    $node = $vars['node'];
-    $vars['date'] = format_date($node->created, 'custom', 'M jS, Y');
-    $vars['time_ago'] = format_date($node->created, 'custom', 'c'); // 'c' is the ISO 8601 date format. Since PHP 5
+function prostarter_preprocess_node(&$vars) {
+  $node = $vars['node'];
+  $vars['date'] = format_date($node->created, 'custom', 'M jS, Y');
+  $vars['time_ago'] = format_date($node->created, 'custom', 'c'); // 'c' is the ISO 8601 date format. Since PHP 5
+}
+
+
+/**
+  * Implements hook_preprocess_html().
+  */
+function prostarter_preprocess_html(&$vars) {
+  // Add user role as a class to the body element.
+  if ($vars['user']) {
+    foreach($vars['user']->roles as $key => $role){
+      $role_class = 'role-' . str_replace(' ', '-', $role);
+      $vars['attributes_array']['class'][] = $role_class;
+    }
   }
+}
