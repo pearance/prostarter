@@ -6,6 +6,7 @@
 
 <article<?php print $attributes; ?>>
   <?php
+    // Inject workbench info block into node.
     $block = block_load('workbench', 'block');
     $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block))));
     print $output;
