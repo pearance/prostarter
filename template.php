@@ -30,36 +30,14 @@
  * http://drupal.org/node/1349324#comment-5366604
  */
 
-  /**
-  * Implementation of hook_node_view_alter().
-  */
-  function prostarter_node_view_alter(&$build) {
-    // allow contextual links on node pages
-    $build['#contextual_links']['node'] = array('node', array($build['#node']->nid));
-  }
+/**
+* Implementation of hook_node_view_alter().
+*/
+function prostarter_node_view_alter(&$build) {
+  // allow contextual links on node pages
+  $build['#contextual_links']['node'] = array('node', array($build['#node']->nid));
+}
 
-  /*
-  * Implementation of hook_menu_contextual_links_alter().
-  * Adding items from the local tasks tabs menu to the contextual links on node full view.
-  */
-  function prostarter_menu_contextual_links_alter(&$links, $router_item, $root_path) {
-    if ($root_path == 'node/%') {
-      $ignore = array('node/%/view','node/%/display');
-      $paths = array();
-      // foreach ($links as $link) {
-      //   $paths[$link['path']] = true;
-      // }
-
-      $local_tasks = menu_local_tasks();
-      foreach($local_tasks['tabs']['output'] as $k=>$item) {
-        $link = $item['#link'];
-        if (!in_array($link['path'], $ignore) && !array_key_exists($link['path'],$paths)){
-          array_push($links, $link);
-          $paths[$link['path']] = true;
-        }
-      }
-    }
-  }
 
 
 /**
