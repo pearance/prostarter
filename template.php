@@ -63,3 +63,14 @@ function prostarter_preprocess_html(&$vars) {
     }
   }
 }
+
+function prostarter_contextual_links_view_alter(&$element, $items) {
+  // Check if we have a node link to process
+  if (isset($element['#element']['#node']->nid)) {
+    unset($element['#links']['node-delete']);
+  }
+}
+
+function prostarter_menu_contextual_links_alter(&$links, $router_item, $root_path){
+  // unset($links['node-delete']);
+}
