@@ -4,6 +4,7 @@ core = '7.x'
 engine = 'phptemplate'
 screenshot = 'gfx/screenshot.png'
 base theme = 'omega'
+version = '1.0'
 
 libraries[jquery.timeago.js][name] = Timeago
 libraries[jquery.timeago.js][description] = Display date and time in a months days hours mins ago format.
@@ -12,9 +13,15 @@ libraries[jquery.timeago.js][js][0][options][weight] = 25
 
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
+
+regions[user_1] = 'User 1'
+regions[user_2] = 'User 2'
+regions[user_3] = 'User 3'
+regions[user_4] = 'User 4'
+regions[user_5] = 'User 5'
+regions[user_6] = 'User 6'
+
 regions[content] = 'Content'
-regions[user_first] = 'User Bar First'
-regions[user_second] = 'User Bar Second'
 regions[branding] = 'Branding'
 regions[menu] = 'Menu'
 regions[sidebar_first] = 'Sidebar First'
@@ -30,10 +37,11 @@ regions[postscript_third] = 'Postscript Third'
 regions[postscript_fourth] = 'Postscript Fourth'
 regions[footer_first] = 'Footer First'
 regions[footer_second] = 'Footer Second'
+
+zones[user] = 'User'
 zones[header] = 'Header'
 zones[content] = 'Content'
 zones[footer] = 'Footer'
-zones[user] = 'User'
 zones[branding] = 'Branding'
 zones[menu] = 'Menu'
 zones[preface] = 'Preface'
@@ -354,6 +362,5 @@ settings[alpha_region_footer_second_columns] = '12'
 settings[alpha_region_footer_second_suffix] = ''
 settings[alpha_region_footer_second_weight] = '2'
 settings[alpha_region_footer_second_css] = ''
-version = '1.0'
 
 ; vim: set ft=dosini:
