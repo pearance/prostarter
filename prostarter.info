@@ -23,25 +23,9 @@ libraries[jquery.timeago.js][js][0][options][weight] = 25
 
 
 
-; ZONES
-; ==============================================================================
+; ZONES & REGIONS ==============================================================
+; HEADER SECTION
 zones[top] = 'Top'
-zones[head] = 'Head'
-zones[prime] = 'Prime'
-zones[lead] = 'Lead'
-zones[high] = 'High'
-
-zones[content] = 'Content'
-zones[footer] = 'Footer'
-zones[preface] = 'Preface'
-zones[postscript] = 'Postscript'
-
-
-
-; REGIONS ======================================================================
-regions[page_top] = 'Page Top'
-regions[page_bottom] = 'Page Bottom'
-
 regions[top_1] = 'Top 1'
 regions[top_2] = 'Top 2'
 regions[top_3] = 'Top 3'
@@ -49,6 +33,7 @@ regions[top_4] = 'Top 4'
 regions[top_5] = 'Top 5'
 regions[top_6] = 'Top 6'
 
+zones[head] = 'Head'
 regions[head_1] = 'Head 1'
 regions[head_2] = 'Head 2'
 regions[head_3] = 'Head 3'
@@ -56,6 +41,7 @@ regions[head_4] = 'Head 4'
 regions[head_5] = 'Head 5'
 regions[head_6] = 'Head 6'
 
+zones[prime] = 'Prime'
 regions[prime_1] = 'Prime 1'
 regions[prime_2] = 'Prime 2'
 regions[prime_3] = 'Prime 3'
@@ -63,6 +49,7 @@ regions[prime_4] = 'Prime 4'
 regions[prime_5] = 'Prime 5'
 regions[prime_6] = 'Prime 6'
 
+zones[lead] = 'Lead'
 regions[lead_1] = 'Lead 1'
 regions[lead_2] = 'Lead 2'
 regions[lead_3] = 'Lead 3'
@@ -70,6 +57,7 @@ regions[lead_4] = 'Lead 4'
 regions[lead_5] = 'Lead 5'
 regions[lead_6] = 'Lead 6'
 
+zones[high] = 'High'
 regions[high_1] = 'High 1'
 regions[high_2] = 'High 2'
 regions[high_3] = 'High 3'
@@ -79,12 +67,29 @@ regions[high_6] = 'High 6'
 
 
 
+; CONTENT SECTION
+zones[main] = 'Main'
+regions[main_1] = 'Main 1'
+regions[main_2] = 'Main 2'
+regions[main_3] = 'Main 3'
+regions[main_4] = 'Main 4'
+regions[main_5] = 'Main 5'
+regions[main_6] = 'Main 6'
+
+
+
+regions[page_top] = 'Page Top'
+regions[page_bottom] = 'Page Bottom'
+
+
+
+
+zones[content] = 'Content'
+zones[postscript] = 'Postscript'
+zones[footer] = 'Footer'
 regions[content] = 'Content'
 regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
-regions[preface_first] = 'Preface First'
-regions[preface_second] = 'Preface Second'
-regions[preface_third] = 'Preface Third'
 regions[postscript_first] = 'Postscript First'
 regions[postscript_second] = 'Postscript Second'
 regions[postscript_third] = 'Postscript Third'
