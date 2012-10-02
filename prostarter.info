@@ -14,12 +14,12 @@ libraries[jquery.timeago.js][js][0][options][weight] = 25
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 
-regions[user_1] = 'User 1'
-regions[user_2] = 'User 2'
-regions[user_3] = 'User 3'
-regions[user_4] = 'User 4'
-regions[user_5] = 'User 5'
-regions[user_6] = 'User 6'
+regions[top_1] = 'Top 1'
+regions[top_2] = 'Top 2'
+regions[top_3] = 'Top 3'
+regions[top_4] = 'Top 4'
+regions[top_5] = 'Top 5'
+regions[top_6] = 'Top 6'
 
 regions[content] = 'Content'
 regions[branding] = 'Branding'
