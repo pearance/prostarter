@@ -76,6 +76,14 @@ regions[main_4] = 'Main 4'
 regions[main_5] = 'Main 5'
 regions[main_6] = 'Main 6'
 
+zones[main] = 'Pre'
+regions[pre_1] = 'Pre 1'
+regions[pre_2] = 'Pre 2'
+regions[pre_3] = 'Pre 3'
+regions[pre_4] = 'Pre 4'
+regions[pre_5] = 'Pre 5'
+regions[pre_6] = 'Pre 6'
+
 
 
 regions[page_top] = 'Page Top'
