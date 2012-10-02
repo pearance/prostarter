@@ -84,21 +84,11 @@ regions[pre_4] = 'Pre 4'
 regions[pre_5] = 'Pre 5'
 regions[pre_6] = 'Pre 6'
 
-
-
 zones[main] = 'Main'
-regions[main_top_1] = 'Main Top 1'
-regions[main_top_2] = 'Main Top 2'
-regions[main_top_3] = 'Main Top 3'
-regions[main_top_4] = 'Main Top 4'
 regions[main_content] = 'Main Content'
-regions[main_bottom_1] = 'Main Bottom 1'
-regions[main_bottom_2] = 'Main Bottom 2'
-regions[main_bottom_3] = 'Main Bottom 3'
-regions[main_bottom_4] = 'Main Bottom 4'
 regions[main_sidebar_1] = 'Main Sidebar 1'
 regions[main_sidebar_2] = 'Main Sidebar 2'
-regions[main_sidebar_2] = 'Main Sidebar 3'
+regions[main_sidebar_3] = 'Main Sidebar 3'
 
 
 
