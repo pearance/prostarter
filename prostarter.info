@@ -68,13 +68,13 @@ regions[high_6] = 'High 6'
 
 
 ; CONTENT SECTION
-zones[main] = 'Main'
-regions[main_1] = 'Main 1'
-regions[main_2] = 'Main 2'
-regions[main_3] = 'Main 3'
-regions[main_4] = 'Main 4'
-regions[main_5] = 'Main 5'
-regions[main_6] = 'Main 6'
+zones[vital] = 'Vital'
+regions[vital_1] = 'Vital 1'
+regions[vital_2] = 'Vital 2'
+regions[vital_3] = 'Vital 3'
+regions[vital_4] = 'Vital 4'
+regions[vital_5] = 'Vital 5'
+regions[vital_6] = 'Vital 6'
 
 zones[pre] = 'Pre'
 regions[pre_1] = 'Pre 1'
@@ -86,19 +86,18 @@ regions[pre_6] = 'Pre 6'
 
 
 
-zones[content] = 'Content'
-regions[content_top_1] = 'Content Top 1'
-regions[content_top_2] = 'Content Top 2'
-regions[content_top_3] = 'Content Top 3'
-regions[content_top_4] = 'Content Top 4'
-regions[content] = 'Content'
-regions[content_bottom_1] = 'Content Bottom 1'
-regions[content_bottom_2] = 'Content Bottom 2'
-regions[content_bottom_3] = 'Content Bottom 3'
-regions[content_bottom_4] = 'Content Bottom 4'
-regions[sidebar_1 = 'Sidebar 1'
-regions[sidebar_2 = 'Sidebar 2'
-
+zones[main] = 'Main'
+regions[main_top_1] = 'Main Top 1'
+regions[main_top_2] = 'Main Top 2'
+regions[main_top_3] = 'Main Top 3'
+regions[main_top_4] = 'Main Top 4'
+regions[main_content] = 'Main Content'
+regions[main_bottom_1] = 'Main Bottom 1'
+regions[main_bottom_2] = 'Main Bottom 2'
+regions[main_bottom_3] = 'Main Bottom 3'
+regions[main_bottom_4] = 'Main Bottom 4'
+regions[main_sidebar_1] = 'Main Sidebar 1'
+regions[main_sidebar_2] = 'Main Sidebar 2'
 
 
 
@@ -107,15 +106,12 @@ regions[page_bottom] = 'Page Bottom'
 
 
 
-
 zones[postscript] = 'Postscript'
-zones[footer] = 'Footer'
-regions[sidebar_first] = 'Sidebar First'
-regions[sidebar_second] = 'Sidebar Second'
 regions[postscript_first] = 'Postscript First'
 regions[postscript_second] = 'Postscript Second'
 regions[postscript_third] = 'Postscript Third'
 regions[postscript_fourth] = 'Postscript Fourth'
+zones[footer] = 'Footer'
 regions[footer_first] = 'Footer First'
 regions[footer_second] = 'Footer Second'
 
