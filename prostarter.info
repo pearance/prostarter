@@ -76,7 +76,7 @@ regions[main_4] = 'Main 4'
 regions[main_5] = 'Main 5'
 regions[main_6] = 'Main 6'
 
-zones[main] = 'Pre'
+zones[pre] = 'Pre'
 regions[pre_1] = 'Pre 1'
 regions[pre_2] = 'Pre 2'
 regions[pre_3] = 'Pre 3'
@@ -86,16 +86,30 @@ regions[pre_6] = 'Pre 6'
 
 
 
+zones[content] = 'Content'
+regions[content_top_1] = 'Content Top 1'
+regions[content_top_2] = 'Content Top 2'
+regions[content_top_3] = 'Content Top 3'
+regions[content_top_4] = 'Content Top 4'
+regions[content] = 'Content'
+regions[content_bottom_1] = 'Content Bottom 1'
+regions[content_bottom_2] = 'Content Bottom 2'
+regions[content_bottom_3] = 'Content Bottom 3'
+regions[content_bottom_4] = 'Content Bottom 4'
+regions[sidebar_1 = 'Sidebar 1'
+regions[sidebar_2 = 'Sidebar 2'
+
+
+
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 
 
 
 
-zones[content] = 'Content'
 zones[postscript] = 'Postscript'
 zones[footer] = 'Footer'
-regions[content] = 'Content'
 regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
 regions[postscript_first] = 'Postscript First'
