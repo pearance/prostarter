@@ -28,10 +28,10 @@ libraries[jquery.timeago.js][js][0][options][weight] = 25
 zones[top] = 'Top'
 zones[head] = 'Head'
 zones[prime] = 'Prime'
+zones[lead] = 'Lead'
 
 zones[content] = 'Content'
 zones[footer] = 'Footer'
-zones[menu] = 'Menu'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
 
@@ -62,8 +62,16 @@ regions[prime_4] = 'Prime 4'
 regions[prime_5] = 'Prime 5'
 regions[prime_6] = 'Prime 6'
 
+regions[lead_1] = 'Lead 1'
+regions[lead_2] = 'Lead 2'
+regions[lead_3] = 'Lead 3'
+regions[lead_4] = 'Lead 4'
+regions[lead_5] = 'Lead 5'
+regions[lead_6] = 'Lead 6'
+
+
+
 regions[content] = 'Content'
-regions[menu] = 'Menu'
 regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
 regions[preface_first] = 'Preface First'
