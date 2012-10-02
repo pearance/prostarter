@@ -98,6 +98,7 @@ regions[main_bottom_3] = 'Main Bottom 3'
 regions[main_bottom_4] = 'Main Bottom 4'
 regions[main_sidebar_1] = 'Main Sidebar 1'
 regions[main_sidebar_2] = 'Main Sidebar 2'
+regions[main_sidebar_2] = 'Main Sidebar 3'
 
 
 
