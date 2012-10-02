@@ -29,6 +29,7 @@ zones[top] = 'Top'
 zones[head] = 'Head'
 zones[prime] = 'Prime'
 zones[lead] = 'Lead'
+zones[high] = 'High'
 
 zones[content] = 'Content'
 zones[footer] = 'Footer'
@@ -68,6 +69,13 @@ regions[lead_3] = 'Lead 3'
 regions[lead_4] = 'Lead 4'
 regions[lead_5] = 'Lead 5'
 regions[lead_6] = 'Lead 6'
+
+regions[high_1] = 'High 1'
+regions[high_2] = 'High 2'
+regions[high_3] = 'High 3'
+regions[high_4] = 'High 4'
+regions[high_5] = 'High 5'
+regions[high_6] = 'High 6'
 
 
 
