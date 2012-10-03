@@ -90,6 +90,14 @@ regions[main_sidebar_1] = 'Main Sidebar 1'
 regions[main_sidebar_2] = 'Main Sidebar 2'
 regions[main_sidebar_3] = 'Main Sidebar 3'
 
+zones[post] = 'Post'
+regions[post_1] = 'Post 1'
+regions[post_2] = 'Post 2'
+regions[post_3] = 'Post 3'
+regions[post_4] = 'Post 4'
+regions[post_5] = 'Post 5'
+regions[post_6] = 'Post 6'
+
 
 
 ; FOOTER SECTION
