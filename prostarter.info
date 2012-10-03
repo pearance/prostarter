@@ -117,6 +117,14 @@ regions[foot_4] = 'Foot 4'
 regions[foot_5] = 'Foot 5'
 regions[foot_6] = 'Foot 6'
 
+zones[bottom] = 'Bottom'
+regions[bottom_1] = 'Bottom 1'
+regions[bottom_2] = 'Bottom 2'
+regions[bottom_3] = 'Bottom 3'
+regions[bottom_4] = 'Bottom 4'
+regions[bottom_5] = 'Bottom 5'
+regions[bottom_6] = 'Bottom 6'
+
 
 
 regions[page_top] = 'Page Top'
