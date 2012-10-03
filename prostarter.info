@@ -130,6 +130,11 @@ regions[bottom_4] = 'Bottom 4'
 regions[bottom_5] = 'Bottom 5'
 regions[bottom_6] = 'Bottom 6'
 
+zones[debug] = 'Debug'
+regions[debug_1] = 'Debug 1'
+regions[debug_2] = 'Debug 2'
+regions[debug_3] = 'Debug 3'
+
 
 
 ; SETTINGS =====================================================================
