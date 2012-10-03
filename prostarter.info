@@ -109,6 +109,13 @@ regions[inset_4] = 'Inset 4'
 regions[inset_5] = 'Inset 5'
 regions[inset_6] = 'Inset 6'
 
+zones[foot] = 'Foot'
+regions[foot_1] = 'Foot 1'
+regions[foot_2] = 'Foot 2'
+regions[foot_3] = 'Foot 3'
+regions[foot_4] = 'Foot 4'
+regions[foot_5] = 'Foot 5'
+regions[foot_6] = 'Foot 6'
 
 
 
