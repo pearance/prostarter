@@ -92,19 +92,20 @@ regions[main_sidebar_3] = 'Main Sidebar 3'
 
 
 
+; FOOTER SECTION
+zones[inset] = 'Inset'
+regions[inset_1] = 'Inset 1'
+regions[inset_2] = 'Inset 2'
+regions[inset_3] = 'Inset 3'
+regions[inset_4] = 'Inset 4'
+regions[inset_5] = 'Inset 5'
+regions[inset_6] = 'Inset 6'
+
+
+
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
-
-
-
-zones[postscript] = 'Postscript'
-regions[postscript_first] = 'Postscript First'
-regions[postscript_second] = 'Postscript Second'
-regions[postscript_third] = 'Postscript Third'
-regions[postscript_fourth] = 'Postscript Fourth'
-zones[footer] = 'Footer'
-regions[footer_first] = 'Footer First'
-regions[footer_second] = 'Footer Second'
 
 
 
