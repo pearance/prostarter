@@ -23,8 +23,13 @@ libraries[jquery.timeago.js][js][0][options][weight] = 25
 
 
 
-; ZONES & REGIONS ==============================================================
-; HEADER SECTION
+; CORE REGIONS =================================================================
+regions[page_top] = 'Page Top'
+regions[page_bottom] = 'Page Bottom'
+
+
+
+; HEADER SECTION/ZONES/REGIONS =================================================
 zones[top] = 'Top'
 regions[top_1] = 'Top 1'
 regions[top_2] = 'Top 2'
@@ -67,7 +72,7 @@ regions[high_6] = 'High 6'
 
 
 
-; CONTENT SECTION
+; CONTENT SECTION/ZONES/REGIONS  ===============================================
 zones[vital] = 'Vital'
 regions[vital_1] = 'Vital 1'
 regions[vital_2] = 'Vital 2'
@@ -100,7 +105,7 @@ regions[post_6] = 'Post 6'
 
 
 
-; FOOTER SECTION
+; FOOTER SECTION/ZONES/REGIONS =================================================
 zones[inset] = 'Inset'
 regions[inset_1] = 'Inset 1'
 regions[inset_2] = 'Inset 2'
@@ -124,11 +129,6 @@ regions[bottom_3] = 'Bottom 3'
 regions[bottom_4] = 'Bottom 4'
 regions[bottom_5] = 'Bottom 5'
 regions[bottom_6] = 'Bottom 6'
-
-
-
-regions[page_top] = 'Page Top'
-regions[page_bottom] = 'Page Bottom'
 
 
 
