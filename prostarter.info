@@ -73,13 +73,13 @@ regions[high_6] = 'High 6'
 
 
 ; CONTENT SECTION/ZONES/REGIONS  ===============================================
-zones[vital] = 'Impact'
-regions[vital_1] = 'Impact 1'
-regions[vital_2] = 'Impact 2'
-regions[vital_3] = 'Impact 3'
-regions[vital_4] = 'Impact 4'
-regions[vital_5] = 'Impact 5'
-regions[vital_6] = 'Impact 6'
+zones[impact] = 'Impact'
+regions[impact_1] = 'Impact 1'
+regions[impact_2] = 'Impact 2'
+regions[impact_3] = 'Impact 3'
+regions[impact_4] = 'Impact 4'
+regions[impact_5] = 'Impact 5'
+regions[impact_6] = 'Impact 6'
 
 zones[pre] = 'Pre'
 regions[pre_1] = 'Pre 1'
