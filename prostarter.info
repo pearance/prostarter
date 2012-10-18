@@ -9,9 +9,13 @@ version = '1.0'
 
 
 ; CSS ==========================================================================
-css[global.css][name] = 'Custom global styles'
-css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
-css[global.css][options][weight] = '10'
+css[global.css.less][name] = 'Custom global less styles'
+css[global.css.less][description] = 'This file holds all the globally active custom less CSS of your theme.'
+css[global.css.less][options][weight] = '10'
+
+css[prostarter-alpha-default.css.less][name] = 'Default less styles'
+css[prostarter-alpha-default.css.less][description] = 'The default.css is for desktop resolutions where the css is different from that of mobile.'
+css[prostarter-alpha-default.css.less][options][weight] = '10'
 
 
 
