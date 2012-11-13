@@ -6,8 +6,9 @@ css_dir = "css"
 sass_dir = "css/scss"
 images_dir = "gfx"
 javascripts_dir = "js"
+# fonts_dir = "fonts"
 relative_assets = true
-line_comments = true
+line_comments = false
 output_style = :expanded
 # output_style = :compressed
 
