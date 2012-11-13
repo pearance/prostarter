@@ -1,4 +1,19 @@
-/* This file will hold styles that are loaded using the same media query as the narrow grid. */
-/* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the normal and widescreen layouts. You may override these styles in the normal 
- *  and widescreen CSS files as appropriate. */
+/*
+This file will hold styles that are loaded using the same media query as the
+narrow grid. If you are using the default media queries provided by Omega, these
+styles will also apply to the normal and widescreen layouts. You may override
+these styles in the normal and widescreen CSS files as appropriate.
+*/
+/* Call to Action Block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000311}}
+header #block-nodeblock-call-to-action p.action-number i {
+  font-size: 160%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000315}}
+header #block-nodeblock-call-to-action p.action-number {
+  font-size: 80%;
+  margin-top: -1px;
+}
+
+/* --------------------------------------------------------------------------- */

@@ -1,1 +1,41 @@
-/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+/*
+This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout).
+*/
+
+
+
+/**
+ * HTML Elements
+ */
+/* --------------------------------------------------------------------------- */
+
+
+
+/**
+ * Header Section
+ */
+
+/* User Menu */
+header #block-system-user-menu ul.menu {
+	text-align: right;
+}
+/* --------------------------------------------------------------------------- */
+
+
+
+/* Logo Block (Branding) */
+header #block-delta-blocks-logo .logo-img {
+	text-align: left;
+}
+/* --------------------------------------------------------------------------- */
+
+
+
+/* Call to Action Block */
+header #block-nodeblock-call-to-action {
+	width: 100%;
+}
+/* --------------------------------------------------------------------------- */
+
+
+
