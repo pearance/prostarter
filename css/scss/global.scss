@@ -4,34 +4,62 @@
  * by a more specific style rule, CSS declarations in global.css will apply site-wide.
  */
 
+
+
+/* IMPORTS */
+/* *************************************************************************** */
+
 @import "compass/css3";
 @import url('../../../rubik/css/admin-menu.css');
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
-
-
-/* VARIABLES */
-$yellow: #FFCC00;
-$gray: #666;
-$dark_gray: #444;
 /* --------------------------------------------------------------------------- */
 
 
 
+
+
+
+
+
+
+
+/* VARIABLES */
+/* *************************************************************************** */
+
+$lightest: #FFFFFF;
+$lighter: #EAEAEA;
+$light: #CCCCCC;
+$dark: #666666;
+$darker: #444444;
+$darkest: #000000;
+/* --------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
 /* HTML ELEMENTS */
+/* *************************************************************************** */
+
 body {
   font: 100%/1.5 Arial, Helvetica, sans-serif;
-	color: $gray;
+	color: $dark;
 	margin: 10px;
 }
 
 a:link, a:visited {
-  color: #0062A0;
-  text-decoration: underline;
+  color: $dark;
+  text-decoration: none;
 }
 
 a:hover {
   color: #202124;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:active {
@@ -145,6 +173,8 @@ dd {
 
 
 /* HEADER SECTION */
+/* *************************************************************************** */
+
 /* User Menu */
 header #block-system-user-menu h2.block-title {
 	display: none;
@@ -157,14 +187,10 @@ header #block-system-user-menu ul.menu {
 header #block-system-user-menu ul.menu li {
 	display: inline;
 }
+
+header #block-system-user-menu ul.menu li a {
+}
 /* --------------------------------------------------------------------------- */
-
-
-
-
-
-
-
 
 
 
@@ -176,16 +202,9 @@ header #block-delta-blocks-logo .logo-img {
 
 
 
-
-
-
-
-
-
-
 /* Call to Action Block */
 header #block-nodeblock-call-to-action {
-	color: $dark_gray;
+	color: $lightest;
 	float: right;
 	font-family: 'Raleway', sans-serif;
 	width: 150px;
@@ -196,8 +215,8 @@ header #block-nodeblock-call-to-action h2.block-title { // title
 }
 
 header #block-nodeblock-call-to-action .field-item div { // phone container
-	@include border-radius(3px);
-	background: $yellow;
+	@include border-radius(5px);
+	background: $dark;
 	text-align: center;
 	padding-top: 5px;
 	height: 30px;
@@ -222,29 +241,38 @@ header #block-nodeblock-call-to-action p.action-caption { // caption
 
 
 
-
-
-
-
-
-
-
 /* Main Menu */
 header #block-system-main-menu h2.block-title {
 	display: none;
 }
 
 header #block-system-main-menu ul {
+	margin: 20px 0;
 }
 
 header #block-system-main-menu li {
 	display: inline;
 }
+
+header #block-system-main-menu li.first {
+	margin: 0;
+}
+
+header #block-system-main-menu li a {
+	text-decoration: none;
+}
+
+header #block-system-main-menu li a.active {
+	@include border-radius(5px);
+	background: $dark;
+	color: $lightest;
+	padding: 5px 10px;
+}
 /* --------------------------------------------------------------------------- */
 
 
 
-}inoremap <buffer> <silent>
+
 
 
 
@@ -252,12 +280,15 @@ header #block-system-main-menu li {
 
 
 /* UNCATEGORIZED */
+/* *************************************************************************** */
+
 /* Image */
 img {
   height:auto;
   max-width:100%;
   width:auto\9; /* Fix for IE 8 */
 }
+/* --------------------------------------------------------------------------- */
 
 
 
