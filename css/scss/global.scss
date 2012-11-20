@@ -58,7 +58,7 @@ a:hover {
 a:active {
   color: #202124;
   text-decoration: none;
-  color: #000;
+  color: #000000;
 }
 
 hr {
@@ -66,7 +66,7 @@ hr {
   padding: 0;
   border: none;
   height: 1px;
-  background: #5294c1;
+  background: #5294C1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,13 +82,21 @@ h2 {
 	font-size: 28px;
 }
 
-h3 { font-size: 21px; }
+h3 {
+	font-size: 21px;
+}
 
-h4 { font-size: 19px; }
+h4 {
+	font-size: 19px;
+}
 
-h5 { font-size: 17px; }
+h5 {
+ font-size: 17px;
+}
 
-h6 { font-size: 15px; }
+h6 {
+ font-size: 15px;
+}
 
 /* Make site titles the same size if it's an H1 (home) or H2 (internal) */
 h1.site-name, h2.site-name {font-size: 36px;}
@@ -145,14 +153,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-
 // HEADER SECTION
 /* *************************************************************************** */
 
@@ -176,7 +176,7 @@ img {
 
 
 /* Logo Block (Branding) */
-header #block-delta-blocks-logo .logo-img {
+#block-delta-blocks-logo .logo-img {
 	text-align: center;
 	margin-bottom: $dm;
 }
@@ -224,35 +224,29 @@ header #block-delta-blocks-logo .logo-img {
 
 
 /* Main Menu */
-header #block-system-main-menu h2.block-title {
+#block-system-main-menu h2.block-title {
 	display: none;
 }
 
-header #block-system-main-menu li {
+#block-system-main-menu li {
 	display: inline;
 }
 
-header #block-system-main-menu li.first {
+#block-system-main-menu li.first {
 	margin: 0;
 }
 
-header #block-system-main-menu li a {
+#block-system-main-menu li a {
 	text-decoration: none;
 }
 
-header #block-system-main-menu li a.active {
+#block-system-main-menu li a.active {
 	@include border-radius(5px);
 	background: $dark;
 	color: $lightest;
 	padding: 5px 10px;
 }
 /* --------------------------------------------------------------------------- */
-
-
-
-
-
-
 
 
 
@@ -322,12 +316,15 @@ header #block-system-main-menu li a.active {
   margin: 0 10px;
 }
 /* --------------------------------------------------------------------------- */
+
+
+
 /* - Showcase Elements TODO: Needs parsing */
 .view-showcase {
 }
 
 .view-showcase .views_slideshow_cycle_main {
-  border: 1px solid #ccc;
+  border: 1px solid #CCCCCC;
   padding: 1em;
 }
 
@@ -432,15 +429,7 @@ header #block-system-main-menu li a.active {
 .view-showcase .views-slideshow-controls-text-next:active {
   background: url("../gfx/controls.png") no-repeat bottom right;
 }
-
-
-
 /* --------------------------------------------------------------------------- */
-
-
-
-
-
 
 
 
@@ -515,7 +504,7 @@ header #block-system-main-menu li a.active {
 }
 
 #boxes-box-twitter .twtr-tweet {
-  background: #fff;
+  background: #FFFFFF;
   border-bottom: 1px solid #eee !important;
 }
 
