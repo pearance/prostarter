@@ -96,16 +96,6 @@ h6 {
 	font-size: 100%;
 }
 
-h2.node-title {
-	font-size: 128%;
-}
-
-h2.block-title {
-	background: $lighter;
-	padding: 5px 0;
-	text-indent: 10px;
-}
-
 ol {
 	list-style: decimal;
 }
@@ -119,16 +109,6 @@ ol ol {
 	padding-top: .5em;
 }
 
-.node ol,
-.node ul {
-	padding-left: 1.2em;
-}
-
-.node ul.inline,
-.node ol.inline {
-	padding-left: 0;
-}
-
 p,
 dl,
 hr,
@@ -139,11 +119,6 @@ address,
 fieldset,
 h1,h2,h3,h4,h5,h6 {
 	margin-bottom: $default_margin;
-}
-
-dt,.admin h3 {
-	font-size: 18px;
-	margin: 0;
 }
 
 dd {
@@ -163,8 +138,33 @@ img {
 // DRUPAL ELEMENTS {{{
 // *****************************************************************************
 
+h2.node-title {
+	font-size: 160%;
+}
+
+h2.block-title {
+	background: $lighter;
+	padding: 5px 0;
+	text-indent: 10px;
+}
+
+.node ol,
+.node ul {
+	padding-left: 1.2em;
+}
+
+.node ul.inline,
+.node ol.inline {
+	padding-left: 0;
+}
+
 .block {
 	margin-bottom: $default_margin+10px;
+}
+
+dt,.admin h3 {
+	font-size: 18px;
+	margin: 0;
 }
 
 // }}}
@@ -514,6 +514,9 @@ img {
 }
 
 // }}}
+article.node-blog .user-picture {
+	display: none;
+}
 
 // }}}
 // UNCATEGORIZED {{{
