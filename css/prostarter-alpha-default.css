@@ -1,0 +1,31 @@
+/*
+This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout).
+*/
+/**
+ * HTML Elements
+ */
+/* --------------------------------------------------------------------------- */
+/**
+ * Header Section
+ */
+/* User Menu */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000319}}
+header #block-system-user-menu ul.menu {
+  text-align: right;
+}
+
+/* --------------------------------------------------------------------------- */
+/* Logo Block (Branding) */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000327}}
+header #block-delta-blocks-logo .logo-img {
+  text-align: left;
+}
+
+/* --------------------------------------------------------------------------- */
+/* Call to Action Block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000335}}
+header #block-nodeblock-call-to-action {
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------- */
