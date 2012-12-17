@@ -89,7 +89,7 @@ regions[pre_4] = 'Pre 4'
 regions[pre_5] = 'Pre 5'
 regions[pre_6] = 'Pre 6'
 
-zones[main] = 'Main'
+zones[content] = 'Main'
 regions[content] = 'Main Content'
 regions[main_sidebar_1] = 'Main Sidebar 1'
 regions[main_sidebar_2] = 'Main Sidebar 2'
