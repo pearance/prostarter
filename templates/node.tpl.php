@@ -12,42 +12,48 @@
 		print $output;
 	?>
 
+
+	<?php ### HEADER ### ?>
 	<?php print render($title_prefix); ?>
+	<header>
+		<h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
+	</header>
+	<?php print render($title_suffix); ?>
 
-	<?php if (!$page && $title): ?>
-		<header>
-			<h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
-		</header>
-	<?php endif; ?>
 
+
+
+	<?php ### BODY ### ?>
 	<div<?php print $content_attributes; ?>>
+
+		<?php print render($content['field_title_graphic']); ?>
+
+		<?php if ($display_submitted): ?>
+			<div class="field-submitted">
+				<?php // print $user_picture; ?>
+				<?php if (time() - $node->created < 86400): ?>
+					<time class="timeago" datetime="<?php print $time_ago; ?>"><?php print $date; ?></time>
+				<?php else: ?>
+					Posted <?php print $date; ?>
+				<?php endif; ?>
+					by <?php print $name; ?>
+			</div>
+		<?php endif; ?>
+
+		<?php if (!empty($content['links'])): ?> <?php print render($content['links']); ?> <?php endif; ?>
+		<?php print render($content['body']); ?>
+		<?php	print render($content['field_blog_tags']); ?>
 		<?php
-			// We hide the comments and links now so that we can render them later.
+			hide($content);
 			hide($content['comments']);
-			hide($content['links']);
-			print render($content);
 		?>
 	</div>
 
-	<?php if ($display_submitted): ?>
-		<footer class="submitted">
-			<?php print $user_picture; ?>
-			<?php print render($title_suffix); ?>
-			<?php if (time() - $node->created < 86400): ?>
-				<time class="timeago" datetime="<?php print $time_ago; ?>"><?php print $date; ?></time>
-			<?php else: ?>
-				<?php print $date; ?>
-			<?php endif; ?>
-			- <?php print $name; ?>
-		</footer>
-	<?php endif; ?>
 
 
-	<div class="clearfix">
-		<?php if (!empty($content['links'])): ?>
-			<!-- <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav> -->
-		<?php endif; ?>
-
-		<?php print render($content['comments']); ?>
-	</div>
+	<?php ### FOOTER ### ?>
+	<footer class="clearfix">
+		<?php //print render($content['comments']); ?>
+	</footer>
 </article>
+
