@@ -1,3 +1,4 @@
+/* vim:set fdm=marker: */
 /*
  This file will hold styles that are loaded using the same media query as the
  normal grid. If you are using the default media queries provided by Omega,
@@ -6,10 +7,29 @@
 */
 
 
+// HEADER SECTION {{{
+// *****************************************************************************
 
-/* Call to Action Block */
-header #block-nodeblock-call-to-action p.action-number { // phone number
+/* User Menu */// {{{
+/* -------------------------------------------------------------------------- */
+
+// }}}
+/* Logo Block (Branding) */// {{{
+/* -------------------------------------------------------------------------- */
+
+// }}}
+/* Call to Action Block */// {{{
+/* -------------------------------------------------------------------------- */
+
+#block-nodeblock-call-to-action p.action-number { // phone number
 	font-size: 100%;
 	margin-top: -6px;
 }
-/* --------------------------------------------------------------------------- */
+
+// }}}
+
+// }}}
+// CONTENT SECTION {{{
+// *****************************************************************************
+
+// }}}

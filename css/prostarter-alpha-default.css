@@ -1,31 +1,30 @@
+/* vim:set fdm=marker: */
 /*
 This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout).
 */
-/**
- * HTML Elements
- */
-/* --------------------------------------------------------------------------- */
-/**
- * Header Section
- */
 /* User Menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000319}}
-header #block-system-user-menu ul.menu {
+/* -------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000312}}
+#block-system-user-menu ul.menu {
   text-align: right;
 }
 
-/* --------------------------------------------------------------------------- */
 /* Logo Block (Branding) */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000327}}
+/* -------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000319}}
 header #block-delta-blocks-logo .logo-img {
   text-align: left;
 }
 
-/* --------------------------------------------------------------------------- */
 /* Call to Action Block */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000335}}
-header #block-nodeblock-call-to-action {
+/* -------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000327}}
+#block-nodeblock-call-to-action {
   width: 100%;
 }
 
-/* --------------------------------------------------------------------------- */
+/* # Latest Post (Blog) */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000341}}
+.view-blog .views-field-field-title-graphic {
+  margin-top: 6px;
+}

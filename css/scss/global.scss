@@ -171,7 +171,7 @@ dt,.admin h3 {
 // HEADER SECTION {{{
 // *****************************************************************************
 
-/* User Menu */// {{{
+/* # User Menu */// {{{
 /* -------------------------------------------------------------------------- */
 
 #block-system-user-menu h2.block-title {
@@ -190,15 +190,16 @@ dt,.admin h3 {
 }
 
 // }}}
-/* Logo Block (Branding) */// {{{
+/* # Branding */// {{{
 /* -------------------------------------------------------------------------- */
+
 #block-delta-blocks-logo .logo-img {
 	text-align: center;
 	margin-bottom: $default_margin;
 }
 
 // }}}
-/* Call to Action Block */// {{{
+/* # Call to Action */// {{{
 /* -------------------------------------------------------------------------- */
 
 #block-nodeblock-call-to-action {
@@ -237,7 +238,7 @@ dt,.admin h3 {
 }
 
 // }}}
-/* Main Menu */// {{{
+/* # Main Menu */// {{{
 /* -------------------------------------------------------------------------- */
 
 #block-system-main-menu h2.block-title {
@@ -269,7 +270,9 @@ dt,.admin h3 {
 // CONTENT SECTION {{{
 // *****************************************************************************
 
-/* Showcase */// {{{
+// # HOME PAGE // {{{
+
+/* ## Showcase */// {{{
 
 #block-views-showcase-generic {
 	margin-bottom: $default_margin;
@@ -291,8 +294,7 @@ dt,.admin h3 {
 	text-align: center;
 }
 
-// }}}
-/* - Showcase Pager */// {{{
+/* ### Showcase Pager */// {{{
 
 .view-showcase .skin-default .views-slideshow-controls-bottom {
 	clear: both;
@@ -324,7 +326,7 @@ dt,.admin h3 {
 }
 
 // }}}
-/* - Showcase Elements TODO: Needs parsing */// {{{
+/* ### Showcase Elements TODO: Needs parsing */// {{{
 
 .view-showcase {}
 
@@ -421,9 +423,10 @@ dt,.admin h3 {
 .view-showcase .views-slideshow-controls-text-next:active {
 	background: url(../gfx/controls.png) no-repeat bottom right;
 }
+// }}}
 
 // }}}
-/* Trending (Twitter) */// {{{
+/* ## Trending (Twitter) */// {{{
 
 // full block
 #block-jasm-twitter-search-widget {
@@ -448,7 +451,7 @@ dt,.admin h3 {
 	margin-bottom: $default_margin;
 }
 
-//
+
 #block-jasm-twitter-search-widget .twtr-widget,
 #block-jasm-twitter-search-widget .twtr-doc {
 	width: 100%!important;
@@ -514,9 +517,92 @@ dt,.admin h3 {
 }
 
 // }}}
-article.node-blog .user-picture {
-	display: none;
+/* ## Latest Post (Blog) */// {{{
+
+.view-blog .views-row {
+	border-bottom: 1px solid $lighter;
+	margin-bottom: $default_margin;
+	padding-bottom: $default_margin + 10px;
+	overflow: auto; // Clear the floated more link.
 }
+
+.view-blog .views-row-last {
+	border-bottom: none;
+}
+
+.view-blog .views-field-field-title-graphic {
+	float: left;
+	margin-right: $default_margin;
+}
+
+.view-blog .sharethis-wrapper {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.view-blog .field-submitted {
+	float: left;
+	font-style: italic;
+	margin-right: 5px;
+}
+
+.view-blog .views-field-realname-1 {
+	font-style: italic;
+}
+
+.view-blog .views-field-realname-1 a {
+	color: $darkest;
+}
+
+.view-blog .views-field-view-node a {
+	@include border-radius(5px);
+	background: $dark;
+	color: $lightest;
+	float: right;
+	margin: 5px 5px 0;
+	padding: 2px 10px;
+}
+
+// }}}
+
+// }}}
+// # BLOG PAGE // {{{
+
+.node-blog .field-name-field-title-graphic {
+	margin-bottom: $default_margin;
+}
+
+.node-blog .sharethis-wrapper {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.node-blog .field-submitted {
+	font-style: italic;
+	margin-bottom: $default_margin;
+}
+
+.node-blog .field-submitted a {
+	color: $darkest;
+}
+
+.node-blog .field-name-field-blog-tags ul.field-items {
+	padding: 0;
+}
+
+.node-blog .field-name-field-blog-tags li.field-item {
+	display: inline;
+}
+
+.node-blog .field-name-field-blog-tags li.field-item a {
+	@include border-radius(5px);
+	background: $dark;
+	color: $lightest;
+	margin: 0 5px;
+	padding: 5px 10px;
+}
+
+// }}}
 
 // }}}
 // UNCATEGORIZED {{{

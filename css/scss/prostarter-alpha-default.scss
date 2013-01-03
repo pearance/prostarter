@@ -1,41 +1,49 @@
+/* vim:set fdm=marker: */
 /*
 This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout).
 */
 
+// HEADER SECTION {{{
+// *****************************************************************************
 
+/* User Menu */// {{{
+/* -------------------------------------------------------------------------- */
 
-/**
- * HTML Elements
- */
-/* --------------------------------------------------------------------------- */
-
-
-
-/**
- * Header Section
- */
-
-/* User Menu */
-header #block-system-user-menu ul.menu {
+#block-system-user-menu ul.menu {
 	text-align: right;
 }
-/* --------------------------------------------------------------------------- */
 
-
-
-/* Logo Block (Branding) */
+// }}}
+/* Logo Block (Branding) */// {{{
+/* -------------------------------------------------------------------------- */
 header #block-delta-blocks-logo .logo-img {
 	text-align: left;
 }
-/* --------------------------------------------------------------------------- */
 
+// }}}
+/* Call to Action Block */// {{{
+/* -------------------------------------------------------------------------- */
 
-
-/* Call to Action Block */
-header #block-nodeblock-call-to-action {
+#block-nodeblock-call-to-action {
 	width: 100%;
 }
-/* --------------------------------------------------------------------------- */
 
+// }}}
 
+// }}}
+// CONTENT SECTION {{{
+// *****************************************************************************
 
+// HOME PAGE // {{{
+
+/* # Latest Post (Blog) */// {{{
+
+.view-blog .views-field-field-title-graphic {
+	margin-top: 6px;
+}
+
+// }}}
+
+// }}}
+
+// }}}

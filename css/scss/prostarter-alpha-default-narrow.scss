@@ -1,3 +1,4 @@
+/* vim:set fdm=marker: */
 /*
 This file will hold styles that are loaded using the same media query as the
 narrow grid. If you are using the default media queries provided by Omega, these
@@ -5,15 +6,33 @@ styles will also apply to the normal and widescreen layouts. You may override
 these styles in the normal and widescreen CSS files as appropriate.
 */
 
+// HEADER SECTION {{{
+// *****************************************************************************
 
+/* User Menu */// {{{
+/* -------------------------------------------------------------------------- */
 
-/* Call to Action Block */
-header #block-nodeblock-call-to-action p.action-number i { // phone icon
+// }}}
+/* Logo Block (Branding) */// {{{
+/* -------------------------------------------------------------------------- */
+
+// }}}
+/* Call to Action Block */// {{{
+/* -------------------------------------------------------------------------- */
+
+#block-nodeblock-call-to-action p.action-number i { // phone icon
 	font-size: 160%;
 }
 
-header #block-nodeblock-call-to-action p.action-number { // phone number
+#block-nodeblock-call-to-action p.action-number { // phone number
 	font-size: 80%;
 	margin-top: -1px;
 }
-/* --------------------------------------------------------------------------- */
+
+// }}}
+
+// }}}
+// CONTENT SECTION {{{
+// *****************************************************************************
+
+// }}}
