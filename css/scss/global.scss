@@ -270,6 +270,53 @@ dt,.admin h3 {
 // CONTENT SECTION {{{
 // *****************************************************************************
 
+// # GLOBAL // {{{
+
+/* Social Media links */
+.jasm-service-list li {
+	float: left;
+}
+
+.jasm-service-list a.facebook {
+	background:url(../gfx/icons/facebook-icon.png) no-repeat;
+	display: block;
+	height: 32px;
+	text-indent: -99999px;
+	width: 32px;
+}
+
+.jasm-service-list a.twitter {
+	background:url(../gfx/icons/twitter-icon.png) no-repeat;
+	display: block;
+	height: 32px;
+	text-indent: -99999px;
+	width: 32px;
+}
+
+.jasm-service-list a[class="google+"] {
+	background:url(../gfx/icons/googleplus-icon.png) no-repeat;
+	display: block;
+	height: 32px;
+	text-indent: -99999px;
+	width: 32px;
+}
+
+.jasm-service-list a.linkedin {
+	background:url(../gfx/icons/linkedin-icon.png) no-repeat;
+	display: block;
+	height: 32px;
+	text-indent: -99999px;
+	width: 32px;
+}
+
+.jasm-service-list a.rss {
+	background:url(../gfx/icons/rss-icon.png) no-repeat;
+	display: block;
+	height: 32px;
+	text-indent: -99999px;
+	width: 32px;
+}
+// }}}
 // # HOME PAGE // {{{
 
 /* ## Showcase */// {{{
@@ -610,35 +657,35 @@ dt,.admin h3 {
 
 /* Facebook Comments  */
 .fb-comments {
-	display: block!important;
+display: block!important;
 }
 
 .fb-comments span {
-	width: 100%!important;
+width: 100%!important;
 }
 
 .fb-comments span iframe {
-	width: 100%!important;
+width: 100%!important;
 }
 
 /* Position message close button */
 div.messages a.close {
-	float: right;
-	margin: -10px 10px 0;
-	font-size: 170%;
-	color: #999;
-	text-decoration: none;
+float: right;
+margin: -10px 10px 0;
+font-size: 170%;
+color: #999;
+text-decoration: none;
 }
 
 /* Blocks */
 .block-fb-like-box iframe {
-	width: 100%!important;
+width: 100%!important;
 }
 
 /* Context UI */
 /* hides contextual link gears when inline editor is active */
 .context-editing .contextual-links-region:hover a.contextual-links-trigger,.context-editing div.contextual-links-active a.contextual-links-trigger,.context-editing div.contextual-links-active ul.contextual-links {
-	display: none;
+display: none;
 }
 
 
