@@ -21,3 +21,9 @@ these styles in the normal and widescreen CSS files as appropriate.
   font-size: 80%;
   margin-top: -1px;
 }
+
+/* Social Media links */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000342}}
+.item-list ul.jasm-service-list li {
+  margin: 0 2.4%;
+}

@@ -1417,54 +1417,60 @@ dt, .admin h3 {
 }
 
 /* Social Media links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003276}}
-.jasm-service-list li {
-  float: left;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003277}}
+#block-jasm-service-list .item-list {
+  display: table;
+  margin: 0 auto;
+  min-width: 240px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003280}}
-.jasm-service-list a.facebook {
-  background: url(../gfx/icons/facebook-icon.png) no-repeat;
-  display: block;
-  height: 32px;
-  text-indent: -99999px;
-  width: 32px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003283}}
+ul.jasm-service-list li {
+  float: left;
+  margin: 0 4%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003288}}
-.jasm-service-list a.twitter {
+ul.jasm-service-list li.first {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003289}}
+ul.jasm-service-list li.last {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003291}}
+ul.jasm-service-list a {
+  display: block;
+  height: 32px;
+  width: 32px;
+  text-indent: -99999px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003298}}
+ul.jasm-service-list a.facebook {
+  background: url(../gfx/icons/facebook-icon.png) no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003302}}
+ul.jasm-service-list a.twitter {
   background: url(../gfx/icons/twitter-icon.png) no-repeat;
-  display: block;
-  height: 32px;
-  text-indent: -99999px;
-  width: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003296}}
-.jasm-service-list a[class="google+"] {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003306}}
+ul.jasm-service-list a[class="google+"] {
   background: url(../gfx/icons/googleplus-icon.png) no-repeat;
-  display: block;
-  height: 32px;
-  text-indent: -99999px;
-  width: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003304}}
-.jasm-service-list a.linkedin {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003310}}
+ul.jasm-service-list a.linkedin {
   background: url(../gfx/icons/linkedin-icon.png) no-repeat;
-  display: block;
-  height: 32px;
-  text-indent: -99999px;
-  width: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003312}}
-.jasm-service-list a.rss {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003314}}
+ul.jasm-service-list a.rss {
   background: url(../gfx/icons/rss-icon.png) no-repeat;
-  display: block;
-  height: 32px;
-  text-indent: -99999px;
-  width: 32px;
 }
 
 /* ## Showcase */

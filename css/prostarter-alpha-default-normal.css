@@ -16,3 +16,9 @@
   font-size: 100%;
   margin-top: -6px;
 }
+
+/* Social Media links */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-normal\.scss}line{font-family:\0000339}}
+.item-list ul.jasm-service-list li {
+  margin: 0 3.1%;
+}

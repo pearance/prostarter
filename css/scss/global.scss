@@ -273,49 +273,49 @@ dt,.admin h3 {
 // # GLOBAL // {{{
 
 /* Social Media links */
-.jasm-service-list li {
+
+#block-jasm-service-list .item-list {
+	display: table;
+	margin: 0 auto;
+	min-width: 240px;
+}
+
+ul.jasm-service-list li {
 	float: left;
+	margin: 0 4%;
 }
 
-.jasm-service-list a.facebook {
+ul.jasm-service-list li.first { margin-left: 0; }
+ul.jasm-service-list li.last { margin-right: 0; }
+
+ul.jasm-service-list a {
+  display: block;
+	height: 32px;
+	width: 32px;
+	text-indent: -99999px;
+}
+
+ul.jasm-service-list a.facebook {
 	background:url(../gfx/icons/facebook-icon.png) no-repeat;
-	display: block;
-	height: 32px;
-	text-indent: -99999px;
-	width: 32px;
 }
 
-.jasm-service-list a.twitter {
+ul.jasm-service-list a.twitter {
 	background:url(../gfx/icons/twitter-icon.png) no-repeat;
-	display: block;
-	height: 32px;
-	text-indent: -99999px;
-	width: 32px;
 }
 
-.jasm-service-list a[class="google+"] {
+ul.jasm-service-list a[class="google+"] {
 	background:url(../gfx/icons/googleplus-icon.png) no-repeat;
-	display: block;
-	height: 32px;
-	text-indent: -99999px;
-	width: 32px;
 }
 
-.jasm-service-list a.linkedin {
+ul.jasm-service-list a.linkedin {
 	background:url(../gfx/icons/linkedin-icon.png) no-repeat;
-	display: block;
-	height: 32px;
-	text-indent: -99999px;
-	width: 32px;
 }
 
-.jasm-service-list a.rss {
+ul.jasm-service-list a.rss {
 	background:url(../gfx/icons/rss-icon.png) no-repeat;
-	display: block;
-	height: 32px;
-	text-indent: -99999px;
-	width: 32px;
 }
+
+
 // }}}
 // # HOME PAGE // {{{
 
