@@ -272,12 +272,13 @@ dt,.admin h3 {
 
 // # GLOBAL // {{{
 
-/* Social Media links */
+/* Social Media Links */// {{{
+#block-jasm-service-list { margin-bottom: 10px; }
 
 #block-jasm-service-list .item-list {
-	display: table;
-	margin: 0 auto;
-	min-width: 240px;
+	// display: table;
+	// margin: 0 auto;
+	// min-width: 240px;
 }
 
 ul.jasm-service-list li {
@@ -315,6 +316,17 @@ ul.jasm-service-list a.rss {
 	background:url(../gfx/icons/rss-icon.png) no-repeat;
 }
 
+// }}}
+/* Facebook Widget */// {{{
+
+#block-jasm-fb-like-box iframe {
+	width: 100%!important;
+	height:	75px!important;
+	margin: 0 0 -25px -10px;
+	border:1px solid red;
+}
+
+// }}}
 
 // }}}
 // # HOME PAGE // {{{
@@ -614,7 +626,7 @@ ul.jasm-service-list a.rss {
 
 // }}}
 // # BLOG PAGE // {{{
-
+/* Post List */// {{{
 .node-blog .field-name-field-title-graphic {
 	margin-bottom: $default_margin;
 }
@@ -648,39 +660,38 @@ ul.jasm-service-list a.rss {
 	margin: 0 5px;
 	padding: 5px 10px;
 }
+// -----------------------------------------------------------------------------
 
 // }}}
-
-// }}}
-// UNCATEGORIZED {{{
-// *****************************************************************************
-
-/* Facebook Comments  */
+/* Facebook Comments  */// {{{
 .fb-comments {
-display: block!important;
+	display: block!important;
 }
 
 .fb-comments span {
-width: 100%!important;
+	width: 100%!important;
 }
 
 .fb-comments span iframe {
-width: 100%!important;
+	width: 100%!important;
 }
 
 /* Position message close button */
 div.messages a.close {
-float: right;
-margin: -10px 10px 0;
-font-size: 170%;
-color: #999;
-text-decoration: none;
+	float: right;
+	margin: -10px 10px 0;
+	font-size: 170%;
+	color: #999;
+	text-decoration: none;
 }
 
-/* Blocks */
-.block-fb-like-box iframe {
-width: 100%!important;
-}
+// -----------------------------------------------------------------------------
+// }}}
+
+
+// }}}
+
+// }}}
 
 /* Context UI */
 /* hides contextual link gears when inline editor is active */
@@ -688,5 +699,3 @@ width: 100%!important;
 display: none;
 }
 
-
-// }}}

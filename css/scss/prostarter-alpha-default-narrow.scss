@@ -37,11 +37,17 @@ these styles in the normal and widescreen CSS files as appropriate.
 
 // # GLOBAL // {{{
 
-/* Social Media links */
+/* Social Media Links */
+#block-jasm-service-list .item-list {
+	min-width: 220px;
+}
 
 .item-list ul.jasm-service-list li {
-	margin: 0 2.4%;
+	margin: 0 3.3%;
 }
+
+ul.jasm-service-list li.first { margin-left: 2px; }
+ul.jasm-service-list li.last { margin-right: 0; }
 
 // }}}
 

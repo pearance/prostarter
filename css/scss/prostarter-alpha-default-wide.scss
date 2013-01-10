@@ -26,11 +26,17 @@
 
 // # GLOBAL // {{{
 
-/* Social Media links */
+/* Social Media Links */
+#block-jasm-service-list .item-list {
+	min-width: 380px;
+}
 
 .item-list ul.jasm-service-list li {
-	margin: 0 3.3%;
+	margin: 0 5.6%;
 }
+
+ul.jasm-service-list li.first { margin-left: 0; }
+ul.jasm-service-list li.last { margin-right: 0; }
 
 // }}}
 
