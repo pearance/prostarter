@@ -555,7 +555,7 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-// ## Email Subscription// {{{
+// ## Email Subscription // {{{
 #block-jasm-feedburner-mail-subscribe .form-item {
 	margin: 0;
 	float: left;
@@ -567,6 +567,30 @@ ul.jasm-service-list a.rss {
 
 #block-jasm-feedburner-mail-subscribe .form-submit {
 	@include border-radius(0);
+}
+// }}}
+// ## Specialties List // {{{
+#block-views-specialties-block ul.specialties {
+	list-style-position: inside;
+	list-style: none;
+	margin-left: 5%;
+}
+
+#block-views-specialties-block ul.specialties li {
+	width: 95%;
+}
+
+#block-views-specialties-block ul.specialties li a {
+	background: $lighter url(../gfx/icons/dot-icon-dark.png) no-repeat 15px center;
+	display: block;
+	padding: 10px 0;
+	margin: 15px 0;
+	text-indent: 40px;
+}
+
+#block-views-specialties-block ul.specialties li a:hover {
+	background: $dark url(../gfx/icons/dot-icon-light.png) no-repeat 15px center;
+	color: $lightest;
 }
 // }}}
 // }}}
