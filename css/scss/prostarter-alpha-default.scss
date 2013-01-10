@@ -5,48 +5,32 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 
 // HEADER SECTION {{{
 // *****************************************************************************
-
-/* User Menu */// {{{
-/* -------------------------------------------------------------------------- */
-
+// # User Menu // {{{
 #block-system-user-menu ul.menu {
 	text-align: right;
 }
-
 // }}}
-/* Logo Block (Branding) */// {{{
-/* -------------------------------------------------------------------------- */
+// # Logo Block (Branding) // {{{
 header #block-delta-blocks-logo .logo-img {
 	text-align: left;
 }
-
 // }}}
-/* Call to Action Block */// {{{
-/* -------------------------------------------------------------------------- */
-
+// # Call to Action Block // {{{
 #block-nodeblock-call-to-action {
 	width: 100%;
 }
-
 // }}}
-
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
-
 // # GLOBAL // {{{
 
 // }}}
 // # HOME PAGE // {{{
-
-/* # Latest Post (Blog) */// {{{
-
+// # Latest Post (Blog) // {{{
 .view-blog .views-field-field-title-graphic {
 	margin-top: 6px;
 }
-
 // }}}
-
 // }}}
-
 // }}}

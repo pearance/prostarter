@@ -29,7 +29,7 @@ $default_margin: 15px;
 // *****************************************************************************
 // # Global Elements {{{
 body {
-	font: 100%/ 1.5 Arial, sans-serif;
+	font: 100%/1.5 Arial, sans-serif;
 	color: $dark;
 	margin: $default_margin;
 }
@@ -100,53 +100,60 @@ ol ol {
 // # Form Elements (Formalize) {{{
 /* UI Consistency */
 ::-moz-focus-inner {
-  border: 0;
-  padding: 0;
+	border: 0;
+	padding: 0;
 }
 
 input[type="search"]::-webkit-search-decoration {
-  display: none;
+	display: none;
 }
 
 input,
 button,
 select,
 textarea {
-  margin: 0;
-  vertical-align: middle;
+	margin: 0;
+	vertical-align: middle;
 }
 
 button,
 input[type="reset"],
 input[type="submit"],
 input[type="button"] {
-  -webkit-appearance: none;
-  -moz-border-radius: 11px;
-  -webkit-border-radius: 11px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding;
-  background-clip: padding-box;
-  border-radius: 11px;
-  background: #ddd url(../images/button.png) repeat-x;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
-  background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
-  border: 1px solid;
-  border-color: #ddd #bbb #999;
-  cursor: pointer;
-  color: #333;
-  font: bold 12px/1.2 Arial, sans-serif;
-  outline: 0;
-  overflow: visible;
-  padding: 3px 10px 4px;
-  text-shadow: #fff 0 1px 1px;
-  width: auto;
-  *padding-top: 2px; /* IE7 */
-  *padding-bottom: 0px; /* IE7 */
+	// -webkit-appearance: none;
+	// -moz-border-radius: 11px;
+	// -webkit-border-radius: 11px;
+	// -moz-background-clip: padding;
+	// -webkit-background-clip: padding;
+	// background-clip: padding-box;
+	// border-radius: 11px;
+	// background: #ddd url(../images/button.png) repeat-x;
+	// background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
+	// background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
+	// border: 1px solid;
+	// border-color: #ddd #bbb #999;
+	// color: #333;
+	// font: bold 12px/1.2 Arial, sans-serif;
+	// padding: 3px 10px 4px;
+	// text-shadow: #fff 0 1px 1px;
+	// *padding-top: 2px; /* IE7 */
+	// *padding-bottom: 0px; /* IE7 */
+
+	@include border-radius(5px);
+	cursor: pointer;
+	color: $lightest;
+	background: $dark;
+	font: 75%/1.2 Arial, sans-serif;
+	outline: 0;
+	overflow: visible;
+	padding: 5px 10px;
+	text-shadow: none;
+	width: auto;
 }
 
 button {
-  *padding-top: 1px; /* IE7 */
-  *padding-bottom: 1px; /* IE7 */
+	*padding-top: 1px; /* IE7 */
+	*padding-bottom: 1px; /* IE7 */
 }
 
 textarea,
@@ -164,28 +171,28 @@ input[type="text"],
 input[type="time"],
 input[type="url"],
 input[type="week"] {
-  -webkit-appearance: none;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding;
-  background-clip: padding-box;
-  background-color: #fff;
-  border: 1px solid;
-  border-color: #848484 #c1c1c1 #e1e1e1;
-  color: #000;
-  outline: 0;
-  padding: 2px 3px;
-  font-size: 13px;
-  font-family: Arial, sans-serif;
-  height: 1.8em;
-  *padding-top: 2px; /* IE7 */
-  *padding-bottom: 1px; /* IE7 */
-  *height: auto; /* IE7 */
+	-webkit-appearance: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	background-clip: padding-box;
+	background-color: #fff;
+	border: 1px solid;
+	border-color: #848484 #c1c1c1 #e1e1e1;
+	color: #000;
+	outline: 0;
+	padding: 2px 3px;
+	// font-size: 13px;
+	// font-family: Arial, sans-serif;
+	height: 1.8em;
+	*padding-top: 2px; /* IE7 */
+	*padding-bottom: 1px; /* IE7 */
+	*height: auto; /* IE7 */
 }
 
 /* Separate rule for Firefox. Cannot stack with WebKit's. */
@@ -193,11 +200,11 @@ input.placeholder_text,
 textarea.placeholder_text,
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #888;
+	color: #888;
 }
 
 ::-webkit-input-placeholder {
-  color: #888;
+	color: #888;
 }
 
 button:focus,
@@ -208,10 +215,10 @@ select:focus,
 select:active,
 textarea:focus,
 textarea:active {
-  -moz-box-shadow: #06f 0 0 7px;
-  -webkit-box-shadow: #06f 0 0 7px;
-  box-shadow: #06f 0 0 7px;
-  z-index: 1; /* For Opera */
+	-moz-box-shadow: #06f 0 0 7px;
+	-webkit-box-shadow: #06f 0 0 7px;
+	box-shadow: #06f 0 0 7px;
+	z-index: 1; /* For Opera */
 }
 
 input[type="file"]:focus,
@@ -220,9 +227,9 @@ input[type="radio"]:focus,
 input[type="radio"]:active,
 input[type="checkbox"]:focus,
 input[type="checkbox"]:active {
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 select[disabled],
@@ -240,7 +247,7 @@ input[type="text"][disabled],
 input[type="time"][disabled],
 input[type="url"][disabled],
 input[type="week"][disabled] {
-  background-color: #eee;
+	background-color: #eee;
 }
 
 button[disabled],
@@ -249,96 +256,97 @@ select[disabled],
 select[disabled] option,
 select[disabled] optgroup,
 textarea[disabled] {
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  color: #888;
-  cursor: default;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	color: #888;
+	cursor: default;
 }
 
 textarea,
 select[size],
 select[multiple] {
-  height: auto;
+	height: auto;
 }
 
 /* Tweaks for Safari + Chrome. */
 @media (-webkit-min-device-pixel-ratio: 0) {
   select {
-    background-image: url(../images/select-arrow.gif);
-    background-repeat: no-repeat;
-    background-position: right center;
-    padding-right: 20px;
+		background-image: url(../images/select-arrow.gif);
+		background-repeat: no-repeat;
+		background-position: right center;
+		padding-right: 20px;
   }
 
   select[size],
   select[multiple] {
-    background-image: none;
-    padding: 0;
+		background-image: none;
+		padding: 0;
   }
 }
 
 textarea {
-  min-height: 40px;
-  overflow: auto;
-  resize: vertical;
-  width: 100%;
+	min-height: 40px;
+	overflow: auto;
+	resize: vertical;
+	width: 100%;
 }
 
 optgroup {
-  color: #000;
-  font-style: normal;
-  font-weight: normal;
+	color: #000;
+	font-style: normal;
+	font-weight: normal;
 }
 
 /* IE6 */
 .ie6-button,
 * html button {
-  background: #ddd url(../images/button.png) repeat-x;
-  border: 1px solid;
-  border-color: #ddd #bbb #999;
-  cursor: pointer;
-  color: #333;
-  font: bold 12px/1.2 Arial, sans-serif;
-  padding: 2px 10px 0px;
-  overflow: visible;
-  width: auto;
+	background: #ddd url(../images/button.png) repeat-x;
+	border: 1px solid;
+	border-color: #ddd #bbb #999;
+	cursor: pointer;
+	color: #333;
+	font: bold 12px/1.2 Arial, sans-serif;
+	padding: 2px 10px 0px;
+	overflow: visible;
+	width: auto;
 }
 
 * html button {
-  padding-top: 1px;
-  padding-bottom: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 .ie6-input,
 * html textarea,
 * html select {
-  background: #fff;
-  border: 1px solid;
-  border-color: #848484 #c1c1c1 #e1e1e1;
-  color: #000;
-  padding: 2px 3px 1px;
-  font-size: 13px;
-  font-family: Arial, sans-serif;
-  vertical-align: top;
+	background: #fff;
+	border: 1px solid;
+	border-color: #848484 #c1c1c1 #e1e1e1;
+	color: #000;
+	padding: 2px 3px 1px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	vertical-align: top;
 }
 
 * html select {
-  margin-top: 1px;
+	margin-top: 1px;
 }
 
 .placeholder_text,
 .ie6-input-disabled,
 .ie6-button-disabled {
-  color: #888;
+	color: #888;
 }
 
 .ie6-input-disabled {
-  background: #eee;
-}// }}}
+	background: #eee;
+}
+// }}}
 // # Other Elements {{{
 p,
 dl,
@@ -402,18 +410,6 @@ h2.block-title {
 dt,.admin h3 {
 	font-size: 18px;
 	margin: 0;
-}
-
-input[type="reset"],
-input[type="submit"],
-input[type="button"] {
-	@include border-radius(5px);
-	background: $dark;
-	color: $lightest;
-	padding: 5px 10px;
-	text-shadow: none;
-	border: none;
-	font-size: 100%;
 }
 // }}}
 // HEADER SECTION {{{
@@ -567,6 +563,10 @@ ul.jasm-service-list a.rss {
 
 #block-jasm-feedburner-mail-subscribe .compact-form-label {
 	top: 4px;
+}
+
+#block-jasm-feedburner-mail-subscribe .form-submit {
+	@include border-radius(0);
 }
 // }}}
 // }}}
