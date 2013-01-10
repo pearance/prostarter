@@ -7,19 +7,13 @@
 
 // IMPORTS {{{
 // *****************************************************************************
-
 @import "compass/css3";
-
 @import "font-awesome";
-
-// @import url("../../../rubik/css/admin-menu.css");
-
 @import url(http://fonts.googleapis.com/css?family=Monda:400,700);
-
+// @import url("../../../rubik/css/admin-menu.css");
 // }}}
 // VARIABLES {{{
 // *****************************************************************************
-
 /* Colors */
 $lightest: #FFFFFF;
 $lighter: #EAEAEA;
@@ -30,17 +24,17 @@ $darkest: #000000;
 
 /* Margins/Padding */
 $default_margin: 15px;
-
 // }}}
 // HTML ELEMENTS {{{
 // *****************************************************************************
-
+// # Global Elements {{{
 body {
 	font: 100%/ 1.5 Arial, sans-serif;
 	color: $dark;
 	margin: $default_margin;
 }
-
+// }}}
+// # Anchor Elements {{{
 a:link,
 a:visited {
 	color: $dark;
@@ -57,15 +51,8 @@ a:active {
 	text-decoration: none;
 	color: #000000;
 }
-
-hr {
-	margin: 0;
-	padding: 0;
-	border: none;
-	height: 1px;
-	background: #5294C1;
-}
-
+// }}}
+// # Heading Elements {{{
 h1,h2,h3,h4,h5,h6 {
 	letter-spacing: -.05em;
 	font-family: Monda, sans-serif;
@@ -95,7 +82,8 @@ h5 {
 h6 {
 	font-size: 100%;
 }
-
+// }}}
+// # List Elements {{{
 ol {
 	list-style: decimal;
 }
@@ -108,7 +96,250 @@ ul ul,
 ol ol {
 	padding-top: .5em;
 }
+// }}}
+// # Form Elements (Formalize) {{{
+/* UI Consistency */
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
 
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  vertical-align: middle;
+}
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  border-radius: 11px;
+  background: #ddd url(../images/button.png) repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
+  border: 1px solid;
+  border-color: #ddd #bbb #999;
+  cursor: pointer;
+  color: #333;
+  font: bold 12px/1.2 Arial, sans-serif;
+  outline: 0;
+  overflow: visible;
+  padding: 3px 10px 4px;
+  text-shadow: #fff 0 1px 1px;
+  width: auto;
+  *padding-top: 2px; /* IE7 */
+  *padding-bottom: 0px; /* IE7 */
+}
+
+button {
+  *padding-top: 1px; /* IE7 */
+  *padding-bottom: 1px; /* IE7 */
+}
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  -webkit-appearance: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #848484 #c1c1c1 #e1e1e1;
+  color: #000;
+  outline: 0;
+  padding: 2px 3px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  height: 1.8em;
+  *padding-top: 2px; /* IE7 */
+  *padding-bottom: 1px; /* IE7 */
+  *height: auto; /* IE7 */
+}
+
+/* Separate rule for Firefox. Cannot stack with WebKit's. */
+input.placeholder_text,
+textarea.placeholder_text,
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #888;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+select:focus,
+select:active,
+textarea:focus,
+textarea:active {
+  -moz-box-shadow: #06f 0 0 7px;
+  -webkit-box-shadow: #06f 0 0 7px;
+  box-shadow: #06f 0 0 7px;
+  z-index: 1; /* For Opera */
+}
+
+input[type="file"]:focus,
+input[type="file"]:active,
+input[type="radio"]:focus,
+input[type="radio"]:active,
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+select[disabled],
+textarea[disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="email"][disabled],
+input[type="month"][disabled],
+input[type="number"][disabled],
+input[type="password"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="text"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+input[type="week"][disabled] {
+  background-color: #eee;
+}
+
+button[disabled],
+input[disabled],
+select[disabled],
+select[disabled] option,
+select[disabled] optgroup,
+textarea[disabled] {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: #888;
+  cursor: default;
+}
+
+textarea,
+select[size],
+select[multiple] {
+  height: auto;
+}
+
+/* Tweaks for Safari + Chrome. */
+@media (-webkit-min-device-pixel-ratio: 0) {
+  select {
+    background-image: url(../images/select-arrow.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+  }
+
+  select[size],
+  select[multiple] {
+    background-image: none;
+    padding: 0;
+  }
+}
+
+textarea {
+  min-height: 40px;
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+}
+
+optgroup {
+  color: #000;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* IE6 */
+.ie6-button,
+* html button {
+  background: #ddd url(../images/button.png) repeat-x;
+  border: 1px solid;
+  border-color: #ddd #bbb #999;
+  cursor: pointer;
+  color: #333;
+  font: bold 12px/1.2 Arial, sans-serif;
+  padding: 2px 10px 0px;
+  overflow: visible;
+  width: auto;
+}
+
+* html button {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.ie6-input,
+* html textarea,
+* html select {
+  background: #fff;
+  border: 1px solid;
+  border-color: #848484 #c1c1c1 #e1e1e1;
+  color: #000;
+  padding: 2px 3px 1px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  vertical-align: top;
+}
+
+* html select {
+  margin-top: 1px;
+}
+
+.placeholder_text,
+.ie6-input-disabled,
+.ie6-button-disabled {
+  color: #888;
+}
+
+.ie6-input-disabled {
+  background: #eee;
+}// }}}
+// # Other Elements {{{
 p,
 dl,
 hr,
@@ -128,16 +359,22 @@ dd {
 	margin-bottom: $default_margin;
 }
 
+hr {
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: 1px;
+	background: #5294C1;
+}
+
 img {
 	height: auto;
 	max-width: 100%;
 	width: auto\9; /* Fix for IE 8 */
-}
-
+}// }}}
 // }}}
 // DRUPAL ELEMENTS {{{
 // *****************************************************************************
-
 h2.node-title {
 	font-size: 160%;
 }
@@ -167,13 +404,21 @@ dt,.admin h3 {
 	margin: 0;
 }
 
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+	@include border-radius(5px);
+	background: $dark;
+	color: $lightest;
+	padding: 5px 10px;
+	text-shadow: none;
+	border: none;
+	font-size: 100%;
+}
 // }}}
 // HEADER SECTION {{{
 // *****************************************************************************
-
-/* # User Menu */// {{{
-/* -------------------------------------------------------------------------- */
-
+// # User Menu // {{{
 #block-system-user-menu h2.block-title {
 	display: none;
 }
@@ -188,20 +433,14 @@ dt,.admin h3 {
 
 #block-system-user-menu ul.menu li a {
 }
-
 // }}}
-/* # Branding */// {{{
-/* -------------------------------------------------------------------------- */
-
+// # Branding // {{{
 #block-delta-blocks-logo .logo-img {
 	text-align: center;
 	margin-bottom: $default_margin;
 }
-
 // }}}
-/* # Call to Action */// {{{
-/* -------------------------------------------------------------------------- */
-
+// # Call to Action // {{{
 #block-nodeblock-call-to-action {
 	color: $lightest;
 	float: right;
@@ -236,11 +475,8 @@ dt,.admin h3 {
 	font-size: 80%;
 	color: $dark;
 }
-
 // }}}
-/* # Main Menu */// {{{
-/* -------------------------------------------------------------------------- */
-
+// # Main Menu // {{{
 #block-system-main-menu h2.block-title {
 	display: none;
 }
@@ -263,16 +499,12 @@ dt,.admin h3 {
 	color: $lightest;
 	padding: 5px 10px;
 }
-
 // }}}
-
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
-
 // # GLOBAL // {{{
-
-/* Social Media Links */// {{{
+// ## Social Media Links // {{{
 #block-jasm-service-list { margin-bottom: 10px; }
 
 #block-jasm-service-list .item-list {
@@ -317,7 +549,7 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-/* Facebook Widget */// {{{
+// ## Facebook Widget // {{{
 
 #block-jasm-fb-like-box iframe {
 	width: 100%!important;
@@ -327,12 +559,20 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
+// ## Email Subscription// {{{
+#block-jasm-feedburner-mail-subscribe .form-item {
+	margin: 0;
+	float: left;
+}
 
+#block-jasm-feedburner-mail-subscribe .compact-form-label {
+	top: 4px;
+}
+// }}}
 // }}}
 // # HOME PAGE // {{{
-
-/* ## Showcase */// {{{
-
+// ## Showcase // {{{
+// ### General// {{{
 #block-views-showcase-generic {
 	margin-bottom: $default_margin;
 }
@@ -352,9 +592,8 @@ ul.jasm-service-list a.rss {
 #block-views-showcase-generic #widget_pager_bottom_showcase-generic {
 	text-align: center;
 }
-
-/* ### Showcase Pager */// {{{
-
+// }}}
+// ### Showcase Pager // {{{
 .view-showcase .skin-default .views-slideshow-controls-bottom {
 	clear: both;
 }
@@ -383,10 +622,8 @@ ul.jasm-service-list a.rss {
 	float: left;
 	margin: 0 10px;
 }
-
 // }}}
-/* ### Showcase Elements TODO: Needs parsing */// {{{
-
+// ### Showcase Elements TODO: Needs parsing // {{{
 .view-showcase {}
 
 .view-showcase .views_slideshow_cycle_main {
@@ -483,10 +720,8 @@ ul.jasm-service-list a.rss {
 	background: url(../gfx/controls.png) no-repeat bottom right;
 }
 // }}}
-
 // }}}
-/* ## Trending (Twitter) */// {{{
-
+// ## Trending (Twitter) // {{{
 // full block
 #block-jasm-twitter-search-widget {
 	width: 100%!important;
@@ -574,9 +809,8 @@ ul.jasm-service-list a.rss {
 	border-radius: 0;
 	-moz-border-radius: 0;
 }
-
 // }}}
-/* ## Latest Post (Blog) */// {{{
+// ## Latest Post (Blog) // {{{
 
 .view-blog .views-row {
 	border-bottom: 1px solid $lighter;
@@ -623,10 +857,9 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-
 // }}}
 // # BLOG PAGE // {{{
-/* Post List */// {{{
+// ## Post List // {{{
 .node-blog .field-name-field-title-graphic {
 	margin-bottom: $default_margin;
 }
@@ -660,10 +893,8 @@ ul.jasm-service-list a.rss {
 	margin: 0 5px;
 	padding: 5px 10px;
 }
-// -----------------------------------------------------------------------------
-
 // }}}
-/* Facebook Comments  */// {{{
+// ## Facebook Comments // {{{
 .fb-comments {
 	display: block!important;
 }
@@ -684,18 +915,6 @@ div.messages a.close {
 	color: #999;
 	text-decoration: none;
 }
-
-// -----------------------------------------------------------------------------
 // }}}
-
-
 // }}}
-
 // }}}
-
-/* Context UI */
-/* hides contextual link gears when inline editor is active */
-.context-editing .contextual-links-region:hover a.contextual-links-trigger,.context-editing div.contextual-links-active a.contextual-links-trigger,.context-editing div.contextual-links-active ul.contextual-links {
-display: none;
-}
-
