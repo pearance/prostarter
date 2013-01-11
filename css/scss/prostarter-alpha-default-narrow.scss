@@ -8,7 +8,7 @@ these styles in the normal and widescreen CSS files as appropriate.
 
 // HEADER SECTION {{{
 // *****************************************************************************
-// # Call to Action // {{{
+// # Call to Action {{{
 #block-nodeblock-call-to-action p.action-number i { // phone icon
 	font-size: 160%;
 }
@@ -21,8 +21,8 @@ these styles in the normal and widescreen CSS files as appropriate.
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
-// # GLOBAL // {{{
-// ## Social Media Links // {{{
+// # BLOCKS {{{
+// ## Social Media Links {{{
 #block-jasm-service-list .item-list {
 	min-width: 220px;
 }
@@ -34,7 +34,7 @@ these styles in the normal and widescreen CSS files as appropriate.
 ul.jasm-service-list li.first { margin-left: 2px; }
 ul.jasm-service-list li.last { margin-right: 0; }
 // }}}
-// ## Email Subscription// {{{
+// ## Email Subscription {{{
 #block-jasm-feedburner-mail-subscribe .form-submit {
 	float: right;
 	margin-top: 10px;

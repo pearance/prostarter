@@ -25,6 +25,22 @@ $darkest: #000000;
 /* Margins/Padding */
 $default_margin: 15px;
 // }}}
+// MIXINS {{{
+// *****************************************************************************
+@mixin button-style {
+	@include border-radius(5px);
+	border: none;
+	cursor: pointer;
+	color: $lightest;
+	background: $dark;
+	font: 90%/1.5 Arial, sans-serif;
+	outline: 0;
+	overflow: visible;
+	padding: 1px 7px;
+	text-shadow: none;
+	width: auto;
+}
+// }}}
 // HTML ELEMENTS {{{
 // *****************************************************************************
 // # Global Elements {{{
@@ -43,7 +59,6 @@ a:visited {
 
 a:hover {
 	color: #202124;
-	text-decoration: underline;
 }
 
 a:active {
@@ -120,6 +135,7 @@ button,
 input[type="reset"],
 input[type="submit"],
 input[type="button"] {
+	@include button-style;
 	// -webkit-appearance: none;
 	// -moz-border-radius: 11px;
 	// -webkit-border-radius: 11px;
@@ -138,17 +154,13 @@ input[type="button"] {
 	// text-shadow: #fff 0 1px 1px;
 	// *padding-top: 2px; /* IE7 */
 	// *padding-bottom: 0px; /* IE7 */
+}
 
-	@include border-radius(5px);
-	cursor: pointer;
+.button,
+a.button,
+.button a {
+	@include button-style;
 	color: $lightest;
-	background: $dark;
-	font: 75%/1.2 Arial, sans-serif;
-	outline: 0;
-	overflow: visible;
-	padding: 5px 10px;
-	text-shadow: none;
-	width: auto;
 }
 
 button {
@@ -362,7 +374,7 @@ h1,h2,h3,h4,h5,h6 {
 
 dd {
 	padding-left: 10px;
-	font-size: .9em;
+	font-size: 90%;
 	font-style: italic;
 	margin-bottom: $default_margin;
 }
@@ -408,13 +420,13 @@ h2.block-title {
 }
 
 dt,.admin h3 {
-	font-size: 18px;
+	font-size: 180%;
 	margin: 0;
 }
 // }}}
 // HEADER SECTION {{{
 // *****************************************************************************
-// # User Menu // {{{
+// # User Menu {{{
 #block-system-user-menu h2.block-title {
 	display: none;
 }
@@ -430,13 +442,13 @@ dt,.admin h3 {
 #block-system-user-menu ul.menu li a {
 }
 // }}}
-// # Branding // {{{
+// # Branding {{{
 #block-delta-blocks-logo .logo-img {
 	text-align: center;
 	margin-bottom: $default_margin;
 }
 // }}}
-// # Call to Action // {{{
+// # Call to Action {{{
 #block-nodeblock-call-to-action {
 	color: $lightest;
 	float: right;
@@ -472,7 +484,7 @@ dt,.admin h3 {
 	color: $dark;
 }
 // }}}
-// # Main Menu // {{{
+// # Main Menu {{{
 #block-system-main-menu h2.block-title {
 	display: none;
 }
@@ -490,17 +502,15 @@ dt,.admin h3 {
 }
 
 #block-system-main-menu li a.active {
-	@include border-radius(5px);
-	background: $dark;
-	color: $lightest;
-	padding: 5px 10px;
+	@include button-style;
+	padding: 4px 7px;
 }
 // }}}
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
-// # GLOBAL // {{{
-// ## Social Media Links // {{{
+// # BLOCKS {{{
+// ## Social Media Links {{{
 #block-jasm-service-list { margin-bottom: 10px; }
 
 #block-jasm-service-list .item-list {
@@ -545,7 +555,7 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-// ## Facebook Widget // {{{
+// ## Facebook Widget {{{
 
 #block-jasm-fb-like-box iframe {
 	width: 100%!important;
@@ -555,7 +565,7 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-// ## Email Subscription // {{{
+// ## Email Subscription {{{
 #block-jasm-feedburner-mail-subscribe .form-item {
 	margin: 0;
 	float: left;
@@ -567,9 +577,10 @@ ul.jasm-service-list a.rss {
 
 #block-jasm-feedburner-mail-subscribe .form-submit {
 	@include border-radius(0);
+	font-size: 85%;
 }
 // }}}
-// ## Specialties List // {{{
+// ## Specialties List {{{
 #block-views-specialties-block ul.specialties {
 	list-style-position: inside;
 	list-style: none;
@@ -593,10 +604,26 @@ ul.jasm-service-list a.rss {
 	color: $lightest;
 }
 // }}}
+// ## Testimonials {{{
+#block-views-testimonals-block .content {
+	padding: 0 15px;
+}
+
+#block-views-testimonals-block p {
+	font-style: italic;
+}
+
+#block-views-testimonals-block .button {
+	float: right;
+}
 // }}}
-// # HOME PAGE // {{{
-// ## Showcase // {{{
-// ### General// {{{
+// ## Social Welcome {{{
+#block-nodeblock-social-welcome { display: none; }
+// }}}
+// }}}
+// # HOME PAGE {{{
+// ## Showcase {{{
+// ### Showcase General {{{
 #block-views-showcase-generic {
 	margin-bottom: $default_margin;
 }
@@ -617,7 +644,7 @@ ul.jasm-service-list a.rss {
 	text-align: center;
 }
 // }}}
-// ### Showcase Pager // {{{
+// ### Showcase Pager {{{
 .view-showcase .skin-default .views-slideshow-controls-bottom {
 	clear: both;
 }
@@ -745,8 +772,8 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // }}}
-// ## Trending (Twitter) // {{{
-// full block
+// ## Trending (Twitter) {{{
+// Full block
 #block-jasm-twitter-search-widget {
 	width: 100%!important;
 	height: auto!important;
@@ -757,7 +784,7 @@ ul.jasm-service-list a.rss {
 	max-width: none;
 }
 
-// headers & titles
+// Headers & Titles
 #block-jasm-twitter-search-widget #twtr-widget-1 .twtr-new-results,
 #block-jasm-twitter-search-widget #twtr-widget-1 .twtr-results-inner,
 #block-jasm-twitter-search-widget #twtr-widget-1 .twtr-timeline,
@@ -834,8 +861,9 @@ ul.jasm-service-list a.rss {
 	-moz-border-radius: 0;
 }
 // }}}
-// ## Latest Post (Blog) // {{{
-
+// }}}
+// # BLOG PAGE {{{
+// ## Blog List {{{
 .view-blog .views-row {
 	border-bottom: 1px solid $lighter;
 	margin-bottom: $default_margin;
@@ -872,18 +900,12 @@ ul.jasm-service-list a.rss {
 }
 
 .view-blog .views-field-view-node a {
-	@include border-radius(5px);
-	background: $dark;
-	color: $lightest;
+	@include button-style;
 	float: right;
-	margin: 5px 5px 0;
-	padding: 2px 10px;
 }
-
 // }}}
-// }}}
-// # BLOG PAGE // {{{
-// ## Post List // {{{
+// ## Blog Full Node {{{
+// ### Content Body {{{
 .node-blog .field-name-field-title-graphic {
 	margin-bottom: $default_margin;
 }
@@ -911,14 +933,10 @@ ul.jasm-service-list a.rss {
 }
 
 .node-blog .field-name-field-blog-tags li.field-item a {
-	@include border-radius(5px);
-	background: $dark;
-	color: $lightest;
-	margin: 0 5px;
-	padding: 5px 10px;
+	@include button-style;
 }
 // }}}
-// ## Facebook Comments // {{{
+// ### Facebook Comments {{{
 .fb-comments {
 	display: block!important;
 }
@@ -939,6 +957,7 @@ div.messages a.close {
 	color: #999;
 	text-decoration: none;
 }
+// }}}
 // }}}
 // }}}
 // }}}
