@@ -368,6 +368,7 @@ pre,
 table,
 address,
 fieldset,
+blockquote,
 h1,h2,h3,h4,h5,h6 {
 	margin-bottom: $default_margin;
 }
@@ -391,7 +392,27 @@ img {
 	height: auto;
 	max-width: 100%;
 	width: auto\9; /* Fix for IE 8 */
-}// }}}
+}
+
+blockquote {
+	font-style: italic;
+	position: relative;
+	padding-top: $default_margin;
+	text-indent: 30px;
+
+	span:before {
+		// content: '"';
+		content: "\201C";
+		color: $light;
+		font-family: Georgia, serif;
+		font-size: 500%;
+		position: absolute;
+		top: -20px;
+		left: -40px;
+	}
+}
+
+// }}}
 // }}}
 // DRUPAL ELEMENTS {{{
 // *****************************************************************************
@@ -614,12 +635,18 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // ## Testimonials {{{
-#block-views-testimonals-block .content {
-	padding: 0 15px;
-}
+#block-views-testimonals-block {
+	.content {
+		padding: 0 5px 0 15px;
+		margin-top: -5px;
+	}
 
-#block-views-testimonals-block .button {
-	float: right;
+	.button {float: right;}
+
+	.view-footer {
+		margin-top: $default_margin;
+		overflow: auto;
+	}
 }
 // }}}
 // ## Social Welcome {{{
