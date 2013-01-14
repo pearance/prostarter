@@ -47,7 +47,6 @@ $default_margin: 15px;
 body {
 	font: 100%/1.5 Arial, sans-serif;
 	color: $dark;
-	margin: $default_margin;
 }
 // }}}
 // # Anchor Elements {{{
@@ -401,7 +400,6 @@ blockquote {
 	text-indent: 30px;
 
 	span:before {
-		// content: '"';
 		content: "\201C";
 		color: $light;
 		font-family: Georgia, serif;
@@ -454,6 +452,8 @@ div.messages a.close {
 	text-decoration: none;
 }
 // }}}
+
+
 // HEADER SECTION {{{
 // *****************************************************************************
 // # User Menu {{{
@@ -990,4 +990,66 @@ ul.jasm-service-list a.rss {
 // }}}
 // }}}
 // }}}
+// }}}
+// FOOTER SECTION {{{
+// *****************************************************************************
+#section-footer {
+	.block,
+	p,
+	dl,
+	hr,
+	ol,ul,
+	pre,
+	table,
+	address,
+	fieldset,
+	blockquote,
+	h1,h2,h3,h4,h5,h6 { margin: 0; }
+}
+
+#zone-foot-wrapper {
+	background: $lighter;
+	color: $dark;
+	height: 150px;
+
+	.region { height: 150px; }
+
+	#block-nodeblock-site-disclamer {
+		h2.block-title {display: none;}
+
+		.content p {
+			display: table-cell;
+			height: 150px;
+			vertical-align: middle;
+		}
+	}
+}
+
+#zone-bottom-wrapper {
+		background: $dark;
+		color: $light;
+		height: 60px;
+		line-height: 60px;
+
+	.region { height: 60px; }
+
+	#block-menu-menu-auxiliary  {
+		h2.block-title {display: none;}
+
+		ul.menu { margin: 0; }
+		ul.menu li { display: inline; }
+
+		ul.menu li a { color: $lightest; }
+	}
+
+	#block-nodeblock-copyright {
+		h2.block-title {display: none;}
+
+		.content p {
+			text-align: right;
+			color: $darker;
+		}
+	}
+}
+
 // }}}
