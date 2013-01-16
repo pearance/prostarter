@@ -2,20 +2,23 @@
 /*
 This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout).
 */
-
+// IMPORTS {{{
+// *****************************************************************************
+@import "_global_include";
+// }}}
 // HEADER SECTION {{{
 // *****************************************************************************
-// # User Menu // {{{
+// # USER MENU {{{
 #block-system-user-menu ul.menu {
 	text-align: right;
 }
 // }}}
-// # Logo Block (Branding) // {{{
-header #block-delta-blocks-logo .logo-img {
+// # BRANDING {{{
+#block-delta-blocks-logo .logo-img {
 	text-align: left;
 }
 // }}}
-// # Call to Action Block // {{{
+// # CALL TO ACTION {{{
 #block-nodeblock-call-to-action {
 	width: 100%;
 }
@@ -23,11 +26,57 @@ header #block-delta-blocks-logo .logo-img {
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
+// # ABOUT PAGE {{{
+.context-about {
+	#about_graphic {
+		margin: 0 0 15px 15px;
+		float: right;
+	}
+
+	img.media-image {
+		// margin: 0 0 15px 15px;
+	}
+}
+// }}}
 // # HOME PAGE {{{
-// # Latest Post (Blog) {{{
+// # BLOG LIST {{{
 .view-blog .views-field-field-title-graphic {
 	margin-top: 6px;
 }
 // }}}
+// }}}
+// }}}
+// FOOTER SECTION {{{
+// *****************************************************************************
+// # SECTION {{{
+// }}}
+// # FOOT {{{
+#zone-foot-wrapper {
+	$fh: 150px;
+	height: $fh;
+
+	.region { height: $fh; }
+
+	#block-nodeblock-site-disclamer {
+		.content p {
+			display: table-cell;
+			height: $fh;
+			padding: 0 15px;
+			vertical-align: middle;
+		}
+	}
+}
+// }}}
+// # BOTTOM {{{
+#zone-bottom-wrapper {
+		height: 60px;
+		line-height: 60px;
+
+	.region { height: 60px; }
+
+	#block-menu-menu-auxiliary  { padding-top: 0;}
+
+	#block-nodeblock-copyright { margin-top: 0; }
+}
 // }}}
 // }}}

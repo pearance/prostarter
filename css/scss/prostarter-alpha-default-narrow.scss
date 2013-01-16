@@ -6,6 +6,10 @@ styles will also apply to the normal and widescreen layouts. You may override
 these styles in the normal and widescreen CSS files as appropriate.
 */
 
+// IMPORTS {{{
+// *****************************************************************************
+@import "_global_include";
+// }}}
 // HEADER SECTION {{{
 // *****************************************************************************
 // # Call to Action {{{
@@ -39,5 +43,18 @@ ul.jasm-service-list li.last { margin-right: 0; }
 	float: right;
 	margin-top: 10px;
 }
+// }}}
+// }}}
+// # BLOG PAGE {{{
+// ## Blog List {{{
+.view-blog {
+
+	.views-field-field-title-graphic {
+		float: left;
+		margin-right: $default_margin;
+	}
+
+}
+// }}}
 // }}}
 // }}}

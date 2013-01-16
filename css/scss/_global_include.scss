@@ -1,0 +1,37 @@
+/* vim:set fdm=marker: */
+// IMPORTS {{{
+// *****************************************************************************
+@import "compass/css3";
+@import "_font-awesome";
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+// @import url("../../../rubik/css/admin-menu.css");
+// }}}
+// VARIABLES {{{
+// *****************************************************************************
+/* Colors */
+$lightest: #FFFFFF;
+$lighter: #EAEAEA;
+$light: #CCCCCC;
+$dark: #666666;
+$darker: #444444;
+$darkest: #000000;
+
+/* Margins/Padding */
+$default_margin: 15px;
+// }}}
+// MIXINS {{{
+// *****************************************************************************
+@mixin button-style {
+	@include border-radius(5px);
+	border: none;
+	cursor: pointer;
+	color: $lightest;
+	background: $dark;
+	font: 90%/1.5 Arial, sans-serif;
+	outline: 0;
+	overflow: visible;
+	padding: 1px 7px;
+	text-shadow: none;
+	width: auto;
+}
+// }}}

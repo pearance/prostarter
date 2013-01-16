@@ -7,39 +7,7 @@
 
 // IMPORTS {{{
 // *****************************************************************************
-@import "compass/css3";
-@import "font-awesome";
-@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
-// @import url("../../../rubik/css/admin-menu.css");
-// }}}
-// VARIABLES {{{
-// *****************************************************************************
-/* Colors */
-$lightest: #FFFFFF;
-$lighter: #EAEAEA;
-$light: #CCCCCC;
-$dark: #666666;
-$darker: #444444;
-$darkest: #000000;
-
-/* Margins/Padding */
-$default_margin: 15px;
-// }}}
-// MIXINS {{{
-// *****************************************************************************
-@mixin button-style {
-	@include border-radius(5px);
-	border: none;
-	cursor: pointer;
-	color: $lightest;
-	background: $dark;
-	font: 90%/1.5 Arial, sans-serif;
-	outline: 0;
-	overflow: visible;
-	padding: 1px 7px;
-	text-shadow: none;
-	width: auto;
-}
+@import "_global_include";
 // }}}
 // HTML ELEMENTS {{{
 // *****************************************************************************
@@ -435,7 +403,7 @@ h2.block-title {
 }
 
 .block {
-	margin-bottom: $default_margin+10px;
+	margin-bottom: $default_margin;
 }
 
 dt,.admin h3 {
@@ -456,7 +424,10 @@ div.messages a.close {
 
 // HEADER SECTION {{{
 // *****************************************************************************
-// # User Menu {{{
+// # SECTION {{{
+#section-header { margin: $default_margin; }
+// }}}
+// # USER MENU {{{
 #block-system-user-menu h2.block-title {
 	display: none;
 }
@@ -472,13 +443,13 @@ div.messages a.close {
 #block-system-user-menu ul.menu li a {
 }
 // }}}
-// # Branding {{{
+// # BRANDING {{{
 #block-delta-blocks-logo .logo-img {
 	text-align: center;
 	margin-bottom: $default_margin;
 }
 // }}}
-// # Call to Action {{{
+// # CALL TO ACTION {{{
 #block-nodeblock-call-to-action {
 	color: $lightest;
 	float: right;
@@ -514,7 +485,7 @@ div.messages a.close {
 	color: $dark;
 }
 // }}}
-// # Main Menu {{{
+// # MAIN MENU {{{
 #block-system-main-menu h2.block-title {
 	display: none;
 }
@@ -539,6 +510,9 @@ div.messages a.close {
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
+// # SECTION {{{
+#section-content { margin: $default_margin; }
+// }}}
 // # BLOCKS {{{
 // ## Social Media Links {{{
 #block-jasm-service-list { margin-bottom: 10px; }
@@ -585,29 +559,39 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-// ## Facebook Widget {{{
+// ## Facebook Social Widget {{{
 
 #block-jasm-fb-like-box iframe {
 	width: 100%!important;
 	height:	75px!important;
-	margin: 0 0 -25px -10px;
+	margin: 0 0 -$default_margin -10px;
 	border:1px solid red;
 }
 
 // }}}
+// ## Twiter Social Widget {{{
+	#block-jasm-twitter-follow-button {
+	}
+// }}}
 // ## Email Subscription {{{
-#block-jasm-feedburner-mail-subscribe .form-item {
-	margin: 0;
-	float: left;
-}
+#block-jasm-feedburner-mail-subscribe {
 
-#block-jasm-feedburner-mail-subscribe .compact-form-label {
-	top: 4px;
-}
+	margin-bottom: $default_margin * 2;
 
-#block-jasm-feedburner-mail-subscribe .form-submit {
-	@include border-radius(0);
-	font-size: 85%;
+	.form-item {
+		margin: 0;
+		float: left;
+	}
+
+	.compact-form-label {
+		top: 4px;
+	}
+
+	.form-submit {
+		@include border-radius(0);
+		font-size: 85%;
+	}
+
 }
 // }}}
 // ## Specialties List {{{
@@ -654,8 +638,8 @@ ul.jasm-service-list a.rss {
 // }}}
 // }}}
 // # HOME PAGE {{{
-// ## Showcase {{{
-// ### Showcase General {{{
+// ## SHOWCASE {{{
+// ### SHOWCASE GENERAL {{{
 #block-views-showcase-generic {
 	margin-bottom: $default_margin;
 }
@@ -676,7 +660,7 @@ ul.jasm-service-list a.rss {
 	text-align: center;
 }
 // }}}
-// ### Showcase Pager {{{
+// ### SHOWCASE PAGER {{{
 .view-showcase .skin-default .views-slideshow-controls-bottom {
 	clear: both;
 }
@@ -706,7 +690,7 @@ ul.jasm-service-list a.rss {
 	margin: 0 10px;
 }
 // }}}
-// ### Showcase Elements TODO: Needs parsing // {{{
+// ### SHOWCASE ELEMENTS TODO: Needs parsing // {{{
 .view-showcase {}
 
 .view-showcase .views_slideshow_cycle_main {
@@ -804,7 +788,7 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // }}}
-// ## Trending (Twitter) {{{
+// ## TRENDING (TWITTER) {{{
 // Full block
 #block-jasm-twitter-search-widget {
 	width: 100%!important;
@@ -894,9 +878,51 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // }}}
+// # ABOUT PAGE {{{
+.context-about {
+	#about_graphic {
+		margin: 0 auto $default_margin;
+		width: 240px;
+	}
+
+	img.media-image {
+		border: 15px solid $light;
+		padding: 5px;
+	}
+}
+
+#block-views-professionals-pro-team-block {
+	.views-row {
+		margin-bottom: $default_margin * 3;
+		overflow: hidden;
+	}
+
+	.user-picture a img { border: 15px solid $light; }
+
+	.views-row-odd .user-picture a img {
+		float: left;
+		margin-right: $default_margin;
+	}
+
+	.views-row-even .user-picture a img {
+		float: right;
+		margin-left: $default_margin;
+	}
+
+	.views-field-realname { font-size: 140%; }
+
+	.views-row-even {
+		.views-field-realname,
+		.views-field-field-title { text-align: right; }
+	}
+
+	.views-field-field-pro-bio { margin-top: $default_margin; }
+}
+// }}}
 // # BLOG PAGE {{{
-// ## Blog List {{{
+// ## BLOG LIST {{{
 .view-blog {
+
 	.views-row {
 		border-bottom: 1px solid $lighter;
 		margin-bottom: $default_margin;
@@ -904,13 +930,11 @@ ul.jasm-service-list a.rss {
 		overflow: auto; // Clear the floated more link.
 	}
 
-	.views-row-last {
-		border-bottom: none;
-	}
+	.views-row-last { border-bottom: none; }
 
 	.views-field-field-title-graphic {
 		float: left;
-		margin-right: $default_margin;
+		margin-bottom: $default_margin;
 	}
 
 	.sharethis-wrapper {
@@ -924,21 +948,16 @@ ul.jasm-service-list a.rss {
 		margin-right: 5px;
 	}
 
-	.views-field-realname-1 {
-		font-style: italic;
-	}
+	.views-field-realname-1 { font-style: italic; }
 
-	.views-field-realname-1 a {
-		color: $darkest;
-	}
+	.views-field-realname-1 a { color: $darkest; }
 
-	.views-field-view-node .button a {
-		float: right;
-	}
+	.views-field-view-node .button a { float: right; }
+
 }
 // }}}
-// ## Blog Full Node {{{
-// ### Content Body {{{
+// ## BLOG FULL NODE {{{
+// ### CONTENT BODY {{{
 .node-blog {
 	.field-name-field-title-graphic {
 		margin-bottom: $default_margin;
@@ -971,7 +990,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// ### Facebook Comments {{{
+// ### FACEBOOK COMMENTS {{{
 #block-facebook-comments-facebook-comments {
 	h2.block-title {display: none;}
 
@@ -993,6 +1012,7 @@ ul.jasm-service-list a.rss {
 // }}}
 // FOOTER SECTION {{{
 // *****************************************************************************
+// # SECTION {{{
 #section-footer {
 	.block,
 	p,
@@ -1006,44 +1026,43 @@ ul.jasm-service-list a.rss {
 	blockquote,
 	h1,h2,h3,h4,h5,h6 { margin: 0; }
 }
-
+// }}}
+// # FOOT {{{
 #zone-foot-wrapper {
+	margin: 0;
 	background: $lighter;
 	color: $dark;
-	height: 150px;
-
-	.region { height: 150px; }
 
 	#block-nodeblock-site-disclamer {
-		h2.block-title {display: none;}
+		h2.block-title { display: none; }
 
 		.content p {
-			display: table-cell;
-			height: 150px;
-			vertical-align: middle;
+			padding: 25px;
 		}
 	}
 }
-
+// }}}
+// # BOTTOM {{{
 #zone-bottom-wrapper {
 		background: $dark;
 		color: $light;
-		height: 60px;
-		line-height: 60px;
-
-	.region { height: 60px; }
 
 	#block-menu-menu-auxiliary  {
-		h2.block-title {display: none;}
+		padding-top: $default_margin;
+
+		h2.block-title { display: none; }
 
 		ul.menu { margin: 0; }
+
 		ul.menu li { display: inline; }
 
 		ul.menu li a { color: $lightest; }
 	}
 
 	#block-nodeblock-copyright {
-		h2.block-title {display: none;}
+		margin-top: $default_margin;
+
+		h2.block-title { display: none; }
 
 		.content p {
 			text-align: right;
@@ -1051,5 +1070,5 @@ ul.jasm-service-list a.rss {
 		}
 	}
 }
-
+// }}}
 // }}}
