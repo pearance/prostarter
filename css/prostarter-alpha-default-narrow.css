@@ -1195,9 +1195,3 @@ ul.jasm-service-list li.last {
   float: right;
   margin-top: 10px;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000352}}
-.view-blog .views-field-field-title-graphic {
-  float: left;
-  margin-right: 15px;
-}

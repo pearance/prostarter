@@ -24,14 +24,15 @@ $default_margin: 15px;
 @mixin button-style {
 	@include border-radius(5px);
 	border: none;
+	background: $dark;
 	cursor: pointer;
 	color: $lightest;
-	background: $dark;
 	font: 90%/1.5 Arial, sans-serif;
 	outline: 0;
 	overflow: visible;
 	padding: 1px 7px;
 	text-shadow: none;
+	text-decoration: none;
 	width: auto;
 }
 // }}}

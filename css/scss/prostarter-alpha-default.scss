@@ -29,19 +29,19 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 // # ABOUT PAGE {{{
 .context-about {
 	#about_graphic {
-		margin: 0 0 15px 15px;
+		margin: 0 10px 15px 15px;
 		float: right;
 	}
-
-	img.media-image {
-		// margin: 0 0 15px 15px;
-	}
 }
+
 // }}}
 // # HOME PAGE {{{
-// # BLOG LIST {{{
-.view-blog .views-field-field-title-graphic {
-	margin-top: 6px;
+// }}}
+// # BLOG PAGE {{{
+// ## BLOG TEASER {{{
+.view-blog .node-teaser .field-name-field-title-graphic {
+	margin: 6px $default_margin 0 0;
+	float: left;
 }
 // }}}
 // }}}

@@ -1173,13 +1173,14 @@ ul.icons li .icon-large:before {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000331}}
 .context-about #about_graphic {
-  margin: 0 0 15px 15px;
+  margin: 0 10px 15px 15px;
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000343}}
-.view-blog .views-field-field-title-graphic {
-  margin-top: 6px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000342}}
+.view-blog .node-teaser .field-name-field-title-graphic {
+  margin: 6px 15px 0 0;
+  float: left;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000354}}

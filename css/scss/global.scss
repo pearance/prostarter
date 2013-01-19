@@ -20,18 +20,17 @@ body {
 // # Anchor Elements {{{
 a:link,
 a:visited {
-	color: $dark;
+	color: $darkest;
 	text-decoration: none;
 }
 
 a:hover {
 	color: #202124;
+	text-decoration: underline;
 }
 
 a:active {
 	color: #202124;
-	text-decoration: none;
-	color: #000000;
 }
 // }}}
 // # Heading Elements {{{
@@ -411,11 +410,15 @@ dt,.admin h3 {
 	margin: 0;
 }
 
+// Messages
+div.messages { margin: 10px 0 20px; }
+
 /* Message's Close X TODO: use a real icon */
 div.messages a.close {
+	font-family: Tahoma;
 	float: right;
-	margin: -10px 10px 0;
-	font-size: 170%;
+	margin: 0 20px 20px;
+	font-size: 100%;
 	color: #999;
 	text-decoration: none;
 }
@@ -564,7 +567,7 @@ ul.jasm-service-list a.rss {
 #block-jasm-fb-like-box iframe {
 	width: 100%!important;
 	height:	75px!important;
-	margin: 0 0 -$default_margin -10px;
+	margin: 0 0 -15px -10px;
 	border:1px solid red;
 }
 
@@ -887,7 +890,6 @@ ul.jasm-service-list a.rss {
 
 	img.media-image {
 		border: 15px solid $light;
-		padding: 5px;
 	}
 }
 
@@ -920,52 +922,45 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // # BLOG PAGE {{{
-// ## BLOG LIST {{{
+// ## BLOG TEASER {{{
 .view-blog {
-
 	.views-row {
 		border-bottom: 1px solid $lighter;
 		margin-bottom: $default_margin;
-		padding-bottom: $default_margin + 10px;
-		overflow: auto; // Clear the floated more link.
+		padding-bottom: $default_margin;
 	}
 
 	.views-row-last { border-bottom: none; }
 
-	.views-field-field-title-graphic {
-		float: left;
-		margin-bottom: $default_margin;
+	.node-teaser {
+		.sharethis-wrapper { margin: 0 0 $default_margin -3px; }
+
+		.field-name-field-title-graphic { margin-bottom: $default_margin; }
+
+		.field-submitted {
+			float: left;
+			font-style: italic;
+			margin-right: 50px;
+		}
+
+		.field-name-readmore .button {
+			float: right;
+			margin-bottom: $default_margin;
+		}
 	}
-
-	.sharethis-wrapper {
-		float: right;
-		margin: 0 0 10px 10px;
-	}
-
-	.field-submitted {
-		float: left;
-		font-style: italic;
-		margin-right: 5px;
-	}
-
-	.views-field-realname-1 { font-style: italic; }
-
-	.views-field-realname-1 a { color: $darkest; }
-
-	.views-field-view-node .button a { float: right; }
-
 }
+
 // }}}
 // ## BLOG FULL NODE {{{
 // ### CONTENT BODY {{{
-.node-blog {
+.node-type-blog .node-blog {
 	.field-name-field-title-graphic {
 		margin-bottom: $default_margin;
 	}
 
 	.sharethis-wrapper {
-		float: right;
-		margin: 0 0 10px 10px;
+		// float: right;
+		// margin: 0 0 10px 10px;
 	}
 
 	.field-submitted {
