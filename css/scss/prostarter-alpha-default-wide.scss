@@ -16,11 +16,12 @@
 // # BLOCKS {{{
 // ## Social Media Links {{{
 #block-jasm-service-list .item-list {
-	min-width: 380px;
+	// min-width: 380px; // for centering
 }
 
 .item-list ul.jasm-service-list li {
-	margin: 0 5.6%;
+	// margin: 0 5.6%; // for centering
+	margin: 15px;
 }
 
 ul.jasm-service-list li.first { margin-left: 0; }
@@ -35,6 +36,16 @@ ul.jasm-service-list li.last { margin-right: 0; }
 #block-jasm-feedburner-mail-subscribe .form-text {
 	width: 300px;
 }
+// }}}
+// }}}
+// # BLOG PAGE {{{
+// ## BLOG FULL {{{
+// ### CONTENT BODY {{{
+.node-type-blog .node-blog {
+	.flippy li.next { right: -775px; }
+	.flippy li.previous { left: -385px; }
+}
+// }}}
 // }}}
 // }}}
 // }}}

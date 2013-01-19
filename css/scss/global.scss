@@ -385,6 +385,10 @@ h2.node-title {
 	font-size: 160%;
 }
 
+h2.node-title a {
+	color: $dark;
+}
+
 h2.block-title {
 	background: $lighter;
 	padding: 5px 0;
@@ -521,14 +525,15 @@ div.messages a.close {
 #block-jasm-service-list { margin-bottom: 10px; }
 
 #block-jasm-service-list .item-list {
-	// display: table;
-	// margin: 0 auto;
-	// min-width: 240px;
+	// display: table; // for centering
+	// margin: 0 auto; // for centering
+	// min-width: 240px; // for centering
 }
 
 ul.jasm-service-list li {
 	float: left;
-	margin: 0 4%;
+	// margin: 0 4%; // for centering
+	margin: 0 5px;
 }
 
 ul.jasm-service-list li.first { margin-left: 0; }
@@ -951,16 +956,15 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-// ## BLOG FULL NODE {{{
+// ## BLOG FULL {{{
 // ### CONTENT BODY {{{
 .node-type-blog .node-blog {
-	.field-name-field-title-graphic {
+	.sharethis-wrapper {
 		margin-bottom: $default_margin;
 	}
 
-	.sharethis-wrapper {
-		// float: right;
-		// margin: 0 0 10px 10px;
+	.field-name-field-title-graphic {
+		margin-bottom: $default_margin;
 	}
 
 	.field-submitted {
@@ -968,12 +972,9 @@ ul.jasm-service-list a.rss {
 		margin-bottom: $default_margin;
 	}
 
-	.field-submitted a {
-		color: $darkest;
-	}
-
 	.field-name-field-blog-tags ul.field-items {
 		padding: 0;
+		margin-bottom: $default_margin * 4;
 	}
 
 	.field-name-field-blog-tags li.field-item {
@@ -982,8 +983,41 @@ ul.jasm-service-list a.rss {
 
 	.field-name-field-blog-tags li.field-item a {
 		@include button-style;
+		padding: 3px 6px;
 	}
+
+	.flippy { text-align: right; }
+
+	.flippy li.next,
+	.flippy li.previous {
+		font-size: 200%; // 300% for circled bg.
+		display: inline;
+		position: static;
+		padding: 0 20px;
+
+		// @include border-radius(25px); // for circled bg.
+		// background: #EEE; // for circled bg.
+		// width: 40px; // for circled bg.
+		// height: 40px; // for circled bg.
+	}
+
+	.flippy li.next a:before { content: "NEXT" }
+	.flippy li.previous a:after { content: "PREV" }
+
+	.flippy li a {
+		color: #F1F1F1;
+		text-decoration: none;
+		// position: relative; // for circled bg.
+		// top: -20px; // for circled bg.
+	}
+
+	.flippy li a:hover {
+		color: $dark;
+	}
+
+
 }
+
 // }}}
 // ### FACEBOOK COMMENTS {{{
 #block-facebook-comments-facebook-comments {

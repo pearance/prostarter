@@ -6,7 +6,7 @@
 ?>
 <?php # Devel Debug Info ?>
 <?php dsm($node); ?>
-<?php dsm($content); ?>
+<?php // dsm($content); ?>
 
 <script>
 	jQuery(document).ready(function() {
@@ -35,15 +35,16 @@
 		print $output;
 	?>
 
-	<div<?php print $content_attributes; ?>>
-		<?php hide($content['comments']); ?>
+	<?php hide($content['comments']); ?>
 
+	<div<?php print $content_attributes; ?>>
+		<?php	print render($content['sharethis']); ?>
 		<?php print render($content['field_title_graphic']); ?>
 
 		<?php if ($display_submitted): ?>
 			<div class="field-submitted">
 				<?php // print $user_picture; ?>
-				<?php if (time() - $node->created < 86400): ?>
+				<?php if (time() - $node->created < 31536000): ?>
 					<time class="timeago" datetime="<?php print $time_ago; ?>"><?php print $date; ?></time>
 				<?php else: ?>
 					Posted <?php print $date; ?>

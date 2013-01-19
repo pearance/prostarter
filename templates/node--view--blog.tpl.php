@@ -29,17 +29,17 @@
 
 	<?php ### BODY ### ?>
 	<?php
-		hide($content);
-		hide($content['field_blog_tags']);
-		hide($content['comments']);
-		hide($content['links']['#links']['node-readmore']);
-	?>
-
-	<?php
 		// Inject workbench info block into node.
 		$block = block_load('workbench', 'block');
 		$output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block))));
 		print $output;
+	?>
+
+	<?php
+		hide($content);
+		hide($content['field_blog_tags']);
+		hide($content['comments']);
+		hide($content['links']['#links']['node-readmore']);
 	?>
 
 	<div<?php print $content_attributes; ?>>
