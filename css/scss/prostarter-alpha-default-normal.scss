@@ -49,6 +49,18 @@ ul.jasm-service-list li.last { margin-right: 0; }
 	.flippy li.next { right: -615px; }
 	.flippy li.previous { left: -305px; }
 }
+
+.view-Professionals {
+	.views-field-picture {
+		width: 21%;
+	}
+
+	.views-field-realname,
+	.views-field-field-title,
+	.views-field-field-bio-summary {
+		width: 78%;
+	}
+}
 // }}}
 // }}}
 // }}}

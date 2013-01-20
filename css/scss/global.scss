@@ -417,6 +417,8 @@ dt,.admin h3 {
 // Messages
 div.messages { margin: 10px 0 20px; }
 
+div.messages div { margin: 20px 0; }
+
 /* Message's Close X TODO: use a real icon */
 div.messages a.close {
 	font-family: Tahoma;
@@ -974,7 +976,7 @@ ul.jasm-service-list a.rss {
 
 	.field-name-field-blog-tags ul.field-items {
 		padding: 0;
-		margin-bottom: $default_margin * 4;
+		margin-bottom: $default_margin;
 	}
 
 	.field-name-field-blog-tags li.field-item {
@@ -986,7 +988,9 @@ ul.jasm-service-list a.rss {
 		padding: 3px 6px;
 	}
 
-	.flippy { text-align: right; }
+	.flippy {
+		text-align: right;
+	}
 
 	.flippy li.next,
 	.flippy li.previous {
@@ -1014,10 +1018,36 @@ ul.jasm-service-list a.rss {
 	.flippy li a:hover {
 		color: $dark;
 	}
-
-
 }
 
+.view-Professionals {
+	.view-content {
+		background: #F1F1F1;
+		font-size: 75%;
+		padding: 25px;
+		overflow: hidden;
+	}
+
+	.views-field-picture {
+		float: left;
+		width: 15%;
+	}
+
+	.views-field-realname,
+	.views-field-field-title,
+	.views-field-field-bio-summary {
+		float: right;
+		width: 80%;
+	}
+
+	.views-field-field-title {
+		font-style: italic;
+	}
+
+	.views-field-field-bio-summary p {
+		margin: 10px 0 0 0;
+	}
+}
 // }}}
 // ### FACEBOOK COMMENTS {{{
 #block-facebook-comments-facebook-comments {

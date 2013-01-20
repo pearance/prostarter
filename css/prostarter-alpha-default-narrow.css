@@ -1199,3 +1199,14 @@ ul.jasm-service-list li.last {
 .node-type-blog .node-blog .flippy li.previous {
   left: -225px;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000358}}
+.view-Professionals .views-field-picture {
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000364}}
+.view-Professionals .views-field-realname,
+.view-Professionals .views-field-field-title,
+.view-Professionals .views-field-field-bio-summary {
+  width: 70%;
+}

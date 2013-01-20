@@ -5,7 +5,7 @@
  */
 ?>
 <?php # Devel Debug Info ?>
-<?php dsm($node); ?>
+<?php // dsm($node); ?>
 <?php // dsm($content); ?>
 
 <script>
