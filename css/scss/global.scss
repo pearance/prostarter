@@ -549,23 +549,23 @@ ul.jasm-service-list a {
 }
 
 ul.jasm-service-list a.facebook {
-	background:url(../gfx/icons/facebook-icon.png) no-repeat;
+	background:url(../gfx/icons/facebook.png) no-repeat;
 }
 
 ul.jasm-service-list a.twitter {
-	background:url(../gfx/icons/twitter-icon.png) no-repeat;
+	background:url(../gfx/icons/twitter.png) no-repeat;
 }
 
 ul.jasm-service-list a[class="google+"] {
-	background:url(../gfx/icons/googleplus-icon.png) no-repeat;
+	background:url(../gfx/icons/googleplus.png) no-repeat;
 }
 
 ul.jasm-service-list a.linkedin {
-	background:url(../gfx/icons/linkedin-icon.png) no-repeat;
+	background:url(../gfx/icons/linkedin.png) no-repeat;
 }
 
 ul.jasm-service-list a.rss {
-	background:url(../gfx/icons/rss-icon.png) no-repeat;
+	background:url(../gfx/icons/rss.png) no-repeat;
 }
 
 // }}}
@@ -616,7 +616,7 @@ ul.jasm-service-list a.rss {
 }
 
 #block-views-specialties-block ul.specialties li a {
-	background: $lighter url(../gfx/icons/dot-icon-dark.png) no-repeat 15px center;
+	background: $lighter url(../gfx/icons/dot-dark.png) no-repeat 15px center;
 	display: block;
 	padding: 10px 0;
 	margin: 15px 0;
@@ -624,8 +624,9 @@ ul.jasm-service-list a.rss {
 }
 
 #block-views-specialties-block ul.specialties li a:hover {
-	background: $dark url(../gfx/icons/dot-icon-light.png) no-repeat 15px center;
+	background: $dark url(../gfx/icons/dot-light.png) no-repeat 15px center;
 	color: $lightest;
+	text-decoration: none;
 }
 // }}}
 // ## Testimonials {{{
@@ -988,6 +989,7 @@ ul.jasm-service-list a.rss {
 		padding: 3px 6px;
 	}
 
+	// Next & Previous Links
 	.flippy {
 		text-align: right;
 	}
@@ -1020,6 +1022,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 
+// About the Author Block
 .view-Professionals {
 	.view-content {
 		background: #F1F1F1;
@@ -1067,6 +1070,78 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // }}}
+// }}}
+// # ANSWERS PAGE {{{
+.faq {
+	.faq-description {
+		#pre-description {
+			@include background-size(cover);
+			background: url(../gfx/answers.jpg) no-repeat center center;
+			height: 150px;
+			margin-bottom: $default_margin;
+		}
+	}
+
+	#faq-expand-all {
+		margin-bottom: $default_margin;
+
+		a {
+			@include button-style;
+			padding: 3px 7px;
+			text-transform: capitalize;
+		}
+	}
+
+
+	.faq-category-group {
+		.faq-header {
+			a {
+				background: $lighter url(../gfx/icons/tri-collapsed-dark.png) no-repeat 20px center;
+				color: $dark;
+				display: block;
+				padding: 5px;
+				text-indent: 40px;
+				text-decoration: none;
+			}
+
+			a:hover {
+				background: $dark url(../gfx/icons/tri-collapsed-light.png) no-repeat 20px center;
+				color: $lightest;
+			}
+		}
+
+		.faq-category-qa-visible {
+			a {
+				background: $lighter url(../gfx/icons/tri-expanded-dark.png) no-repeat 15px center;
+				color: $dark;
+			}
+
+			a:hover {
+				background: $dark url(../gfx/icons/tri-expanded-light.png) no-repeat 15px center;
+				color: $lightest;
+			}
+		}
+	}
+
+	.faq-question a {
+		background: url(../gfx/icons/tri-mini-collapsed.png) no-repeat 5px center;
+		padding-left: 20px;
+		margin: 3px 0;
+		text-decoration: none;
+	}
+
+	.faq-qa-visible a {
+		background: url(../gfx/icons/tri-mini-expanded.png) no-repeat 0px center;
+	}
+
+	.faq-answer {
+		margin: $default_margin 0;
+
+		.field-name-body {
+			margin-top: $default_margin;
+		}
+	}
+}
 // }}}
 // }}}
 // FOOTER SECTION {{{

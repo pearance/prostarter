@@ -1159,7 +1159,7 @@ ul.icons li .icon-large:before {
 /* Margins/Padding */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-wide\.scss}line{font-family:\0000322}}
 .item-list ul.jasm-service-list li {
-  margin: 15px;
+  margin: 0 12px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-wide\.scss}line{font-family:\0000327}}
