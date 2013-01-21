@@ -1072,8 +1072,10 @@ ul.jasm-service-list a.rss {
 // }}}
 // }}}
 // # ANSWERS PAGE {{{
-.faq {
-	.faq-description {
+.page-faq-page {
+	#block-nodeblock-answers-mast {
+		h2.block-title { display: none; }
+
 		#pre-description {
 			@include background-size(cover);
 			background: url(../gfx/answers.jpg) no-repeat center center;
