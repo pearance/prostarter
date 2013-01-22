@@ -1193,12 +1193,12 @@ ul.jasm-service-list li.last {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-wide\.scss}line{font-family:\0000350}}
-.view-Professionals .views-field-picture {
+.view-display-id-pro_team_block .views-field-picture {
   width: 17%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-wide\.scss}line{font-family:\0000356}}
-.view-Professionals .views-field-realname,
-.view-Professionals .views-field-field-title,
-.view-Professionals .views-field-field-bio-summary {
+.view-display-id-pro_team_block .views-field-realname,
+.view-display-id-pro_team_block .views-field-field-title,
+.view-display-id-pro_team_block .views-field-field-bio-summary {
   width: 83%;
 }

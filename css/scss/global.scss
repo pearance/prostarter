@@ -899,34 +899,34 @@ ul.jasm-service-list a.rss {
 	img.media-image {
 		border: 15px solid $light;
 	}
-}
 
-#block-views-professionals-pro-team-block {
-	.views-row {
-		margin-bottom: $default_margin * 3;
-		overflow: hidden;
+	.view-display-id-pro_team_block {
+		.views-row {
+			margin-bottom: $default_margin * 3;
+			overflow: hidden;
+		}
+
+		.user-picture a img { border: 15px solid $light; }
+
+		.views-row-odd .user-picture a img {
+			float: left;
+			margin-right: $default_margin;
+		}
+
+		.views-row-even .user-picture a img {
+			float: right;
+			margin-left: $default_margin;
+		}
+
+		.views-field-realname { font-size: 140%; }
+
+		.views-row-even {
+			.views-field-realname,
+			.views-field-field-title { text-align: right; }
+		}
+
+		.views-field-field-pro-bio { margin-top: $default_margin; }
 	}
-
-	.user-picture a img { border: 15px solid $light; }
-
-	.views-row-odd .user-picture a img {
-		float: left;
-		margin-right: $default_margin;
-	}
-
-	.views-row-even .user-picture a img {
-		float: right;
-		margin-left: $default_margin;
-	}
-
-	.views-field-realname { font-size: 140%; }
-
-	.views-row-even {
-		.views-field-realname,
-		.views-field-field-title { text-align: right; }
-	}
-
-	.views-field-field-pro-bio { margin-top: $default_margin; }
 }
 // }}}
 // # BLOG PAGE {{{
@@ -1023,7 +1023,7 @@ ul.jasm-service-list a.rss {
 }
 
 // About the Author Block
-.view-Professionals {
+.view-display-id-about_author_block {
 	.view-content {
 		background: #F1F1F1;
 		font-size: 75%;

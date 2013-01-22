@@ -2170,37 +2170,36 @@ ul.jasm-service-list a.rss {
 .context-about img.media-image {
   border: 15px solid #cccccc;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003905}}
-#block-views-professionals-pro-team-block .views-row {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003904}}
+.context-about .view-display-id-pro_team_block .views-row {
   margin-bottom: 45px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003910}}
-#block-views-professionals-pro-team-block .user-picture a img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003909}}
+.context-about .view-display-id-pro_team_block .user-picture a img {
   border: 15px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003912}}
-#block-views-professionals-pro-team-block .views-row-odd .user-picture a img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003911}}
+.context-about .view-display-id-pro_team_block .views-row-odd .user-picture a img {
   float: left;
   margin-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003917}}
-#block-views-professionals-pro-team-block .views-row-even .user-picture a img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003916}}
+.context-about .view-display-id-pro_team_block .views-row-even .user-picture a img {
   float: right;
   margin-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003922}}
-#block-views-professionals-pro-team-block .views-field-realname {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003921}}
+.context-about .view-display-id-pro_team_block .views-field-realname {
   font-size: 140%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003926}}
-#block-views-professionals-pro-team-block .views-row-even .views-field-realname,
-#block-views-professionals-pro-team-block .views-row-even .views-field-field-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003925}}
+.context-about .view-display-id-pro_team_block .views-row-even .views-field-realname,
+.context-about .view-display-id-pro_team_block .views-row-even .views-field-field-title {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003929}}
-#block-views-professionals-pro-team-block .views-field-field-pro-bio {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003928}}
+.context-about .view-display-id-pro_team_block .views-field-field-pro-bio {
   margin-top: 15px;
 }
 
@@ -2307,30 +2306,30 @@ ul.jasm-service-list a.rss {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031027}}
-.view-Professionals .view-content {
+.view-display-id-about_author_block .view-content {
   background: #F1F1F1;
   font-size: 75%;
   padding: 25px;
   overflow: hidden;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031034}}
-.view-Professionals .views-field-picture {
+.view-display-id-about_author_block .views-field-picture {
   float: left;
   width: 15%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031041}}
-.view-Professionals .views-field-realname,
-.view-Professionals .views-field-field-title,
-.view-Professionals .views-field-field-bio-summary {
+.view-display-id-about_author_block .views-field-realname,
+.view-display-id-about_author_block .views-field-field-title,
+.view-display-id-about_author_block .views-field-field-bio-summary {
   float: right;
   width: 80%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031046}}
-.view-Professionals .views-field-field-title {
+.view-display-id-about_author_block .views-field-field-title {
   font-style: italic;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031050}}
-.view-Professionals .views-field-field-bio-summary p {
+.view-display-id-about_author_block .views-field-field-bio-summary p {
   margin: 10px 0 0 0;
 }
 
