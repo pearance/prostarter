@@ -37,7 +37,7 @@ a:active {
 h1,h2,h3,h4,h5,h6 {
 	letter-spacing: -.05em;
 	font-family: Monda, sans-serif;
-	margin-bottom: $default_margin;
+	margin-bottom: $dm;
 }
 
 h1 {
@@ -149,25 +149,21 @@ input[type="text"],
 input[type="time"],
 input[type="url"],
 input[type="week"] {
-	-webkit-appearance: none;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	border-radius: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding;
-	background-clip: padding-box;
-	background-color: #fff;
+	@include border-radius(none);
+	@include box-sizing(border-box);
+	@include background-clip(padding);
+	background-color: #FFF;
 	border: 1px solid;
-	border-color: #848484 #c1c1c1 #e1e1e1;
+	border-color: #848484 #C1C1C1 #E1E1E1;
 	color: #000;
 	outline: 0;
 	padding: 2px 3px;
 	// font-size: 13px;
 	// font-family: Arial, sans-serif;
-	height: 1.8em;
+	// height: 1.8em;
+	height: 30px;
+	width: 100%;
+	margin-bottom: $dm;
 	*padding-top: 2px; /* IE7 */
 	*padding-bottom: 1px; /* IE7 */
 	*height: auto; /* IE7 */
@@ -234,9 +230,7 @@ select[disabled],
 select[disabled] option,
 select[disabled] optgroup,
 textarea[disabled] {
-	-moz-box-shadow: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
+	@include box-shadow(none);
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
@@ -264,6 +258,10 @@ select[multiple] {
 		background-image: none;
 		padding: 0;
   }
+}
+
+.form-textarea-wrapper {
+	width: 100%;
 }
 
 textarea {
@@ -324,6 +322,12 @@ optgroup {
 .ie6-input-disabled {
 	background: #eee;
 }
+
+// Compact Form Labels
+.compact-form-label {
+	line-height: 30px;
+}
+
 // }}}
 // # Other Elements {{{
 p,
@@ -336,14 +340,14 @@ address,
 fieldset,
 blockquote,
 h1,h2,h3,h4,h5,h6 {
-	margin-bottom: $default_margin;
+	margin-bottom: $dm;
 }
 
 dd {
 	padding-left: 10px;
 	font-size: 90%;
 	font-style: italic;
-	margin-bottom: $default_margin;
+	margin-bottom: $dm;
 }
 
 hr {
@@ -363,7 +367,7 @@ img {
 blockquote {
 	font-style: italic;
 	position: relative;
-	padding-top: $default_margin;
+	padding-top: $dm;
 	text-indent: 30px;
 
 	span:before {
@@ -406,7 +410,7 @@ h2.block-title {
 }
 
 .block {
-	margin-bottom: $default_margin;
+	margin-bottom: $dm;
 }
 
 dt,.admin h3 {
@@ -417,7 +421,7 @@ dt,.admin h3 {
 // Messages
 div.messages { margin: 10px 0 20px; }
 
-div.messages div { margin: 20px 0; }
+div.messages div { margin: 30px 0; }
 
 /* Message's Close X TODO: use a real icon */
 div.messages a.close {
@@ -434,7 +438,7 @@ div.messages a.close {
 // HEADER SECTION {{{
 // *****************************************************************************
 // # SECTION {{{
-#section-header { margin: $default_margin; }
+#section-header { margin: $dm; }
 // }}}
 // # USER MENU {{{
 #block-system-user-menu h2.block-title {
@@ -455,7 +459,7 @@ div.messages a.close {
 // # BRANDING {{{
 #block-delta-blocks-logo .logo-img {
 	text-align: center;
-	margin-bottom: $default_margin;
+	margin-bottom: $dm;
 }
 // }}}
 // # CALL TO ACTION {{{
@@ -520,7 +524,7 @@ div.messages a.close {
 // CONTENT SECTION {{{
 // *****************************************************************************
 // # SECTION {{{
-#section-content { margin: $default_margin; }
+#section-content { margin: $dm; }
 // }}}
 // # BLOCKS {{{
 // ## Social Media Links {{{
@@ -586,20 +590,18 @@ ul.jasm-service-list a.rss {
 // ## Email Subscription {{{
 #block-jasm-feedburner-mail-subscribe {
 
-	margin-bottom: $default_margin * 2;
+	margin-bottom: $dm * 2;
 
 	.form-item {
 		margin: 0;
 		float: left;
 	}
 
-	.compact-form-label {
-		top: 4px;
-	}
-
 	.form-submit {
 		@include border-radius(0);
 		font-size: 85%;
+		padding-top: 5px;
+		padding-bottom: 4px;
 	}
 
 }
@@ -639,7 +641,7 @@ ul.jasm-service-list a.rss {
 	.button {float: right;}
 
 	.view-footer {
-		margin-top: $default_margin;
+		margin-top: $dm;
 		overflow: auto;
 	}
 }
@@ -652,7 +654,7 @@ ul.jasm-service-list a.rss {
 // ## SHOWCASE {{{
 // ### SHOWCASE GENERAL {{{
 #block-views-showcase-generic {
-	margin-bottom: $default_margin;
+	margin-bottom: $dm;
 }
 
 #block-views-showcase-generic .views-field-title {
@@ -733,7 +735,7 @@ ul.jasm-service-list a.rss {
 
 .view-showcase .views-field-field-subtitle {
 	color: red;
-	margin-bottom: $default_margin;
+	margin-bottom: $dm;
 }
 
 /* Read More */
@@ -820,7 +822,7 @@ ul.jasm-service-list a.rss {
 #block-jasm-twitter-search-widget #twtr-widget-1 h3,
 #block-jasm-twitter-search-widget #twtr-widget-1 h4 {
 	background: none!important;
-	margin-bottom: $default_margin;
+	margin-bottom: $dm;
 }
 
 
@@ -892,7 +894,7 @@ ul.jasm-service-list a.rss {
 // # ABOUT PAGE {{{
 .context-about {
 	#about_graphic {
-		margin: 0 auto $default_margin;
+		margin: 0 auto $dm;
 		width: 240px;
 	}
 
@@ -902,7 +904,7 @@ ul.jasm-service-list a.rss {
 
 	.view-display-id-pro_team_block {
 		.views-row {
-			margin-bottom: $default_margin * 3;
+			margin-bottom: $dm * 3;
 			overflow: hidden;
 		}
 
@@ -910,12 +912,12 @@ ul.jasm-service-list a.rss {
 
 		.views-row-odd .user-picture a img {
 			float: left;
-			margin-right: $default_margin;
+			margin-right: $dm;
 		}
 
 		.views-row-even .user-picture a img {
 			float: right;
-			margin-left: $default_margin;
+			margin-left: $dm;
 		}
 
 		.views-field-realname { font-size: 140%; }
@@ -925,7 +927,7 @@ ul.jasm-service-list a.rss {
 			.views-field-field-title { text-align: right; }
 		}
 
-		.views-field-field-pro-bio { margin-top: $default_margin; }
+		.views-field-field-pro-bio { margin-top: $dm; }
 	}
 }
 // }}}
@@ -934,16 +936,16 @@ ul.jasm-service-list a.rss {
 .view-blog {
 	.views-row {
 		border-bottom: 1px solid $lighter;
-		margin-bottom: $default_margin;
-		padding-bottom: $default_margin;
+		margin-bottom: $dm;
+		padding-bottom: $dm;
 	}
 
 	.views-row-last { border-bottom: none; }
 
 	.node-teaser {
-		.sharethis-wrapper { margin: 0 0 $default_margin -3px; }
+		.sharethis-wrapper { margin: 0 0 $dm -3px; }
 
-		.field-name-field-title-graphic { margin-bottom: $default_margin; }
+		.field-name-field-title-graphic { margin-bottom: $dm; }
 
 		.field-submitted {
 			float: left;
@@ -953,7 +955,7 @@ ul.jasm-service-list a.rss {
 
 		.field-name-readmore .button {
 			float: right;
-			margin-bottom: $default_margin;
+			margin-bottom: $dm;
 		}
 	}
 }
@@ -963,21 +965,21 @@ ul.jasm-service-list a.rss {
 // ### CONTENT BODY {{{
 .node-type-blog .node-blog {
 	.sharethis-wrapper {
-		margin-bottom: $default_margin;
+		margin-bottom: $dm;
 	}
 
 	.field-name-field-title-graphic {
-		margin-bottom: $default_margin;
+		margin-bottom: $dm;
 	}
 
 	.field-submitted {
 		font-style: italic;
-		margin-bottom: $default_margin;
+		margin-bottom: $dm;
 	}
 
 	.field-name-field-blog-tags ul.field-items {
 		padding: 0;
-		margin-bottom: $default_margin;
+		margin-bottom: $dm;
 	}
 
 	.field-name-field-blog-tags li.field-item {
@@ -1080,12 +1082,12 @@ ul.jasm-service-list a.rss {
 			@include background-size(cover);
 			background: url(../gfx/answers.jpg) no-repeat center center;
 			height: 150px;
-			margin-bottom: $default_margin;
+			margin-bottom: $dm;
 		}
 	}
 
 	#faq-expand-all {
-		margin-bottom: $default_margin;
+		margin-bottom: $dm;
 
 		a {
 			@include button-style;
@@ -1137,10 +1139,70 @@ ul.jasm-service-list a.rss {
 	}
 
 	.faq-answer {
-		margin: $default_margin 0;
+		margin: $dm 0;
 
 		.field-name-body {
-			margin-top: $default_margin;
+			margin-top: $dm;
+		}
+	}
+}
+// }}}
+// # CONTACT PAGE {{{
+.context-contact {
+	h2.block-title {
+		display: none;
+	}
+
+	// Google Map
+	.field-name-field-map-address {
+		iframe {
+			width: 100% !Important;
+			border:1px solid $light;
+		}
+	}
+
+	// Contact Form
+	.webform-client-form {
+		width: 90%;
+		margin: $dm * 2 auto 0 auto;
+
+		input[type="submit"] {
+			float: right;
+			position: relative;
+			top: -70px;
+			left: -50px;
+			width: auto;
+		}
+
+		.webform-component-markup {
+			background: #F1F1F1;
+
+			p {
+				padding: 15px;
+				padding-bottom: 70px;
+			}
+		}
+	}
+
+	// h/vCard Contact Info
+	#block-contactinfo-hcard {
+		.vcard {
+			margin-top: -10px;
+			padding: 10px;
+		}
+
+		.tagline,
+		.geo,
+		.country-name {
+			display: none;
+		}
+
+		.street-address {
+			display: block;
+		}
+
+		.phone {
+			margin: $dm 0;
 		}
 	}
 }
@@ -1184,7 +1246,7 @@ ul.jasm-service-list a.rss {
 		color: $light;
 
 	#block-menu-menu-auxiliary  {
-		padding-top: $default_margin;
+		padding-top: $dm;
 
 		h2.block-title { display: none; }
 
@@ -1196,7 +1258,7 @@ ul.jasm-service-list a.rss {
 	}
 
 	#block-nodeblock-copyright {
-		margin-top: $default_margin;
+		margin-top: $dm;
 
 		h2.block-title { display: none; }
 

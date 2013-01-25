@@ -40,7 +40,7 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 // # BLOG PAGE {{{
 // ## BLOG TEASER {{{
 .view-blog .node-teaser .field-name-field-title-graphic {
-	margin: 6px $default_margin 0 0;
+	margin: 6px $dm 0 0;
 	float: left;
 }
 // }}}
@@ -62,8 +62,8 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 		height: 0;
 	}
 
-	.flippy li.next { margin-left:$default_margin * 2; }
-	.flippy li.previous { margin-right: $default_margin * 2; }
+	.flippy li.next { margin-left:$dm * 2; }
+	.flippy li.previous { margin-right: $dm * 2; }
 
 	.flippy li.next a:before { content: none }
 	.flippy li.previous a:after { content: none }
@@ -71,6 +71,7 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 // }}}
 // }}}
 // }}}
+// # CONTACT PAGE {{{
 // }}}
 // FOOTER SECTION {{{
 // *****************************************************************************
