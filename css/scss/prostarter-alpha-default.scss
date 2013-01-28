@@ -46,9 +46,20 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 // }}}
 // ## BLOG FULL {{{
 // ### CONTENT BODY {{{
-.node-type-blog .node-blog {
-	.flippy li.next,
-	.flippy li.previous {
+// }}}
+// }}}
+// }}}
+// # CONTACT PAGE {{{
+// }}}
+// # COMMON ELEMENTS {{{
+
+// Next & Previous Links
+.region-content ul.flippy {
+	text-align: center;
+	height: 0;
+
+	li.next,
+	li.previous {
 		font-size: 750%; // 300% for circled bg.
 		display: inline-block;
 		position: relative;
@@ -57,21 +68,12 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 		width: 30px;
 	}
 
-	.flippy {
-		text-align: center;
-		height: 0;
-	}
+	li.next { margin-left:$dm * 2; }
+	li.previous { margin-right: $dm * 2; }
 
-	.flippy li.next { margin-left:$dm * 2; }
-	.flippy li.previous { margin-right: $dm * 2; }
-
-	.flippy li.next a:before { content: none }
-	.flippy li.previous a:after { content: none }
+	li.next a:before { content: none }
+	li.previous a:after { content: none }
 }
-// }}}
-// }}}
-// }}}
-// # CONTACT PAGE {{{
 // }}}
 // FOOTER SECTION {{{
 // *****************************************************************************

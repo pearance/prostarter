@@ -42,18 +42,13 @@ ul.jasm-service-list li.last { margin-right: 0; }
 // ## Email Subscription {{{
 #block-jasm-feedburner-mail-subscribe .form-submit {
 	float: right;
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 // }}}
 // }}}
 // # BLOG PAGE {{{
 // ## BLOG FULL {{{
 // ### CONTENT BODY {{{
-.node-type-blog .node-blog {
-	.flippy li.next { right: -455px; }
-	.flippy li.previous { left: -225px; }
-}
-
 .view-display-id-pro_team_block {
 	.views-field-picture {
 		width: 25%;
@@ -67,5 +62,11 @@ ul.jasm-service-list li.last { margin-right: 0; }
 }
 // }}}
 // }}}
+// }}}
+// # COMMON ELEMENTS {{{
+
+// Next & Previous Links
+.flippy li.next { right: -455px; }
+.flippy li.previous { left: -225px; }
 // }}}
 // }}}

@@ -45,11 +45,6 @@ ul.jasm-service-list li.last { margin-right: 0; }
 // # BLOG PAGE {{{
 // ## BLOG FULL {{{
 // ### CONTENT BODY {{{
-.node-type-blog .node-blog {
-	.flippy li.next { right: -615px; }
-	.flippy li.previous { left: -305px; }
-}
-
 .view-display-id-pro_team_block {
 	.views-field-picture {
 		width: 21%;
@@ -63,5 +58,11 @@ ul.jasm-service-list li.last { margin-right: 0; }
 }
 // }}}
 // }}}
+// }}}
+// # COMMON ELEMENTS {{{
+
+// Next & Previous Links
+.flippy li.next { right: -615px; }
+.flippy li.previous { left: -305px; }
 // }}}
 // }}}
