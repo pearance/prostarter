@@ -23,9 +23,45 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 	width: 100%;
 }
 // }}}
+// # MAIN MENU {{{
+// Mobile Menu Link
+#block-mobile-menu-toggle-mobile-menu-toggle {
+	display: none;
+}
+
+// Main Menu
+#zone-menu {
+	display: block !important;
+	margin-bottom: $dm;
+
+	#block-system-main-menu {
+		ul.menu {
+			li {
+				// display: inline;
+				width: auto;
+
+				&.first {
+					margin: 0;
+				}
+
+				a {
+					background: none;
+					display: inline;
+
+					&.active {
+						@include button-style;
+					}
+				}
+			}
+		}
+	}
+}
+// }}}
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
+// # HOME PAGE {{{
+// }}}
 // # ABOUT PAGE {{{
 .context-about {
 	#about_graphic {
@@ -33,9 +69,6 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 		float: right;
 	}
 }
-
-// }}}
-// # HOME PAGE {{{
 // }}}
 // # BLOG PAGE {{{
 // ## BLOG TEASER {{{

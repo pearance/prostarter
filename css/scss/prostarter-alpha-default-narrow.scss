@@ -14,12 +14,12 @@ these styles in the normal and widescreen CSS files as appropriate.
 // *****************************************************************************
 // # Call to Action {{{
 #block-nodeblock-call-to-action p.action-number i { // phone icon
-	font-size: 160%;
+	// font-size: 160%;
 }
 
 #block-nodeblock-call-to-action p.action-number { // phone number
-	font-size: 80%;
-	margin-top: -1px;
+	// font-size: 80%;
+	// margin-top: -1px;
 }
 // }}}
 // }}}
@@ -49,7 +49,8 @@ ul.jasm-service-list li.last { margin-right: 0; }
 // # BLOG PAGE {{{
 // ## BLOG FULL {{{
 // ### CONTENT BODY {{{
-.view-display-id-pro_team_block {
+// About the Author Block
+.view-display-id-about_author_block {
 	.views-field-picture {
 		width: 25%;
 	}
