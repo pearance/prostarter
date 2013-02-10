@@ -1185,18 +1185,20 @@ ul.jasm-service-list li.last {
   width: 25%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000360}}
-.view-display-id-about_author_block .views-field-realname,
-.view-display-id-about_author_block .views-field-field-title,
-.view-display-id-about_author_block .views-field-field-bio-summary {
+.view-display-id-about_author_block .views-field-field-pro-bio {
   width: 70%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000364}}
+.view-display-id-about_author_block .views-field-realname {
+  margin-left: 20px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000374}}
 .flippy li.next {
   right: -455px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-narrow\.scss}line{font-family:\0000375}}
 .flippy li.previous {
   left: -225px;
 }

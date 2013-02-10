@@ -680,8 +680,9 @@ ul.jasm-service-list a.rss {
 // ## Testimonials {{{
 #block-views-testimonals-block {
 	.content {
-		padding: 0 5px 0 15px;
+		padding: 15px;
 		margin-top: -5px;
+		border:1px solid $lighter;
 	}
 
 	.button {
@@ -944,7 +945,6 @@ ul.jasm-service-list a.rss {
 	#about_graphic {
 		margin: 0 auto $dm;
 		width: 240px;
-		// min-width: 100%;
 	}
 
 	img.media-image {
@@ -972,7 +972,10 @@ ul.jasm-service-list a.rss {
 			margin-left: $dm;
 		}
 
-		.views-field-realname { font-size: 140%; }
+		.views-field-realname {
+			font-size: 140%;
+			margin-top: -5px;
+		}
 
 		.views-row-even {
 			.views-field-realname,
@@ -990,7 +993,7 @@ ul.jasm-service-list a.rss {
 
 		#pre-description {
 			@include background-size(cover);
-			background: url(../gfx/answers.jpg) no-repeat center center;
+			background: url(../gfx/answers-masthead.jpg) no-repeat center center;
 			height: 150px;
 			margin-bottom: $dm;
 		}
@@ -1135,18 +1138,27 @@ ul.jasm-service-list a.rss {
 		width: 15%;
 	}
 
-	.views-field-realname,
-	.views-field-field-title,
-	.views-field-field-bio-summary {
+	// .views-field-realname,
+	// .views-field-field-title,
+	.views-field-field-pro-bio {
 		float: right;
 		width: 80%;
+		margin-top: 5px;
+	}
+
+	.views-field-realname {
+		margin-left: 5%;
+
+		&:after {
+			content: " | "
+		}
 	}
 
 	.views-field-field-title {
-		font-style: italic;
+		// font-style: italic;
 	}
 
-	.views-field-field-bio-summary p {
+	.views-field-field-pro-bio p {
 		margin: 10px 0 0 0;
 	}
 }
@@ -1273,7 +1285,96 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
+// # GLOSSARY PAGE {{{
+// Lexicon Admin Links
+.role-support .lexicon-admin-links {
+	display: none;
+}
+
+.lexicon-admin-links ul li {
+	display: inline;
+	margin: 0 $dm;
+
+	&.first {
+		margin-left: 0;
+	}
+
+	a {
+		@include button-style;
+	}
+}
+
+.page-glossary {
+	.lexicon-links {
+		margin-bottom: $dm;
+		padding: $dm;
+		background: $lighter;
+	}
+
+	.lexicon-list {
+		dl dt {
+			color: $dark;
+
+			a {
+				margin: $dm 0;
+			}
+		}
+
+		h2.lexicon-letter {
+			margin-top: 50px;
+			// background: $lighter;
+			border-bottom: 1px solid $light;
+			padding: 5px;
+			text-indent: 20px;
+		}
+	}
+
+	.lexicon_go_to_top_link {
+		@include button-style;
+	}
+}
+// }}}
+// # TESTIMONIAL PAGE {{{
+.page-testimonials {
+	h2.block-title {
+		display: none;
+	}
+
+	#block-nodeblock-testimonial-masthead {
+		#pre-description {
+			@include background-size(cover);
+			background: url(../gfx/testimonials-masthead.jpg) no-repeat center center;
+			height: 150px;
+			margin-bottom: $dm;
+		}
+
+		#post-description {
+			display: none;
+		}
+	}
+
+	.view-display-id-page {
+		.views-row {
+			margin-bottom: $dm;
+			border:1px solid $lighter;
+			padding: 15px;
+		}
+	}
+}
+// }}}
+// # PRIVACY-POLICY PAGE {{{
+.context-privacy-policy {
+	p+h2 {
+		margin-top: $dm * 3;
+	}
+}
+
+// }}}
 // # COMMON ELEMENTS {{{
+// More Link
+.more-link {
+	margin-left: 10px;
+}
 
 // Next & Previous Links
 .region-content ul.flippy {

@@ -1187,7 +1187,7 @@ ul.icons li .icon-large:before {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000343}}
 #zone-menu #block-system-main-menu ul.menu li.first {
-  margin: 0;
+  margin-left: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default\.scss}line{font-family:\0000347}}
 #zone-menu #block-system-main-menu ul.menu li a {

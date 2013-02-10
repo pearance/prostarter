@@ -51,10 +51,14 @@ ul.jasm-service-list li.last { margin-right: 0; }
 		width: 21%;
 	}
 
-	.views-field-realname,
-	.views-field-field-title,
-	.views-field-field-bio-summary {
+	// .views-field-realname,
+	// .views-field-field-title,
+	.views-field-field-pro-bio {
 		width: 78%;
+	}
+
+	.views-field-realname {
+		margin: 0 0 0 5px;
 	}
 }
 // }}}
