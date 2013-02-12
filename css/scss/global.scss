@@ -695,6 +695,25 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
+// ## Testimonials {{{
+#block-views-blog-related-content-block {
+		.view-blog .views-row {
+			margin: 0;
+			border: none;
+
+			h2 {
+				margin: 0;
+				font-size: 90%;
+				font-family: Arial, sans-serif;
+				font-weight: normal;
+			}
+		}
+
+		.view-content {
+			padding: 5px;
+	}
+}
+// }}}
 // ## Social Welcome {{{
 #block-nodeblock-social-welcome { display: none; }
 // }}}
@@ -1083,7 +1102,8 @@ ul.jasm-service-list a.rss {
 		.field-submitted {
 			float: left;
 			font-style: italic;
-			margin-right: 50px;
+			margin: 5px 50px 0 0;
+			font-size: 90%;
 		}
 
 		.field-name-readmore .button {
