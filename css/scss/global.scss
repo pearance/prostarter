@@ -11,13 +11,13 @@
 // }}}
 // HTML ELEMENTS {{{
 // *****************************************************************************
-// # Global Elements {{{
+// # GLOBAL ELEMENTS {{{
 body {
 	font: 100%/1.5 Arial, sans-serif;
 	color: $dark;
 }
 // }}}
-// # Anchor Elements {{{
+// # ANCHOR ELEMENTS {{{
 a:link,
 a:visited {
 	color: $darkest;
@@ -33,7 +33,7 @@ a:active {
 	color: #202124;
 }
 // }}}
-// # Heading Elements {{{
+// # HEADING ELEMENTS {{{
 h1,h2,h3,h4,h5,h6 {
 	letter-spacing: -.05em;
 	font-family: Monda, sans-serif;
@@ -64,7 +64,7 @@ h6 {
 	font-size: 100%;
 }
 // }}}
-// # List Elements {{{
+// # LIST ELEMENTS {{{
 ol {
 	list-style: decimal;
 }
@@ -78,7 +78,7 @@ ol ol {
 	padding-top: .5em;
 }
 // }}}
-// # Form Elements (Formalize) {{{
+// # FORM ELEMENTS (Formalize) {{{
 /* UI Consistency */
 ::-moz-focus-inner {
 	border: 0;
@@ -329,7 +329,7 @@ optgroup {
 }
 
 // }}}
-// # Other Elements {{{
+// # OTHER ELEMENTS {{{
 p,
 dl,
 hr,
@@ -570,7 +570,7 @@ div.messages a.close {
 #section-content { margin: 0 $dm; }
 // }}}
 // # BLOCKS {{{
-// ## Social Media Links {{{
+// ## SOCIAL MEDIA LINKS {{{
 #block-jasm-service-list { margin-bottom: 10px; }
 
 #block-jasm-service-list .item-list {
@@ -616,21 +616,19 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-// ## Facebook Social Widget {{{
-
+// ## FACEBOOK SOCIAL WIDGET {{{
 #block-jasm-fb-like-box iframe {
 	width: 100%!important;
 	height:	75px!important;
 	margin: 0 0 -15px -10px;
 	border:1px solid red;
 }
-
 // }}}
-// ## Twiter Social Widget {{{
-	#block-jasm-twitter-follow-button {
-	}
-// }}}
-// ## Email Subscription {{{
+// ## TWITER SOCIAL WIDGET {{{
+#block-jasm-twitter-follow-button {
+}
+	// }}}
+// ## EMAIL SUBSCRIPTION {{{
 #block-jasm-feedburner-mail-subscribe {
 
 	input[type="text"] {
@@ -650,7 +648,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// ## Specialties List {{{
+// ## SPECIALTIES LIST {{{
 #block-views-specialties-specialties-block {
 	ul.specialties {
 		list-style-position: inside;
@@ -677,7 +675,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// ## Testimonials {{{
+// ## TESTIMONIALS {{{
 #block-views-testimonals-block {
 	.content {
 		padding: 15px;
@@ -695,7 +693,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// ## Testimonials {{{
+// ## RELATED POSTS {{{
 #block-views-blog-related-content-block {
 		.view-blog .views-row {
 			margin: 0;
@@ -714,7 +712,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// ## Social Welcome {{{
+// ## SOCIAL WELCOME {{{
 #block-nodeblock-social-welcome { display: none; }
 // }}}
 // }}}
@@ -1147,7 +1145,8 @@ ul.jasm-service-list a.rss {
 // About the Author Block
 .view-display-id-about_author_block {
 	.view-content {
-		background: #F1F1F1;
+		background: $lighter;
+		border: 1px solid $light;
 		font-size: 75%;
 		padding: 25px;
 		overflow: hidden;
@@ -1273,7 +1272,8 @@ ul.jasm-service-list a.rss {
 		}
 
 		.webform-component-markup {
-			background: #F1F1F1;
+			background: $lighter;
+			border: 1px solid $light;
 
 			p {
 				padding: 15px;
@@ -1388,7 +1388,82 @@ ul.jasm-service-list a.rss {
 		margin-top: $dm * 3;
 	}
 }
+// }}}
+// # LOGIN PAGE {{{
+.not-logged-in.user-account {
 
+	#messages {
+		a {
+			display: none;
+		}
+
+		.status {
+			background: none;
+			color: $dark;
+			border: none;
+			display: block;
+			position: relative;
+			top: 450px;
+			padding: 0;
+			width: 80%;
+			margin: 0 auto;
+			text-align: center;
+			z-index: 20001;
+		}
+	}
+
+	#section-header,
+	#section-footer {
+		display: none;
+	}
+
+	#user-login,
+	#user-pass {
+		margin: 50px auto 0;
+		width: 90%;
+
+		img {
+			display: block;
+			margin: 0 auto 30px;
+			width: 300px;
+		}
+
+		#user-login-content {
+			background: $lighter;
+			border: 1px solid $light;
+			height: 250px;
+			padding: 50px;
+			overflow: hidden;
+
+			.description {
+				display: none;
+			}
+
+			#edit-submit {
+				float: none;
+				width: 90%;
+				margin: 0 auto;
+				display: block;
+ 				@media all and (max-width: 300px) {
+					font-size: 70%;
+					min-width: 105%;
+				}
+			}
+
+			a {
+				color: $dark;
+				width: 100%;
+				display: block;
+				margin: 20px auto 0 auto;
+				text-align: center;
+ 				@media all and (max-width: 300px) {
+					font-size: 70%;
+					min-width: 105%;
+				}
+			}
+		}
+	}
+}
 // }}}
 // # COMMON ELEMENTS {{{
 // More Link
@@ -1488,6 +1563,10 @@ ul.jasm-service-list a.rss {
 		.content p {
 			text-align: right;
 			color: $darker;
+
+			a {
+				color: $darker;
+			}
 		}
 	}
 }

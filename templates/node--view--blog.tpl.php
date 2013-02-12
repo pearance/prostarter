@@ -62,9 +62,9 @@
 		<?php endif; ?>
 
 		<?php if ($teaser): ?>
-			<div class="field field-name-readmore">
-				<?php print l(t('More'), 'node/' . $nid, array('attributes' => array('class' => t('readmore-link button')))); ?>
-			</div>
+			<!-- <div class="field field-name-readmore"> -->
+				<?php //print l(t('More'), 'node/' . $nid, array('attributes' => array('class' => t('readmore-link button')))); ?>
+			<!-- </div> -->
 		<?php endif; ?>
 
 		<?php if (!empty($content['links'])): ?>

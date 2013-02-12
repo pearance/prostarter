@@ -75,3 +75,27 @@ function prostarter_contextual_links_view_alter(&$element, $items) {
 function prostarter_menu_contextual_links_alter(&$links, $router_item, $root_path){
   // unset($links['node-delete']);
 }
+
+function prostarter_theme() {
+  $items = array();
+  // create custom user-login.tpl.php
+  $items['user_login'] = array(
+  	'render element' => 'form',
+  	'path' => drupal_get_path('theme', 'prostarter') . '/templates',
+  	'template' => 'user-login',
+  	'preprocess functions' => array(
+  		'prostarter_preprocess_user_login'
+  	),
+ 	);
+
+ 	$items['user_pass'] = array(
+ 		'render element' => 'form',
+ 		'path' => drupal_get_path('theme', 'prostarter') . '/templates',
+ 		'template' => 'user-pass',
+ 		'preprocess functions' => array(
+ 			'prostarter_preprocess_user_pass'
+ 		),
+	);
+
+	return $items;
+}

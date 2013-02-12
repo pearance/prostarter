@@ -84,6 +84,37 @@ This file will hold styles for all layouts using the alpha grid (i.e. not the mo
 // }}}
 // # CONTACT PAGE {{{
 // }}}
+// # LOGIN PAGE {{{
+.not-logged-in.user-account {
+
+	#messages {
+		.status {
+			top: 420px;
+		}
+	}
+
+	#user-login,
+	#user-pass {
+		width: 500px;
+
+		#user-login-content {
+			height: 200px;
+
+			#edit-submit {
+				float: right;
+				width: auto;
+				min-width: auto;
+			}
+
+			a {
+				display: inline;
+				padding: 0;
+				margin: 0;
+			}
+		}
+	}
+}
+// }}}
 // # COMMON ELEMENTS {{{
 
 // Next & Previous Links
