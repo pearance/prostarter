@@ -1358,6 +1358,7 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // # TESTIMONIAL PAGE {{{
+// ## TESTIMONIAL STANDARD {{{
 .page-testimonials {
 	h2.block-title {
 		display: none;
@@ -1384,6 +1385,72 @@ ul.jasm-service-list a.rss {
 		}
 	}
 }
+// }}}
+// ## TESTIMONIAL ADD {{{
+.page-node-add-testimonial {
+	a.brand {
+		display: block;
+		margin: 50px auto 30px auto;
+		width: 300px;
+		@media all and (max-width: 400px) {
+			width: 85%;
+		}
+	}
+
+	#testimonial-node-form {
+		background: $lighter;
+		border: 1px solid $light;
+		padding: 20px;
+		overflow: hidden;
+		width: 85%;
+		margin: 0 auto;
+
+		.form-region-main {
+			float: none;
+			width: 100%;
+
+			textarea {
+				height: 150px;
+			}
+
+			.field-name-field-title-graphic {
+				background: $lightest;
+				border: 1px solid $light;
+				padding: 10px 20px;
+				margin: $dm 0;
+
+				.description {
+					margin: 20px 0 0;
+					font-size: 70%;
+				}
+
+				#edit-field-title-graphic-und-0-upload {
+					margin-top: $dm;
+					@media all and (max-width: 270px) {
+						margin-left: -$dm;
+					}
+				}
+
+				// Upload
+				input[type="submit"] {
+					margin: 0 0 0 60px;
+					@media all and (max-width: 530px) {
+						margin: $dm 0 0;
+					}
+				}
+			}
+		}
+
+		.form-region-right {
+			width: auto;
+
+			#edit-actions input {
+				margin-right: $dm;
+			}
+		}
+	}
+}
+// }}}
 // }}}
 // # PRIVACY-POLICY PAGE {{{
 .context-privacy-policy {
@@ -1422,46 +1489,52 @@ ul.jasm-service-list a.rss {
 
 	#user-login,
 	#user-pass {
-		margin: 50px auto 0;
+		margin: 0 auto;
 		width: 90%;
 
-		img {
+		a.brand {
 			display: block;
-			margin: 0 auto 30px;
+			margin: 50px auto 30px;
 			width: 300px;
+			@media all and (max-width: 400px) {
+				width: 100%;
+			}
 		}
 
 		#user-login-content {
 			background: $lighter;
 			border: 1px solid $light;
-			height: 250px;
+			height: 200px;
 			padding: 50px;
 			overflow: hidden;
+			@media all and (max-width: 400px) {
+				padding: 25px 15px 30px;
+			}
 
 			.description {
 				display: none;
 			}
 
 			#edit-submit {
-				float: none;
-				width: 90%;
-				margin: 0 auto;
 				display: block;
- 				@media all and (max-width: 300px) {
-					font-size: 70%;
-					min-width: 105%;
+				float: right;
+ 				@media all and (max-width: 400px) {
+					margin: 0 auto;
+					float: none;
+					width: 90%;
+					font-size: 80%;
 				}
 			}
 
-			a {
+			a.forgot-login-link {
 				color: $dark;
 				width: 100%;
-				display: block;
-				margin: 20px auto 0 auto;
+				display: inline;
+				margin: 0;
 				text-align: center;
- 				@media all and (max-width: 300px) {
-					font-size: 70%;
-					min-width: 105%;
+				@media all and (max-width: 400px) {
+					display: block;
+					margin: 20px auto 0 auto;
 				}
 			}
 		}

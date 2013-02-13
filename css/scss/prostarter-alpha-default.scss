@@ -89,6 +89,15 @@
 // }}}
 // # CONTACT PAGE {{{
 // }}}
+// # TESTIMONIAL PAGE {{{
+// ## TESTIMONIAL ADD {{{
+.page-node-add-testimonial {
+	#testimonial-node-form {
+		width: 400px;
+		padding: 50px;
+	}
+}
+// }}}
 // # LOGIN PAGE {{{
 .not-logged-in.user-account {
 
@@ -101,22 +110,6 @@
 	#user-login,
 	#user-pass {
 		width: 500px;
-
-		#user-login-content {
-			height: 200px;
-
-			#edit-submit {
-				float: right;
-				width: auto;
-				min-width: auto;
-			}
-
-			a {
-				display: inline;
-				padding: 0;
-				margin: 0;
-			}
-		}
 	}
 }
 // }}}
