@@ -101,3 +101,9 @@ function prostarter_theme() {
 
 	return $items;
 }
+
+function prostarter_form_alter(&$form, $form_state, $form_id) {
+  if ($form_id == 'testimonial_node_form') {
+    $form['actions']['submit']['#value'] = 'Submit';
+  }
+}
