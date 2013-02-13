@@ -1,3 +1,13 @@
+<?php
+/*
+  _   _ ___  ___ _ __      _ __   __ _ ___ ___
+ | | | / __|/ _ \ '__|____| '_ \ / _` / __/ __|
+ | |_| \__ \  __/ | |_____| |_) | (_| \__ \__ \
+  \__,_|___/\___|_|       | .__/ \__,_|___/___/
+                          |_|
+*/
+?>
+
 <?php //drupal_set_message("Further instructions have been sent to your e-mail address."); ?>
 <a href="/">
 	<img src="<?php print base_path() . path_to_theme() ?>/gfx/brand.png" alt="">

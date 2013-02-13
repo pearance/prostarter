@@ -1,15 +1,17 @@
 <?php
-
-/**
- * @file
- * This file is empty by default because the base theme chain (Alpha & Omega) provides
- * all the basic functionality. However, in case you wish to customize the output that Drupal
- * generates through Alpha & Omega this file is a good place to do so.
- *
- * Alpha comes with a neat solution for keeping this file as clean as possible while the code
- * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
- * for more information on this topic.
- */
+/*
+                      _             _
+  _ __  _ __ ___  ___| |_ __ _ _ __| |_ ___ _ __
+ | '_ \| '__/ _ \/ __| __/ _` | '__| __/ _ \ '__|
+ | |_) | | | (_) \__ \ || (_| | |  | ||  __/ |
+ | .__/|_|  \___/|___/\__\__,_|_|   \__\___|_|
+ |_|                      _       _
+ | |_ ___ _ __ ___  _ __ | | __ _| |_ ___
+ | __/ _ \ '_ ` _ \| '_ \| |/ _` | __/ _ \
+ | ||  __/ | | | | | |_) | | (_| | ||  __/
+  \__\___|_| |_| |_| .__/|_|\__,_|\__\___|
+                   |_|
+*/
 
 /**
  * Remove width and height attributes from img elements
