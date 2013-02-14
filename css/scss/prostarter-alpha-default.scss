@@ -96,7 +96,12 @@
 		width: 400px;
 		padding: 50px;
 	}
+
+	#bottom {
+		width: 500px;
+	}
 }
+
 // }}}
 // # LOGIN PAGE {{{
 .not-logged-in.user-account {
@@ -140,6 +145,36 @@
 // FOOTER SECTION {{{
 // *****************************************************************************
 // # SECTION {{{
+/* sticky footer */
+// html,body {
+// 	height: 100%;
+// 	margin: 0;
+// }
+//
+// #page {
+// 	display: table;
+// 	width: 100%;
+// }
+//
+// html>/**/body #page {
+// 	height: 100%;
+// }
+//
+// :first-child+html #page {
+// 	height: auto;
+// }
+//
+// .section {
+// 	display: table-row;
+// }
+//
+// html>/**/body .section-content {
+// 	height: 100%;
+// }
+//
+// :first-child+html body .section-content {
+// 	height: auto;
+// }
 // }}}
 // # FOOT {{{
 #zone-foot-wrapper {

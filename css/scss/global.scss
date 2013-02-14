@@ -572,154 +572,7 @@ div.messages a.close {
 // # SECTION {{{
 #section-content { margin: 0 $dm; }
 // }}}
-// # BLOCKS {{{
-// ## SOCIAL MEDIA LINKS {{{
-#block-jasm-service-list { margin-bottom: 10px; }
-
-#block-jasm-service-list .item-list {
-	// display: table; // for centering
-	// margin: 0 auto; // for centering
-	// min-width: 240px; // for centering
-}
-
-ul.jasm-service-list li {
-	float: left;
-	// margin: 0 4%; // for centering
-	margin: 0 5px;
-}
-
-ul.jasm-service-list li.first { margin-left: 0; }
-ul.jasm-service-list li.last { margin-right: 0; }
-
-ul.jasm-service-list a {
-  display: block;
-	height: 32px;
-	width: 32px;
-	text-indent: -99999px;
-}
-
-ul.jasm-service-list a.facebook {
-	background:url(../gfx/icons/facebook.png) no-repeat;
-}
-
-ul.jasm-service-list a.twitter {
-	background:url(../gfx/icons/twitter.png) no-repeat;
-}
-
-ul.jasm-service-list a[class="google+"] {
-	background:url(../gfx/icons/googleplus.png) no-repeat;
-}
-
-ul.jasm-service-list a.linkedin {
-	background:url(../gfx/icons/linkedin.png) no-repeat;
-}
-
-ul.jasm-service-list a.rss {
-	background:url(../gfx/icons/rss.png) no-repeat;
-}
-
-// }}}
-// ## FACEBOOK SOCIAL WIDGET {{{
-#block-jasm-fb-like-box iframe {
-	width: 100%!important;
-	height:	75px!important;
-	margin: 0 0 -15px -10px;
-	border:1px solid red;
-}
-// }}}
-// ## TWITER SOCIAL WIDGET {{{
-#block-jasm-twitter-follow-button {
-}
-	// }}}
-// ## EMAIL SUBSCRIPTION {{{
-#block-jasm-feedburner-mail-subscribe {
-
-	input[type="text"] {
-		margin-bottom: 10px;
-	}
-
-	.form-item {
-		margin: 0;
-		float: left;
-	}
-
-	.form-submit {
-		@include border-radius(0);
-		font-size: 85%;
-		padding-top: 5px;
-		padding-bottom: 4px;
-	}
-}
-// }}}
-// ## SPECIALTIES LIST {{{
-#block-views-specialties-specialties-block {
-	ul.specialties {
-		list-style-position: inside;
-		list-style: none;
-		margin-left: 5%;
-
-		li {
-			width: 95%;
-
-			a {
-				background: $lighter url(../gfx/icons/dot-dark.png) no-repeat 15px center;
-				display: block;
-				padding: 10px 0;
-				margin: 15px 0;
-				text-indent: 40px;
-			}
-
-			a:hover {
-				background: $dark url(../gfx/icons/dot-light.png) no-repeat 15px center;
-				color: $lightest;
-				text-decoration: none;
-			}
-		}
-	}
-}
-// }}}
-// ## TESTIMONIALS {{{
-#block-views-testimonals-block {
-	.content {
-		padding: 15px;
-		margin-top: -5px;
-		border:1px solid $lighter;
-	}
-
-	.button {
-		float: right;
-	}
-
-	.view-footer {
-		margin-top: $dm;
-		overflow: auto;
-	}
-}
-// }}}
-// ## RELATED POSTS {{{
-#block-views-blog-related-content-block {
-		.view-blog .views-row {
-			margin: 0;
-			border: none;
-
-			h2 {
-				margin: 0;
-				font-size: 90%;
-				font-family: Arial, sans-serif;
-				font-weight: normal;
-			}
-		}
-
-		.view-content {
-			padding: 5px;
-	}
-}
-// }}}
-// ## SOCIAL WELCOME {{{
-#block-nodeblock-social-welcome { display: none; }
-// }}}
-// }}}
-// # HOME PAGE {{{
+// # HOME {{{
 // ## SHOWCASE {{{
 // ### SHOWCASE GENERAL {{{
 #block-views-showcase-generic {
@@ -960,7 +813,7 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // }}}
-// # ABOUT PAGE {{{
+// # ABOUT {{{
 .context-about {
 	#about_graphic {
 		margin: 0 auto $dm;
@@ -1006,7 +859,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// # ANSWERS PAGE {{{
+// # ANSWERS {{{
 .page-faq-page {
 	#block-nodeblock-answers-mast {
 		h2.block-title { display: none; }
@@ -1084,8 +937,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// # BLOG PAGE {{{
-// ## BLOG TEASER {{{
+// # BLOG LIST {{{
 .view-blog {
 	.views-row {
 		border-bottom: 1px solid $lighter;
@@ -1115,8 +967,8 @@ ul.jasm-service-list a.rss {
 }
 
 // }}}
-// ## BLOG FULL {{{
-// ### CONTENT BODY {{{
+// # BLOG FULL {{{
+// ## CONTENT BODY {{{
 .node-type-blog .node-blog {
 	.sharethis-wrapper {
 		margin-bottom: $dm;
@@ -1185,7 +1037,7 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// ### FACEBOOK COMMENTS {{{
+// ## FACEBOOK COMMENTS {{{
 #block-facebook-comments-facebook-comments {
 	h2.block-title {display: none;}
 
@@ -1203,9 +1055,7 @@ ul.jasm-service-list a.rss {
 }
 // }}}
 // }}}
-// }}}
-// # SPECIALTIES PAGE {{{
-// ## SPECIALTIES TEASER {{{
+// # SPECIALTIES LIST {{{
 .view-display-id-specialties_page {
 	h3 {
 		@include border-radius(0);
@@ -1239,15 +1089,14 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// ## SPECIALTIES FULL {{{
+// # SPECIALTIES FULL {{{
 .node-type-specialty {
 	.field-name-field-title-graphic {
 		margin-bottom: $dm;
 	}
 }
 // }}}
-// }}}
-// # CONTACT PAGE {{{
+// # CONTACT {{{
 .context-contact {
 	h2.block-title {
 		display: none;
@@ -1308,7 +1157,35 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// # GLOSSARY PAGE {{{
+// # TESTIMONIALS {{{
+.page-testimonials {
+	h2.block-title {
+		display: none;
+	}
+
+	#block-nodeblock-testimonial-masthead {
+		#pre-description {
+			@include background-size(cover);
+			background: url(../gfx/testimonials-masthead.jpg) no-repeat center center;
+			height: 150px;
+			margin-bottom: $dm;
+		}
+
+		#post-description {
+			display: none;
+		}
+	}
+
+	.view-display-id-page {
+		.views-row {
+			margin-bottom: $dm;
+			border:1px solid $lighter;
+			padding: 15px;
+		}
+	}
+}
+// }}}
+// # GLOSSARY {{{
 // Lexicon Admin Links
 .role-support .lexicon-admin-links {
 	display: none;
@@ -1357,111 +1234,15 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
-// # TESTIMONIAL PAGE {{{
-// ## TESTIMONIAL STANDARD {{{
-.page-testimonials {
-	h2.block-title {
-		display: none;
-	}
-
-	#block-nodeblock-testimonial-masthead {
-		#pre-description {
-			@include background-size(cover);
-			background: url(../gfx/testimonials-masthead.jpg) no-repeat center center;
-			height: 150px;
-			margin-bottom: $dm;
-		}
-
-		#post-description {
-			display: none;
-		}
-	}
-
-	.view-display-id-page {
-		.views-row {
-			margin-bottom: $dm;
-			border:1px solid $lighter;
-			padding: 15px;
-		}
-	}
-}
-// }}}
-// ## TESTIMONIAL ADD {{{
-.page-node-add-testimonial {
-	a.brand {
-		display: block;
-		margin: 50px auto 30px auto;
-		width: 300px;
-		@media all and (max-width: 400px) {
-			width: 85%;
-		}
-	}
-
-	#testimonial-node-form {
-		background: $lighter;
-		border: 1px solid $light;
-		padding: 20px;
-		overflow: hidden;
-		width: 85%;
-		margin: 0 auto;
-
-		.form-region-main {
-			float: none;
-			width: 100%;
-
-			textarea {
-				height: 150px;
-			}
-
-			.field-name-field-title-graphic {
-				background: $lightest;
-				border: 1px solid $light;
-				padding: 10px 20px;
-				margin: $dm 0;
-
-				.description {
-					margin: 20px 0 0;
-					font-size: 70%;
-				}
-
-				#edit-field-title-graphic-und-0-upload {
-					margin-top: $dm;
-					@media all and (max-width: 270px) {
-						margin-left: -$dm;
-					}
-				}
-
-				// Upload
-				input[type="submit"] {
-					margin: 0 0 0 60px;
-					@media all and (max-width: 530px) {
-						margin: $dm 0 0;
-					}
-				}
-			}
-		}
-
-		.form-region-right {
-			width: auto;
-
-			#edit-actions input {
-				margin-right: $dm;
-			}
-		}
-	}
-}
-// }}}
-// }}}
-// # PRIVACY-POLICY PAGE {{{
+// # PRIVACY POLICY {{{
 .context-privacy-policy {
 	p+h2 {
 		margin-top: $dm * 3;
 	}
 }
 // }}}
-// # LOGIN PAGE {{{
+// # LOGIN & PASSWORD {{{
 .not-logged-in.user-account {
-
 	#messages {
 		a {
 			display: none;
@@ -1541,6 +1322,82 @@ ul.jasm-service-list a.rss {
 	}
 }
 // }}}
+// # TESTIMONIAL ADD {{{
+.page-node-add-testimonial {
+	a.brand {
+		display: block;
+		margin: 50px auto 30px auto;
+		width: 300px;
+		@media all and (max-width: 400px) {
+			width: 85%;
+		}
+	}
+
+	#testimonial-node-form {
+		background: $lighter;
+		border: 1px solid $light;
+		padding: 20px;
+		overflow: hidden;
+		width: 85%;
+		margin: 0 auto;
+
+		.form-region-main {
+			float: none;
+			width: 100%;
+
+			textarea {
+				height: 150px;
+			}
+
+			.field-name-field-title-graphic {
+				background: $lightest;
+				border: 1px solid $light;
+				padding: 10px 20px;
+				margin: $dm 0;
+
+				.description {
+					margin: 20px 0 0;
+					font-size: 70%;
+				}
+
+				#edit-field-title-graphic-und-0-upload {
+					margin-top: $dm;
+					@media all and (max-width: 270px) {
+						margin-left: -$dm;
+					}
+				}
+
+				// Upload
+				input[type="submit"] {
+					margin: 0 0 0 60px;
+					@media all and (max-width: 530px) {
+						margin: $dm 0 0;
+					}
+				}
+			}
+		}
+
+		.form-region-right {
+			width: auto;
+
+			#edit-actions input {
+				margin-right: $dm;
+			}
+		}
+	}
+
+	#bottom {
+		margin: 0 auto;
+		width: 85%;
+
+		a {
+			color: $light;
+		}
+	}
+}
+
+
+// }}}
 // # COMMON ELEMENTS {{{
 // More Link
 .more-link {
@@ -1580,6 +1437,153 @@ ul.jasm-service-list a.rss {
 		color: $dark;
 	}
 }
+// }}}
+// # BLOCKS {{{
+// ## SOCIAL MEDIA LINKS {{{
+#block-jasm-service-list { margin-bottom: 10px; }
+
+#block-jasm-service-list .item-list {
+	// display: table; // for centering
+	// margin: 0 auto; // for centering
+	// min-width: 240px; // for centering
+}
+
+ul.jasm-service-list li {
+	float: left;
+	// margin: 0 4%; // for centering
+	margin: 0 5px;
+}
+
+ul.jasm-service-list li.first { margin-left: 0; }
+ul.jasm-service-list li.last { margin-right: 0; }
+
+ul.jasm-service-list a {
+  display: block;
+	height: 32px;
+	width: 32px;
+	text-indent: -99999px;
+}
+
+ul.jasm-service-list a.facebook {
+	background:url(../gfx/icons/facebook.png) no-repeat;
+}
+
+ul.jasm-service-list a.twitter {
+	background:url(../gfx/icons/twitter.png) no-repeat;
+}
+
+ul.jasm-service-list a[class="google+"] {
+	background:url(../gfx/icons/googleplus.png) no-repeat;
+}
+
+ul.jasm-service-list a.linkedin {
+	background:url(../gfx/icons/linkedin.png) no-repeat;
+}
+
+ul.jasm-service-list a.rss {
+	background:url(../gfx/icons/rss.png) no-repeat;
+}
+
+// }}}
+// ## FACEBOOK SOCIAL WIDGET {{{
+#block-jasm-fb-like-box iframe {
+	width: 100%!important;
+	height:	75px!important;
+	margin: 0 0 -15px -10px;
+	border:1px solid red;
+}
+// }}}
+// ## TWITER SOCIAL WIDGET {{{
+#block-jasm-twitter-follow-button {
+}
+	// }}}
+// ## EMAIL SUBSCRIPTION {{{
+#block-jasm-feedburner-mail-subscribe {
+
+	input[type="text"] {
+		margin-bottom: 10px;
+	}
+
+	.form-item {
+		margin: 0;
+		float: left;
+	}
+
+	.form-submit {
+		@include border-radius(0);
+		font-size: 85%;
+		padding-top: 5px;
+		padding-bottom: 4px;
+	}
+}
+// }}}
+// ## SPECIALTIES LIST {{{
+#block-views-specialties-specialties-block {
+	ul.specialties {
+		list-style-position: inside;
+		list-style: none;
+		margin-left: 5%;
+
+		li {
+			width: 95%;
+
+			a {
+				background: $lighter url(../gfx/icons/dot-dark.png) no-repeat 15px center;
+				display: block;
+				padding: 10px 0;
+				margin: 15px 0;
+				text-indent: 40px;
+			}
+
+			a:hover {
+				background: $dark url(../gfx/icons/dot-light.png) no-repeat 15px center;
+				color: $lightest;
+				text-decoration: none;
+			}
+		}
+	}
+}
+// }}}
+// ## TESTIMONIALS {{{
+#block-views-testimonals-block {
+	.content {
+		padding: 15px;
+		margin-top: -5px;
+		border:1px solid $lighter;
+	}
+
+	.button {
+		float: right;
+	}
+
+	.view-footer {
+		margin-top: $dm;
+		overflow: auto;
+	}
+}
+// }}}
+// ## RELATED POSTS {{{
+#block-views-blog-related-content-block {
+		.view-blog .views-row {
+			margin: 0;
+			border: none;
+
+			h2 {
+				margin: 0;
+				font-size: 90%;
+				font-family: Arial, sans-serif;
+				font-weight: normal;
+			}
+		}
+
+		.view-content {
+			padding: 5px;
+	}
+}
+// }}}
+// ## SOCIAL WELCOME {{{
+#block-nodeblock-social-welcome { display: none; }
+// }}}
 // }}}
 // }}}
 // FOOTER SECTION {{{
