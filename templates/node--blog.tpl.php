@@ -61,7 +61,7 @@
 			<?php print render($content['links']); ?>
 		<?php endif; ?>
 		<?php print render($content['body']); ?>
-		<?php	print render($content['field_blog_tags']); ?>
+		<?php	print render($content['field_specialties']); ?>
 		<?php print render($content); ?>
 	</div>
 

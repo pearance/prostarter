@@ -11,6 +11,8 @@
 // *****************************************************************************
 @import "_global_include";
 // }}}
+
+
 // HEADER SECTION {{{
 // *****************************************************************************
 // # USER MENU {{{
@@ -65,9 +67,7 @@
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
-// # HOME PAGE {{{
-// }}}
-// # ABOUT PAGE {{{
+// # ABOUT {{{
 .context-about {
 	#about_graphic {
 		margin: 0 10px 15px 15px;
@@ -75,22 +75,13 @@
 	}
 }
 // }}}
-// # BLOG PAGE {{{
-// ## BLOG TEASER {{{
+// # BLOG LIST {{{
 .view-blog .node-teaser .field-name-field-title-graphic {
 	margin: 6px $dm 0 0;
 	float: left;
 }
 // }}}
-// ## BLOG FULL {{{
-// ### CONTENT BODY {{{
-// }}}
-// }}}
-// }}}
-// # CONTACT PAGE {{{
-// }}}
-// # TESTIMONIAL PAGE {{{
-// ## TESTIMONIAL ADD {{{
+// # TESTIMONIAL ADD {{{
 .page-node-add-testimonial {
 	#testimonial-node-form {
 		width: 400px;
@@ -101,9 +92,8 @@
 		width: 500px;
 	}
 }
-
 // }}}
-// # LOGIN PAGE {{{
+// # LOGIN & PASSWORD {{{
 .not-logged-in.user-account {
 
 	#messages {
@@ -142,39 +132,10 @@
 	li.previous a:after { content: none }
 }
 // }}}
+// }}}
 // FOOTER SECTION {{{
 // *****************************************************************************
 // # SECTION {{{
-/* sticky footer */
-// html,body {
-// 	height: 100%;
-// 	margin: 0;
-// }
-//
-// #page {
-// 	display: table;
-// 	width: 100%;
-// }
-//
-// html>/**/body #page {
-// 	height: 100%;
-// }
-//
-// :first-child+html #page {
-// 	height: auto;
-// }
-//
-// .section {
-// 	display: table-row;
-// }
-//
-// html>/**/body .section-content {
-// 	height: 100%;
-// }
-//
-// :first-child+html body .section-content {
-// 	height: auto;
-// }
 // }}}
 // # FOOT {{{
 #zone-foot-wrapper {

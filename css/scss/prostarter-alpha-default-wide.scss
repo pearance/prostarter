@@ -12,39 +12,14 @@
 // *****************************************************************************
 @import "_global_include";
 // }}}
+
 // HEADER SECTION {{{
 // *****************************************************************************
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
-// # BLOCKS {{{
-// ## Social Media Links {{{
-#block-jasm-service-list .item-list {
-	// min-width: 380px; // for centering
-}
-
-.item-list ul.jasm-service-list li {
-	// margin: 0 5.6%; // for centering
-	margin: 0 12px;
-}
-
-ul.jasm-service-list li.first { margin-left: 0; }
-ul.jasm-service-list li.last { margin-right: 0; }
-// }}}
-// ## Email Subscription {{{
-#block-jasm-feedburner-mail-subscribe .form-submit {
-	float: none;
-	margin-top: 0;
-}
-
-#block-jasm-feedburner-mail-subscribe .form-text {
-	width: 300px;
-}
-// }}}
-// }}}
-// # BLOG PAGE {{{
-// ## BLOG FULL {{{
-// ### CONTENT BODY {{{
+// # BLOG FULL {{{
+// ## CONTENT BODY {{{
 // About the Author Block
 .view-display-id-about_author_block {
 	.views-field-picture {
@@ -62,12 +37,35 @@ ul.jasm-service-list li.last { margin-right: 0; }
 	}
 }
 // }}}
+// }}}
 // # COMMON ELEMENTS {{{
-
 // Next & Previous Links
 .flippy li.next { right: -775px; }
 .flippy li.previous { left: -385px; }
 // }}}
+// # BLOCKS {{{
+// ## SOCIAL MEDIA LINKS {{{
+#block-jasm-service-list .item-list {
+	// min-width: 380px; // for centering
+}
+
+.item-list ul.jasm-service-list li {
+	// margin: 0 5.6%; // for centering
+	margin: 0 12px;
+}
+
+ul.jasm-service-list li.first { margin-left: 0; }
+ul.jasm-service-list li.last { margin-right: 0; }
+// }}}
+// ## EMAIL SUBSCRIPTION {{{
+#block-jasm-feedburner-mail-subscribe .form-submit {
+	float: none;
+	margin-top: 0;
+}
+
+#block-jasm-feedburner-mail-subscribe .form-text {
+	width: 300px;
+}
 // }}}
 // }}}
 // }}}

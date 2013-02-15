@@ -18,6 +18,7 @@
 body {
 	font: 100%/1.5 Arial, sans-serif;
 	color: $dark;
+	margin-top: 40px;
 }
 // }}}
 // # ANCHOR ELEMENTS {{{
@@ -441,7 +442,9 @@ div.messages a.close {
 // HEADER SECTION {{{
 // *****************************************************************************
 // # SECTION {{{
-#section-header { margin: $dm $dm 0 $dm; }
+#section-header {
+	margin: $dm $dm 0 $dm;
+}
 // }}}
 // # USER MENU {{{
 #block-system-user-menu h2.block-title {
@@ -469,6 +472,7 @@ div.messages a.close {
 #block-nodeblock-call-to-action {
 	float: right;
 	width: 150px;
+	margin-top: 5px;
 
 	h2.block-title {
 		display: none;
@@ -983,17 +987,19 @@ div.messages a.close {
 		margin-bottom: $dm;
 	}
 
-	.field-name-field-blog-tags ul.field-items {
-		padding: 0;
-		margin-bottom: $dm;
-	}
+	.field-name-field-specialties {
+		ul.field-items {
+			padding: 0;
+			margin-bottom: $dm;
+		}
 
-	.field-name-field-blog-tags li.field-item {
-		display: inline;
-	}
+		li.field-item {
+			display: inline;
+		}
 
-	.field-name-field-blog-tags li.field-item a {
-		@include button-style;
+		li.field-item a {
+			@include button-style;
+		}
 	}
 }
 
@@ -1590,6 +1596,8 @@ ul.jasm-service-list a.rss {
 // *****************************************************************************
 // # SECTION {{{
 #section-footer {
+	margin-top: 50px;
+
 	.block,
 	p,
 	dl,

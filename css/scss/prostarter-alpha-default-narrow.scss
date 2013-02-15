@@ -12,9 +12,11 @@
 // *****************************************************************************
 @import "_global_include";
 // }}}
+
+
 // HEADER SECTION {{{
 // *****************************************************************************
-// # Call to Action {{{
+// # CALL TO ACTION {{{
 #block-nodeblock-call-to-action p.action-number i { // phone icon
 	// font-size: 160%;
 }
@@ -27,30 +29,8 @@
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
-// # BLOCKS {{{
-// ## Social Media Links {{{
-#block-jasm-service-list .item-list {
-	// min-width: 220px; // for centering
-}
-
-.item-list ul.jasm-service-list li {
-	// margin: 0 3.3%; // for centering
-	margin: 0 5px;
-}
-
-ul.jasm-service-list li.first { margin-left: 2px; }
-ul.jasm-service-list li.last { margin-right: 0; }
-// }}}
-// ## Email Subscription {{{
-#block-jasm-feedburner-mail-subscribe .form-submit {
-	float: right;
-	margin-bottom: 10px;
-}
-// }}}
-// }}}
-// # BLOG PAGE {{{
-// ## BLOG FULL {{{
-// ### CONTENT BODY {{{
+// # BLOG FULL {{{
+// ## CONTENT BODY {{{
 // About the Author Block
 .view-display-id-about_author_block {
 	.views-field-picture {
@@ -69,11 +49,30 @@ ul.jasm-service-list li.last { margin-right: 0; }
 }
 // }}}
 // }}}
-// }}}
 // # COMMON ELEMENTS {{{
-
 // Next & Previous Links
 .flippy li.next { right: -455px; }
 .flippy li.previous { left: -225px; }
+// }}}
+// # BLOCKS {{{
+// ## SOCIAL MEDIA LINKS {{{
+#block-jasm-service-list .item-list {
+	// min-width: 220px; // for centering
+}
+
+.item-list ul.jasm-service-list li {
+	// margin: 0 3.3%; // for centering
+	margin: 0 5px;
+}
+
+ul.jasm-service-list li.first { margin-left: 2px; }
+ul.jasm-service-list li.last { margin-right: 0; }
+// }}}
+// ## EMAIL SUBSCRIPTION {{{
+#block-jasm-feedburner-mail-subscribe .form-submit {
+	float: right;
+	margin-bottom: 10px;
+}
+// }}}
 // }}}
 // }}}

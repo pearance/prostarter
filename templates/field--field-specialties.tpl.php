@@ -49,7 +49,7 @@
 <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php if (!$label_hidden): ?>
     <h2 class="field-label"<?php print $title_attributes; ?>>
-			<?php print $label ?>:&nbsp;
+			<?php //print $label ?>Categories:&nbsp;
 		</h2>
   <?php endif; ?>
 
