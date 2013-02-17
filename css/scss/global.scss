@@ -1674,18 +1674,18 @@ ul.jasm-service-list a.rss {
 #block-views-specialties-specialties-block {
 	ul.specialties {
 		list-style-position: inside;
-		list-style: none;
 		margin-left: 5%;
 
 		li {
 			width: 95%;
+			list-style: none;
 
 			a {
 				background: $lighter url(../gfx/icons/dot-dark.png) no-repeat 15px center;
 				display: block;
 				padding: 10px 0;
-				margin: 15px 0;
-				text-indent: 40px;
+				margin: 5px 0;
+				text-indent: 45px;
 			}
 
 			a:hover {
