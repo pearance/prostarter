@@ -1266,6 +1266,8 @@ div.messages a.close {
 // }}}
 // # USER PROFILE {{{
 .user-profile .profile {
+	margin: 0;
+
 	#left-col {
 		#card {
 			#left-card {
@@ -1297,10 +1299,10 @@ div.messages a.close {
 					margin: 0 auto;
 					overflow: hidden;
 
-					.field-name-field-linkedin,
-					.field-name-field-facebook,
-					.field-name-field-twitter,
-					.field-name-field-google-plus {
+					.field-name-field-linkedin a,
+					.field-name-field-facebook a,
+					.field-name-field-twitter a,
+					.field-name-field-google-plus a {
 						text-indent: 9999px;
 						float: left;
 						width: 32px;
@@ -1308,19 +1310,19 @@ div.messages a.close {
 						margin-right: 10px;
 					}
 
-					.field-name-field-linkedin {
+					.field-name-field-linkedin a {
 						background: url(../gfx/icons/linkedin.png) no-repeat;
 					}
 
-					.field-name-field-facebook {
+					.field-name-field-facebook a {
 						background: url(../gfx/icons/facebook.png) no-repeat;
 					}
 
-					.field-name-field-twitter {
+					.field-name-field-twitter a {
 						background: url(../gfx/icons/twitter.png) no-repeat;
 					}
 
-					.field-name-field-google-plus {
+					.field-name-field-google-plus a {
 						background: url(../gfx/icons/googleplus.png) no-repeat;
 						margin-right: 0;
 					}
