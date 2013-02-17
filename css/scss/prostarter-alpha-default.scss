@@ -81,15 +81,38 @@
 	float: left;
 }
 // }}}
-// # TESTIMONIAL ADD {{{
-.page-node-add-testimonial {
-	#testimonial-node-form {
-		width: 400px;
-		padding: 50px;
-	}
+// # USER PROFILE {{{
+.user-profile .profile {
+	#left-col {
+		background: $lighter;
 
-	#bottom {
-		width: 500px;
+		#card {
+			overflow: hidden;
+
+			#left-card {
+				width: 43%;
+				float: left;
+
+				.field-name-field-user-image img {
+					margin: 25px 0 0 20px;
+					border: 10px solid $light;
+				}
+			}
+
+			#right-card {
+				#name {
+					text-align: left;
+				}
+
+				.field-name-field-title {
+					text-align: left;
+				}
+
+				#social-icons {
+					width: auto;
+				}
+			}
+		}
 	}
 }
 // }}}
@@ -104,6 +127,18 @@
 
 	#user-login,
 	#user-pass {
+		width: 500px;
+	}
+}
+// }}}
+// # TESTIMONIAL ADD {{{
+.page-node-add-testimonial {
+	#testimonial-node-form {
+		width: 400px;
+		padding: 50px;
+	}
+
+	#bottom {
 		width: 500px;
 	}
 }

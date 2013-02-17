@@ -73,8 +73,13 @@ ol {
 	list-style: decimal;
 }
 
-ul {
+ul,
+li,
+.item-list ul li {
 	list-style: disc;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0 0 4px 0;
 }
 
 ul ul,
@@ -355,11 +360,11 @@ dd {
 }
 
 hr {
-	margin: 0;
+	margin: 1em 0;
 	padding: 0;
 	border: none;
 	height: 1px;
-	background: #5294C1;
+	background: $light;
 }
 
 img {
@@ -423,9 +428,14 @@ dt,.admin h3 {
 }
 
 // Messages
-div.messages { margin: 10px 0 20px; }
+div.messages {
+	margin: 10px 0 20px;
+}
 
-div.messages div { margin: 30px 0; }
+div.messages div.krumo-root {
+	margin-top: 2em;
+}
+
 
 /* Message's Close X TODO: use a real icon */
 div.messages a.close {
@@ -835,16 +845,16 @@ div.messages a.close {
 			overflow: hidden;
 		}
 
-		.user-picture a img {
+		.views-field-field-user-image a img {
 			border: 15px solid $light;
 		}
 
-		.views-row-odd .user-picture a img {
+		.views-row-odd .views-field-field-user-image a img {
 			float: left;
 			margin-right: $dm;
 		}
 
-		.views-row-even .user-picture a img {
+		.views-row-even .views-field-field-user-image a img {
 			float: right;
 			margin-left: $dm;
 		}
@@ -1013,7 +1023,7 @@ div.messages a.close {
 		overflow: hidden;
 	}
 
-	.views-field-picture {
+	.views-field-field-user-image {
 		float: left;
 		width: 15%;
 	}
@@ -1104,16 +1114,9 @@ div.messages a.close {
 // }}}
 // # CONTACT {{{
 .context-contact {
-	h2.block-title {
-		display: none;
-	}
+	// Masthead Intro
+	.field-type-text-with-summary {
 
-	// Google Map
-	.field-name-field-map-address {
-		iframe {
-			width: 100% !Important;
-			border:1px solid $light;
-		}
 	}
 
 	// Contact Form
@@ -1140,6 +1143,12 @@ div.messages a.close {
 		}
 	}
 
+	#block-nodeblock-contact-image {
+		h2.block-title {
+			display: none;
+		}
+	}
+
 	// h/vCard Contact Info
 	#block-contactinfo-hcard {
 		.vcard {
@@ -1159,6 +1168,14 @@ div.messages a.close {
 
 		.phone {
 			margin: $dm 0;
+		}
+	}
+
+	// Google Map
+	.field-name-field-map-address {
+		iframe {
+			width: 100% !Important;
+			border:1px solid $light;
 		}
 	}
 }
@@ -1244,6 +1261,134 @@ div.messages a.close {
 .context-privacy-policy {
 	p+h2 {
 		margin-top: $dm * 3;
+	}
+}
+// }}}
+// # USER PROFILE {{{
+.user-profile .profile {
+	#left-col {
+		#card {
+			#left-card {
+				width: 90%;
+				margin: 0 auto;
+
+				.field-name-field-user-image img {
+					margin-top: 25px;
+				}
+			}
+
+			#right-card {
+				width: 90%;
+				margin: 0 auto;
+				#name {
+					margin: 20px 0 0 0;
+					font-size: 140%;
+					text-align: center;
+				}
+
+				.field-name-field-title {
+					font-size: 100%;
+					margin-bottom: $dm;
+					text-align: center;
+				}
+
+				#social-icons {
+					width: 160px;
+					margin: 0 auto;
+					overflow: hidden;
+
+					.field-name-field-linkedin,
+					.field-name-field-facebook,
+					.field-name-field-twitter,
+					.field-name-field-google-plus {
+						text-indent: 9999px;
+						float: left;
+						width: 32px;
+						height: 32px;
+						margin-right: 10px;
+					}
+
+					.field-name-field-linkedin {
+						background: url(../gfx/icons/linkedin.png) no-repeat;
+					}
+
+					.field-name-field-facebook {
+						background: url(../gfx/icons/facebook.png) no-repeat;
+					}
+
+					.field-name-field-twitter {
+						background: url(../gfx/icons/twitter.png) no-repeat;
+					}
+
+					.field-name-field-google-plus {
+						background: url(../gfx/icons/googleplus.png) no-repeat;
+						margin-right: 0;
+					}
+				}
+			}
+		}
+
+		.field-name-field-pro-bio {
+				padding: 20px;
+		}
+	}
+
+	#right-col {
+		ul li {
+			text-indent: 15px;
+		}
+
+		// Specialties
+		.field-name-field-specialties {
+			ul {
+				overflow: hidden;
+				margin-bottom: 25px;
+
+				li {
+					float: left;
+					width: 48%;
+				}
+			}
+		}
+
+		// Education
+		.field-collection-container  {
+			border: none;
+			margin-bottom: 5px;
+
+			.field-name-field-education {
+				.field-collection-view {
+					padding: 0;
+					padding-bottom: 10px;
+					margin-left: 10px;
+					border-bottom: 1px solid $light;
+				}
+
+				.field-name-field-school {
+					font-weight: bold;
+				}
+
+				.field-collection-view-final {
+					margin: none;
+					border: none;
+				}
+			}
+		}
+
+		// Awards & Organizations
+		.field-name-field-awards-organizations {
+			ul {
+				margin-bottom: 25px;
+			}
+		}
+
+		// Office Information
+		.field-name-field-office {
+			padding: 0 10px;
+			p {
+				// border-bottom: 1px solid $light;
+			}
+		}
 	}
 }
 // }}}
