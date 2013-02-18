@@ -1156,7 +1156,7 @@ div.messages a.close {
 			padding: 10px;
 		}
 
-		.tagline,
+		.org,
 		.geo,
 		.country-name {
 			display: none;
@@ -1164,6 +1164,10 @@ div.messages a.close {
 
 		.street-address {
 			display: block;
+		}
+
+		.tagline {
+			margin-bottom: $dm;
 		}
 
 		.phone {
