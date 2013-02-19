@@ -1555,6 +1555,85 @@ div.messages a.close {
 
 
 // }}}
+// # MAINTENANCE {{{
+.maintenance-page {
+	position: relative;
+
+	img.brand {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 120%;
+	}
+
+	#container {
+		background: url('../gfx/maintenance-bg.png') no-repeat center 0;
+		height: 690px;
+		width: 550px;
+		margin: 0 auto;
+
+		p {
+			font-size: 240%;
+			color: $lightest;
+			text-align: center;
+			margin-top: -10px;
+			padding-top: 5px;
+		}
+
+		p.small {
+			font-size: 120%;
+			margin-top: -25px;
+		}
+
+		#phone-content {
+			width: 241px;
+			margin: 160px 0 0 27px;
+			float: left;
+
+			p.phone {
+				color: $dark;
+				font-size: 175%;
+				font-weight: bold;
+				background: $light;
+				padding: 5px 0 2px 0;
+			}
+
+			p.regular {
+				color: $dark;
+				font-size: 120%;
+			}
+
+			#social-icons {
+				text-align: center;
+				margin-top: $dm * 2;
+			}
+		}
+
+		#address {
+			border: 1px solid $lighter;
+			float: right;
+			color: $dark;
+			font-size: 100%;
+			padding: $dm;
+			text-align: left;
+			position: relative;
+			top: 135px;
+			left: 0px;
+
+			img {
+				display: block;
+				position: relative;
+				margin: 20px auto 0 auto;
+				width: 129px;
+			}
+		}
+	}
+}
+// }}}
 // # COMMON ELEMENTS {{{
 // More Link
 .more-link {
