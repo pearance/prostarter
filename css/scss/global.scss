@@ -1557,12 +1557,17 @@ div.messages a.close {
 // }}}
 // # MAINTENANCE {{{
 .maintenance-page {
+	margin: 20px 0 0 0;
+	padding: 0;
 	position: relative;
 
 	img.brand {
 		display: block;
 		margin: 0 auto;
 		width: 300px;
+		@media all and (max-width: 300px) {
+			width: 100%;
+		}
 	}
 
 	h2 {
@@ -1575,6 +1580,10 @@ div.messages a.close {
 		height: 690px;
 		width: 550px;
 		margin: 0 auto;
+		@media all and (max-width: 580px) {
+			background: none;
+			width: 100%;
+		}
 
 		p {
 			font-size: 240%;
@@ -1582,6 +1591,10 @@ div.messages a.close {
 			text-align: center;
 			margin-top: -10px;
 			padding-top: 5px;
+			@media all and (max-width: 580px) {
+				color: $dark;
+				font-size: 120%;
+			}
 		}
 
 		p.small {
@@ -1591,8 +1604,12 @@ div.messages a.close {
 
 		#phone-content {
 			width: 241px;
-			margin: 160px 0 0 27px;
+			margin: 180px 0 0 27px;
 			float: left;
+			@media all and (max-width: 580px) {
+				margin: 40px auto 0 auto;
+				float: none;
+			}
 
 			p.phone {
 				color: $dark;
@@ -1600,16 +1617,27 @@ div.messages a.close {
 				font-weight: bold;
 				background: $light;
 				padding: 5px 0 2px 0;
+				@media all and (max-width: 580px) {
+					margin: 0 auto;
+				}
 			}
 
 			p.regular {
 				color: $dark;
 				font-size: 120%;
+				margin-top: 30px;
+				@media all and (max-width: 580px) {
+					margin-top: 10px;
+				}
 			}
 
 			#social-icons {
 				text-align: center;
 				margin-top: $dm * 2;
+				@media all and (max-width: 580px) {
+					// width: 100%;
+					margin: 0 auto 0 auto;
+				}
 			}
 		}
 
@@ -1623,6 +1651,13 @@ div.messages a.close {
 			position: relative;
 			top: 135px;
 			left: 0px;
+			@media all and (max-width: 580px) {
+				float: none;
+				text-align: center;
+				margin: 0 auto;
+				border: none;
+				top: 20px;
+			}
 
 			img {
 				display: block;
