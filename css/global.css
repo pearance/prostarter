@@ -3037,7 +3037,7 @@ div.messages a.close {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101a\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031721}}
 .page-customerror #customerror-content p {
   font-size: 120%;
-  padding: 25px 0 75px 190px;
+  padding: 40px 15px 60px 225px;
   line-height: 1.5em;
   border: 1px solid #CCC;
   background: #eeeeee url(../gfx/not-found-flag.png) no-repeat 5px 10px;
