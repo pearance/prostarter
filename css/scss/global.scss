@@ -1708,6 +1708,26 @@ div.messages a.close {
 		color: $dark;
 	}
 }
+
+// Custom Error Pages
+.page-customerror {
+	#customerror-content {
+		h2 {
+			color: red;
+			font-size: 150%;
+			margin-bottom: 15px;
+		}
+
+		p {
+			font-size: 120%;
+			padding: 25px 0 75px 190px;
+			line-height: 1.5em;
+			border: 1px solid #CCC;
+			background: #EEE url(../gfx/not-found-flag.png) no-repeat 5px 10px;
+		}
+
+	}
+}
 // }}}
 // # BLOCKS {{{
 // ## SOCIAL MEDIA LINKS {{{
