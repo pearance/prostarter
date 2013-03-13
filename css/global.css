@@ -2151,11 +2151,11 @@ div.messages a.close {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003879}}
-.page-faq-page #block-nodeblock-answers-mast h2.block-title {
+.page-faq-page #block-nodeblock-answers-masthead h2.block-title {
   display: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003881}}
-.page-faq-page #block-nodeblock-answers-mast #pre-description {
+.page-faq-page #block-nodeblock-answers-masthead #pre-description {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2165,7 +2165,7 @@ div.messages a.close {
   margin-bottom: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003888}}
-.page-faq-page #block-nodeblock-answers-mast #post-description {
+.page-faq-page #block-nodeblock-answers-masthead #post-description {
   display: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003891}}
