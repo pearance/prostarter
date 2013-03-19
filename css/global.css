@@ -2665,7 +2665,7 @@ div.messages a.close {
   padding-bottom: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031376}}
-.user-profile .profile #right-col .field-name-field-education p.last {
+.user-profile .profile #right-col .field-name-field-education p:last-child {
   border: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031382}}

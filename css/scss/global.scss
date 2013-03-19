@@ -1373,7 +1373,7 @@ div.messages a.close {
 				border-bottom: 1px solid $light;
 				padding-bottom: $dm;
 
-				&.last {border: none;}
+				&:last-child {border: none;}
 			}
 		}
 
