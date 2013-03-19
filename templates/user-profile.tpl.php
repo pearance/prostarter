@@ -42,9 +42,7 @@
  * @ingroup themeable
  */
 ?>
-
-<?php //dsm($user_profile); ?>
-
+<?php //dsm($user_profile']); ?>
 <div class="profile container-12"<?php print $attributes; ?>>
 	<div id="left-col" class="grid-7 alpha">
 

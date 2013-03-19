@@ -2651,40 +2651,37 @@ div.messages a.close {
   width: 48%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031365}}
-.user-profile .profile #right-col .field-collection-container {
-  border: none;
-  margin-bottom: 5px;
+.user-profile .profile #right-col .field-name-field-education {
+  padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031370}}
-.user-profile .profile #right-col .field-collection-container .field-name-field-education .field-collection-view {
-  padding: 0;
-  padding-bottom: 10px;
-  margin-left: 10px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031367}}
+.user-profile .profile #right-col .field-name-field-education h3 {
+  margin: 0;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031372}}
+.user-profile .profile #right-col .field-name-field-education p {
   border-bottom: 1px solid #cccccc;
+  padding-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031377}}
-.user-profile .profile #right-col .field-collection-container .field-name-field-education .field-name-field-school {
-  font-weight: bold;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031381}}
-.user-profile .profile #right-col .field-collection-container .field-name-field-education .field-collection-view-final {
-  margin: none;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031376}}
+.user-profile .profile #right-col .field-name-field-education p.last {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031382}}
 .user-profile .profile #right-col .field-name-field-awards-organizations ul {
   margin-bottom: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031388}}
 .user-profile .profile #right-col .field-name-field-office {
   padding: 0 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031400}}
 .not-logged-in.context-user #messages a {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031404}}
 .not-logged-in.context-user #messages .status {
   background: none;
   color: #666666;
@@ -2698,18 +2695,18 @@ div.messages a.close {
   text-align: center;
   z-index: 20001;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031420}}
 .not-logged-in.context-user #section-header,
 .not-logged-in.context-user #section-footer {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031425}}
 .not-logged-in.context-user #user-login,
 .not-logged-in.context-user #user-pass {
   margin: 0 auto;
   width: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031429}}
 .not-logged-in.context-user #user-login a.brand,
 .not-logged-in.context-user #user-pass a.brand {
   display: block;
@@ -2717,13 +2714,13 @@ div.messages a.close {
   width: 300px;
 }
 @media all and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031429}}
   .not-logged-in.context-user #user-login a.brand,
   .not-logged-in.context-user #user-pass a.brand {
     width: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031438}}
 .not-logged-in.context-user #user-login #user-login-content,
 .not-logged-in.context-user #user-pass #user-login-content {
   background: #eaeaea;
@@ -2733,25 +2730,25 @@ div.messages a.close {
   overflow: hidden;
 }
 @media all and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031438}}
   .not-logged-in.context-user #user-login #user-login-content,
   .not-logged-in.context-user #user-pass #user-login-content {
     padding: 25px 15px 30px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031448}}
 .not-logged-in.context-user #user-login #user-login-content .description,
 .not-logged-in.context-user #user-pass #user-login-content .description {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031452}}
 .not-logged-in.context-user #user-login #user-login-content #edit-submit,
 .not-logged-in.context-user #user-pass #user-login-content #edit-submit {
   display: block;
   float: right;
 }
 @media all and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031452}}
   .not-logged-in.context-user #user-login #user-login-content #edit-submit,
   .not-logged-in.context-user #user-pass #user-login-content #edit-submit {
     margin: 0 auto;
@@ -2760,7 +2757,7 @@ div.messages a.close {
     font-size: 80%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031463}}
 .not-logged-in.context-user #user-login #user-login-content a.forgot-login-link,
 .not-logged-in.context-user #user-pass #user-login-content a.forgot-login-link {
   color: #666666;
@@ -2770,7 +2767,7 @@ div.messages a.close {
   text-align: center;
 }
 @media all and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031463}}
   .not-logged-in.context-user #user-login #user-login-content a.forgot-login-link,
   .not-logged-in.context-user #user-pass #user-login-content a.forgot-login-link {
     display: block;
@@ -2778,19 +2775,19 @@ div.messages a.close {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031480}}
 .page-node-add-testimonial a.brand {
   display: block;
   margin: 50px auto 30px auto;
   width: 300px;
 }
 @media all and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031480}}
   .page-node-add-testimonial a.brand {
     width: 85%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031497}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031489}}
 .page-node-add-testimonial #testimonial-node-form {
   background: #eaeaea;
   border: 1px solid #cccccc;
@@ -2799,89 +2796,89 @@ div.messages a.close {
   width: 85%;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031497}}
 .page-node-add-testimonial #testimonial-node-form .form-region-main {
   float: none;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031501}}
 .page-node-add-testimonial #testimonial-node-form .form-region-main textarea {
   height: 150px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031513}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031505}}
 .page-node-add-testimonial #testimonial-node-form .form-region-main .field-name-field-title-graphic {
   background: white;
   border: 1px solid #cccccc;
   padding: 10px 20px;
   margin: 15px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031511}}
 .page-node-add-testimonial #testimonial-node-form .form-region-main .field-name-field-title-graphic .description {
   margin: 20px 0 0;
   font-size: 70%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031516}}
 .page-node-add-testimonial #testimonial-node-form .form-region-main .field-name-field-title-graphic #edit-field-title-graphic-und-0-upload {
   margin-top: 15px;
 }
 @media all and (max-width: 270px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031516}}
   .page-node-add-testimonial #testimonial-node-form .form-region-main .field-name-field-title-graphic #edit-field-title-graphic-und-0-upload {
     margin-left: -15px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031524}}
 .page-node-add-testimonial #testimonial-node-form .form-region-main .field-name-field-title-graphic input[type="submit"] {
   margin: 0 0 0 60px;
 }
 @media all and (max-width: 530px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031524}}
   .page-node-add-testimonial #testimonial-node-form .form-region-main .field-name-field-title-graphic input[type="submit"] {
     margin: 15px 0 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031533}}
 .page-node-add-testimonial #testimonial-node-form .form-region-right {
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031544}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031536}}
 .page-node-add-testimonial #testimonial-node-form .form-region-right #edit-actions input {
   margin-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031542}}
 .page-node-add-testimonial #bottom {
   margin: 0 auto;
   width: 85%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031554}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031546}}
 .page-node-add-testimonial #bottom a {
   color: #cccccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031555}}
 .maintenance-page {
   margin: 20px 0 0 0;
   padding: 0;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031560}}
 .maintenance-page img.brand {
   display: block;
   margin: 0 auto;
   width: 300px;
 }
 @media all and (max-width: 300px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031560}}
   .maintenance-page img.brand {
     width: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031569}}
 .maintenance-page h2 {
   text-align: center;
   font-size: 120%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031574}}
 .maintenance-page #container {
   background: url("../gfx/maintenance-bg.png") no-repeat center 0;
   height: 690px;
@@ -2889,13 +2886,13 @@ div.messages a.close {
   margin: 0 auto;
 }
 @media all and (max-width: 580px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031574}}
   .maintenance-page #container {
     background: none;
     width: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031584}}
 .maintenance-page #container p {
   font-size: 240%;
   color: white;
@@ -2904,31 +2901,31 @@ div.messages a.close {
   padding-top: 5px;
 }
 @media all and (max-width: 580px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031584}}
   .maintenance-page #container p {
     color: #666666;
     font-size: 120%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031596}}
 .maintenance-page #container p.small {
   font-size: 120%;
   margin-top: -25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031601}}
 .maintenance-page #container #phone-content {
   width: 241px;
   margin: 180px 0 0 27px;
   float: left;
 }
 @media all and (max-width: 580px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031601}}
   .maintenance-page #container #phone-content {
     margin: 40px auto 0 auto;
     float: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031618}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031610}}
 .maintenance-page #container #phone-content p.phone {
   color: #666666;
   font-size: 175%;
@@ -2937,35 +2934,35 @@ div.messages a.close {
   padding: 5px 0 2px 0;
 }
 @media all and (max-width: 580px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031618}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031610}}
   .maintenance-page #container #phone-content p.phone {
     margin: 0 auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031629}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031621}}
 .maintenance-page #container #phone-content p.regular {
   color: #666666;
   font-size: 120%;
   margin-top: 30px;
 }
 @media all and (max-width: 580px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031629}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031621}}
   .maintenance-page #container #phone-content p.regular {
     margin-top: 10px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031630}}
 .maintenance-page #container #phone-content #social-icons {
   text-align: center;
   margin-top: 30px;
 }
 @media all and (max-width: 580px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031630}}
   .maintenance-page #container #phone-content #social-icons {
     margin: 0 auto 0 auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031648}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031640}}
 .maintenance-page #container #address {
   border: 1px solid #eaeaea;
   float: right;
@@ -2978,7 +2975,7 @@ div.messages a.close {
   left: 0px;
 }
 @media all and (max-width: 580px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031648}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031640}}
   .maintenance-page #container #address {
     float: none;
     text-align: center;
@@ -2987,7 +2984,7 @@ div.messages a.close {
     top: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031666}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031658}}
 .maintenance-page #container #address img {
   display: block;
   position: relative;
@@ -2995,18 +2992,18 @@ div.messages a.close {
   width: 129px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031678}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031670}}
 .more-link {
   margin-left: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031683}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031675}}
 .region-content ul.flippy {
   text-align: center;
   margin: 15px 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031681}}
 .region-content ul.flippy li.next,
 .region-content ul.flippy li.previous {
   font-size: 130%;
@@ -3014,31 +3011,31 @@ div.messages a.close {
   position: static;
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031701}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031693}}
 .region-content ul.flippy li.next a:before {
   content: "NEXT";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031702}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031694}}
 .region-content ul.flippy li.previous a:after {
   content: "PREV";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031704}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031696}}
 .region-content ul.flippy li a {
   color: #CCC;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031711}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031703}}
 .region-content ul.flippy li a:hover {
   color: #666666;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031719}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031711}}
 .page-customerror #customerror-content h2 {
   color: red;
   font-size: 150%;
   margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031725}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031717}}
 .page-customerror #customerror-content p {
   font-size: 120%;
   padding: 40px 15px 60px 225px;
@@ -3047,28 +3044,28 @@ div.messages a.close {
   background: #eeeeee url(../gfx/not-found-flag.png) no-repeat 5px 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031738}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031730}}
 #block-jasm-service-list {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031746}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031738}}
 ul.jasm-service-list li {
   float: left;
   margin: 0 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031752}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031744}}
 ul.jasm-service-list li.first {
   margin-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031753}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031745}}
 ul.jasm-service-list li.last {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031755}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031747}}
 ul.jasm-service-list a {
   display: block;
   height: 32px;
@@ -3076,32 +3073,32 @@ ul.jasm-service-list a {
   text-indent: -99999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031762}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031754}}
 ul.jasm-service-list a.facebook {
   background: url(../gfx/icons/facebook.png) no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031766}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031758}}
 ul.jasm-service-list a.twitter {
   background: url(../gfx/icons/twitter.png) no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031762}}
 ul.jasm-service-list a[class="google+"] {
   background: url(../gfx/icons/googleplus.png) no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031774}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031766}}
 ul.jasm-service-list a.linkedin {
   background: url(../gfx/icons/linkedin.png) no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031778}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031770}}
 ul.jasm-service-list a.rss {
   background: url(../gfx/icons/rss.png) no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031784}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031776}}
 #block-jasm-fb-like-box iframe {
   width: 100%!important;
   height: 75px!important;
@@ -3109,16 +3106,16 @@ ul.jasm-service-list a.rss {
   border: 1px solid red;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031798}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031790}}
 #block-jasm-feedburner-mail-subscribe input[type="text"] {
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031802}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031794}}
 #block-jasm-feedburner-mail-subscribe .form-item {
   margin: 0;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031807}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031799}}
 #block-jasm-feedburner-mail-subscribe .form-submit {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -3130,17 +3127,17 @@ ul.jasm-service-list a.rss {
   padding-bottom: 4px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031817}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031809}}
 #block-views-specialties-specialties-block ul.specialties {
   list-style-position: inside;
   margin-left: 5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031821}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031813}}
 #block-views-specialties-specialties-block ul.specialties li {
   width: 95%;
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031825}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031817}}
 #block-views-specialties-specialties-block ul.specialties li a {
   background: #eaeaea url(../gfx/icons/dot-dark.png) no-repeat 15px center;
   display: block;
@@ -3148,56 +3145,56 @@ ul.jasm-service-list a.rss {
   margin: 5px 0;
   text-indent: 45px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031833}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031825}}
 #block-views-specialties-specialties-block ul.specialties li a:hover {
   background: #666666 url(../gfx/icons/dot-light.png) no-repeat 15px center;
   color: white;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031844}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031836}}
 #block-views-testimonals-block .content {
   padding: 15px;
   margin-top: -5px;
   border: 1px solid #eaeaea;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031850}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031842}}
 #block-views-testimonals-block .button {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031854}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031846}}
 #block-views-testimonals-block .view-footer {
   margin-top: 15px;
   overflow: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031862}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031854}}
 #block-views-blog-related-content-block .view-blog .views-row {
   margin: 0;
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031866}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031858}}
 #block-views-blog-related-content-block .view-blog .views-row h2 {
   margin: 0;
   font-size: 90%;
   font-family: Arial, sans-serif;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031874}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031866}}
 #block-views-blog-related-content-block .view-content {
   padding: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031880}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031872}}
 #block-nodeblock-social-welcome {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031887}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031879}}
 #section-footer {
   margin-top: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031900}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031892}}
 #section-footer .block,
 #section-footer p,
 #section-footer dl,
@@ -3212,60 +3209,60 @@ ul.jasm-service-list a.rss {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031904}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031896}}
 #zone-foot-wrapper {
   margin: 0;
   background: #eaeaea;
   color: #666666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031902}}
 #zone-foot-wrapper #block-nodeblock-site-disclamer h2.block-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031912}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031904}}
 #zone-foot-wrapper #block-nodeblock-site-disclamer .content p {
   padding: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031919}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031911}}
 #zone-bottom-wrapper {
   background: #666666;
   color: #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031923}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031915}}
 #zone-bottom-wrapper #block-menu-menu-auxiliary {
   padding-top: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031926}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031918}}
 #zone-bottom-wrapper #block-menu-menu-auxiliary h2.block-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031928}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031920}}
 #zone-bottom-wrapper #block-menu-menu-auxiliary ul.menu {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031930}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031922}}
 #zone-bottom-wrapper #block-menu-menu-auxiliary ul.menu li {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031932}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031924}}
 #zone-bottom-wrapper #block-menu-menu-auxiliary ul.menu li a {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031935}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031927}}
 #zone-bottom-wrapper #block-nodeblock-copyright {
   margin-top: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031938}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031930}}
 #zone-bottom-wrapper #block-nodeblock-copyright h2.block-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031940}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031932}}
 #zone-bottom-wrapper #block-nodeblock-copyright .content p {
   text-align: right;
   color: #444444;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031944}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\000031936}}
 #zone-bottom-wrapper #block-nodeblock-copyright .content p a {
   color: #444444;
 }
