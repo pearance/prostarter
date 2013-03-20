@@ -614,6 +614,10 @@ div.messages a.close {
 	clear: both;
 }
 
+.views-slideshow-controls-top {
+	display: none;
+}
+
 .view-display-id-generic .views-slideshow-pager-field-item {
 	@include border-radius(10px);
 	border: 1px solid $light;
@@ -829,9 +833,20 @@ div.messages a.close {
 // }}}
 // # ABOUT {{{
 .context-about {
-	#about_graphic {
-		margin: 0 auto $dm;
-		width: 240px;
+	#block-nodeblock-about-title,
+	#block-nodeblock-about-image,
+	#block-nodeblock-about-masthead {
+		h2.block-title {
+			display: none;
+		}
+	}
+
+	#block-nodeblock-about-title {
+		margin: 0;
+	}
+
+	#block-nodeblock-about-image {
+		padding: none;
 	}
 
 	img.media-image {
