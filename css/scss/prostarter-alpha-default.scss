@@ -57,6 +57,7 @@
 
 					&.active {
 						@include button-style;
+						padding: 7px 10px;
 					}
 				}
 			}
@@ -67,6 +68,53 @@
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
+// # HOME {{{
+// ## SLIDESHOW {{{
+#block-views-slideshow-slideshow {
+	.flexslider {
+		border: none;
+
+		ul.slides li {
+
+			.views-field-nothing {
+
+				#transparent {
+					position: absolute;
+					bottom: 0;
+					height: 75px;
+					width: 100%;
+					background: $darkest;
+					@include opacity(0.3);
+					z-index: 1;
+				}
+
+				#slide-content {
+					position: absolute;
+					bottom: 0;
+					height: 70px;
+					padding: 0 15px;
+					z-index: 1000;
+
+					h2 {
+						color: $light;
+					}
+
+					p {
+						color: $lightest;
+					}
+
+					.button {
+						position: absolute;
+						right: $dm;
+						bottom: 7px;
+					}
+				}
+			}
+		}
+	}
+}
+// }}}
+// }}}
 // # ABOUT {{{
 .context-about {
 	#about_graphic {

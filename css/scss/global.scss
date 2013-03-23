@@ -588,7 +588,40 @@ div.messages a.close {
 // }}}
 // # HOME {{{
 // ## SLIDESHOW {{{
+#block-views-slideshow-slideshow {
+	postion: relative;
+	margin: 0;
 
+	.flexslider {
+		box-shadow: none;
+		border:1px solid $lighter;
+
+		ul.slides li {
+			padding: 0;
+
+			.views-field-nothing {
+
+				#slide-content {
+					padding: 10px;
+					h2 {
+						margin: 0;
+					}
+
+					p {
+						font-size: 80%;
+						margin: 0;
+						width: auto;
+					}
+
+					.button {
+						float: right;
+						margin: $dm 0;
+					}
+				}
+			}
+		}
+	}
+}
 // }}}
 // ## TRENDING (TWITTER) {{{
 // Full block
@@ -1663,8 +1696,7 @@ ul.jasm-service-list a.rss {
 	.form-submit {
 		@include border-radius(0);
 		font-size: 85%;
-		padding-top: 5px;
-		padding-bottom: 4px;
+		padding: 5px 8px 4px 8px;
 	}
 }
 // }}}

@@ -18,6 +18,24 @@
 // }}}
 // CONTENT SECTION {{{
 // *****************************************************************************
+// # HOME {{{
+// ## SLIDESHOW {{{
+#block-views-slideshow-slideshow {
+	.flexslider {
+		ul.slides li {
+			.views-field-nothing {
+				#slide-content {
+					width: 1145px;
+					p {
+						width: 1050px;
+					}
+				}
+			}
+		}
+	}
+}
+// }}}
+// }}}
 // # BLOG FULL {{{
 // ## CONTENT BODY {{{
 // About the Author Block
