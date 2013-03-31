@@ -48,7 +48,7 @@
 
 		<div id="card">
 			<div id="left-card">
-				<?php print render($user_profile['field_user_image']); ?>
+				<?php print render($user_profile['user_picture']); ?>
 			</div>
 
 			<div id="right-card">

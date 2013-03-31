@@ -742,16 +742,16 @@ div.messages a.close {
 			overflow: hidden;
 		}
 
-		.views-field-field-user-image a img {
+		.views-field-picture a img {
 			border: 15px solid $light;
 		}
 
-		.views-row-odd .views-field-field-user-image a img {
+		.views-row-odd .views-field-picture a img {
 			float: left;
 			margin-right: $dm;
 		}
 
-		.views-row-even .views-field-field-user-image a img {
+		.views-row-even .views-field-picture a img {
 			float: right;
 			margin-left: $dm;
 		}

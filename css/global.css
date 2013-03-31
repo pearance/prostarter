@@ -1992,16 +1992,16 @@ div.messages a.close {
   overflow: hidden;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003745}}
-.context-about .view-display-id-pro_team_block .views-field-field-user-image a img {
+.context-about .view-display-id-pro_team_block .views-field-picture a img {
   border: 15px solid #cccccc;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003749}}
-.context-about .view-display-id-pro_team_block .views-row-odd .views-field-field-user-image a img {
+.context-about .view-display-id-pro_team_block .views-row-odd .views-field-picture a img {
   float: left;
   margin-right: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003754}}
-.context-about .view-display-id-pro_team_block .views-row-even .views-field-field-user-image a img {
+.context-about .view-display-id-pro_team_block .views-row-even .views-field-picture a img {
   float: right;
   margin-left: 15px;
 }
