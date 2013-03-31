@@ -78,22 +78,11 @@
 
 			.views-field-nothing {
 
-				#transparent {
-					position: absolute;
-					bottom: 0;
-					height: 75px;
-					width: 100%;
-					background: $darkest;
-					@include opacity(0.3);
-					z-index: 1;
-				}
-
 				#slide-content {
-					position: absolute;
+					background: url(../gfx/dark-transparency.png);
 					bottom: 0;
-					height: 70px;
-					padding: 0 15px;
-					z-index: 1000;
+					padding: 10px;
+					position: absolute;
 
 					h2 {
 						color: $light;
@@ -101,12 +90,13 @@
 
 					p {
 						color: $lightest;
+						width: 90%;
 					}
 
 					.button {
 						position: absolute;
 						right: $dm;
-						bottom: 7px;
+						bottom: 4px;
 					}
 				}
 			}
