@@ -110,7 +110,7 @@ button,
 input[type="reset"],
 input[type="submit"],
 input[type="button"] {
-	@include button-style;
+	@include button-style; // contents in global_include.scss
 	// -webkit-appearance: none;
 	// -moz-border-radius: 11px;
 	// -webkit-border-radius: 11px;
@@ -868,6 +868,7 @@ div.messages a.close {
 			font-style: italic;
 			margin: 5px 50px 0 0;
 			font-size: 90%;
+			overflow: hidden;
 		}
 
 		.field-name-readmore .button {
@@ -1571,8 +1572,10 @@ div.messages a.close {
 // }}}
 // # COMMON ELEMENTS {{{
 // More Link
-.more-link {
-	margin-left: 10px;
+a.more-link {
+	@include button-style;
+	margin: 40px 10px 0px 10px;
+	float: right;
 }
 
 // Next & Previous Links
