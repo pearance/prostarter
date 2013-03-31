@@ -1179,8 +1179,15 @@ div.messages a.close {
 				width: 90%;
 				margin: 0 auto;
 
-				.field-name-field-user-image img {
-					margin-top: 25px;
+				.user-picture {
+					float: none;
+					text-align: center;
+					margin: 0;
+
+					img {
+						border:10px solid $light;
+						width: 50%;
+					}
 				}
 			}
 
