@@ -40,18 +40,18 @@
 // ## CONTENT BODY {{{
 // About the Author Block
 .view-display-id-about_author_block {
-	.views-field-field-user-image {
+	.views-field-picture {
 		width: 17%;
 	}
 
 	// .views-field-realname,
 	// .views-field-field-title,
 	.views-field-field-pro-bio {
-		width: 83%;
+		width: 80%;
 	}
 
 	.views-field-realname {
-		margin-left: 0;
+		margin-left: 20px;
 	}
 }
 // }}}

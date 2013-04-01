@@ -2193,7 +2193,7 @@ div.messages a.close {
   overflow: hidden;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/global\.scss}line{font-family:\00003924}}
-.view-display-id-about_author_block .views-field-field-user-image {
+.view-display-id-about_author_block .views-field-picture {
   float: left;
   width: 15%;
 }

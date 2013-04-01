@@ -1175,16 +1175,16 @@ ul.icons li .icon-large:before {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-normal\.scss}line{font-family:\0000347}}
-.view-display-id-about_author_block .views-field-field-user-image {
+.view-display-id-about_author_block .views-field-picture {
   width: 21%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-normal\.scss}line{font-family:\0000353}}
 .view-display-id-about_author_block .views-field-field-pro-bio {
-  width: 78%;
+  width: 75%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-normal\.scss}line{font-family:\0000357}}
 .view-display-id-about_author_block .views-field-realname {
-  margin: 0 0 0 5px;
+  margin: 0 0 0 24px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/aegir\/platforms\/pro101b\/sites\/all\/themes\/prostarter\/css\/scss\/prostarter-alpha-default-normal\.scss}line{font-family:\0000365}}
