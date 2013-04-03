@@ -841,6 +841,13 @@ div.messages a.close {
 		.field-name-body {
 			margin-top: $dm;
 		}
+
+		.links a {
+			@include button-style;
+			float: right;
+			overflow: hidden;
+			padding: 3px 7px;
+		}
 	}
 
 	#faq-order-settings-form select {
