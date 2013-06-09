@@ -332,11 +332,6 @@ optgroup {
 	background: #eee;
 }
 
-// Compact Form Labels
-.compact-form-label {
-	line-height: 30px;
-}
-
 // }}}
 // # OTHER ELEMENTS {{{
 p,
@@ -1038,6 +1033,10 @@ div.messages a.close {
 		width: 90%;
 		margin: $dm * 2 auto 0 auto;
 
+		label {
+			display: none;
+		}
+
 		input[type="submit"] {
 			float: right;
 			position: relative;
@@ -1342,6 +1341,10 @@ div.messages a.close {
 	#user-pass {
 		margin: 0 auto;
 		width: 90%;
+
+		label {
+			display: none;
+		}
 
 		a.brand {
 			display: block;
@@ -1705,6 +1708,10 @@ ul.jasm-service-list a.rss {
 	// }}}
 // ## EMAIL SUBSCRIPTION {{{
 #block-jasm-feedburner-mail-subscribe {
+
+	label {
+		display: none;
+	}
 
 	input[type="text"] {
 		margin-bottom: 10px;
