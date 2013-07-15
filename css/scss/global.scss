@@ -1649,50 +1649,54 @@ a.more-link {
 // }}}
 // # BLOCKS {{{
 // ## SOCIAL MEDIA LINKS {{{
-#block-jasm-service-list { margin-bottom: 10px; }
+#block-jasm-service-list { margin-bottom: 10px;
 
-#block-jasm-service-list .item-list {
-	// display: table; // for centering
-	// margin: 0 auto; // for centering
-	// min-width: 240px; // for centering
+	#block-jasm-service-list .item-list {
+		// display: table; // for centering
+		// margin: 0 auto; // for centering
+		// min-width: 240px; // for centering
+	}
+
+	ul, li, .item-list ul li {
+		list-style: none;
+	}
+
+	ul.jasm-service-list li {
+		float: left;
+		// margin: 0 4%; // for centering
+		margin: 0 5px;
+	}
+
+	ul.jasm-service-list li.first { margin-left: 0; }
+	ul.jasm-service-list li.last { margin-right: 0; }
+
+	ul.jasm-service-list a {
+  	display: block;
+		height: 32px;
+		width: 32px;
+		text-indent: -99999px;
+	}
+
+	ul.jasm-service-list a.facebook {
+		background:url(../gfx/icons/facebook.png) no-repeat;
+	}
+
+	ul.jasm-service-list a.twitter {
+		background:url(../gfx/icons/twitter.png) no-repeat;
+	}
+
+	ul.jasm-service-list a[class="google+"] {
+		background:url(../gfx/icons/googleplus.png) no-repeat;
+	}
+
+	ul.jasm-service-list a.linkedin {
+		background:url(../gfx/icons/linkedin.png) no-repeat;
+	}
+
+	ul.jasm-service-list a.rss {
+		background:url(../gfx/icons/rss.png) no-repeat;
+	}
 }
-
-ul.jasm-service-list li {
-	float: left;
-	// margin: 0 4%; // for centering
-	margin: 0 5px;
-}
-
-ul.jasm-service-list li.first { margin-left: 0; }
-ul.jasm-service-list li.last { margin-right: 0; }
-
-ul.jasm-service-list a {
-  display: block;
-	height: 32px;
-	width: 32px;
-	text-indent: -99999px;
-}
-
-ul.jasm-service-list a.facebook {
-	background:url(../gfx/icons/facebook.png) no-repeat;
-}
-
-ul.jasm-service-list a.twitter {
-	background:url(../gfx/icons/twitter.png) no-repeat;
-}
-
-ul.jasm-service-list a[class="google+"] {
-	background:url(../gfx/icons/googleplus.png) no-repeat;
-}
-
-ul.jasm-service-list a.linkedin {
-	background:url(../gfx/icons/linkedin.png) no-repeat;
-}
-
-ul.jasm-service-list a.rss {
-	background:url(../gfx/icons/rss.png) no-repeat;
-}
-
 // }}}
 // ## FACEBOOK SOCIAL WIDGET {{{
 #block-jasm-fb-like-box iframe {
